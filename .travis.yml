@@ -1,7 +1,7 @@
 language: ruby
+sudo: false
+cache: bundler
 rvm:
   - 2.2.1
-
-branches:
-  only:
-    - master
+before_script:
+  - bin/setup
