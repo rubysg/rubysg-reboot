@@ -52,7 +52,7 @@ Fork the app, checkout a branch, work on a feature/bug/chore and submit it as a 
 I'll be adding folks as core contributors to the repo too when you chalk up enough contributions.
 
 As a core contributor, you'll get access to the repo and can help with review/management of PRs.
-You'll also be listed in this readme as a core contributor and possibly get deployment rights in the future.
+You'll also be listed in this readme as a core contributor and get deployment rights in the future.
 
 ### Voluntary Contributors
 
