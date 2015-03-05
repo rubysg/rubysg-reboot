@@ -45,20 +45,20 @@ Run `spring rspec`.
 
 ## Workflow
 
-Go ahead and fork the app, checkout a branch, work on a feature/bug/chore and submit it as a Pull Request.
+Fork the app, checkout a branch, work on a feature/bug/chore and submit it as a Pull Request.
 
 ### Core Contributors
 
 I'll be adding folks as core contributors to the repo too when you chalk up enough contributions.
 
-As a core contributor, you'll get access to the repo and can help with review and management of Pull Requests.
+As a core contributor, you'll get access to the repo and can help with review and management of PRs.
 You'll also be listed in this readme as a core contributor and possibly get deployment rights in the future.
 
 ### Voluntary Contributors
 
-Fork away and just start writing code (with tests). Make a Pull Request when you are done.
+Just start writing code (with tests if possible). Make a Pull Request when you are done.
 
-I'm sure you can help with typos, design tweaks etc. The core contributors will review and merge in your PRs.
+Help with typos, design tweaks etc! The core contributors will review and merge in your PRs.
 
 ## Testing
 
