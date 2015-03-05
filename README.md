@@ -1,6 +1,6 @@
 # ruby.sg
 
-[![Build Status](https://travis-ci.org/rubysg/rubysg-reboot.png?branch=master)](https://travis-ci.org/rubysg/rubysg-reboot) [![Code Climate](https://codeclimate.com/github/rubysg/rubysg-reboot.png)](https://codeclimate.com/github/rubysg/rubysg-reboot)
+[![Build Status](https://travis-ci.org/rubysg/rubysg-reboot.svg?branch=master)](https://travis-ci.org/rubysg/rubysg-reboot) [![Code Climate](https://codeclimate.com/github/rubysg/rubysg-reboot.svg)](https://codeclimate.com/github/rubysg/rubysg-reboot)
 
 This is the app for [ruby.sg](http://ruby.sg), rebooted - a community site for the Singapore Ruby Community!
 
