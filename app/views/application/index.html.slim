@@ -48,7 +48,7 @@
               = f.text_field :email, class: 'form-control', placeholder: 'Enter Email'
           .form-group
             .col-sm-8.col-sm-offset-2
-              = f.submit 'Send Invite', class: 'btn btn-success btn-block'
+              = f.submit 'Send Invite', class: 'btn btn-success btn-block', data: { disable_with: 'processing...' }
 
 .section#visiting-singapore
   .section--heading
