@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title RubysgReboot
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  body
+    header
+      .jumbotron
+        .container
+          h1 RubySG
+          p Hello! We are the Ruby community in Singapore!
+    .content
+      .container
+        = flash_messages
+        = yield
+    footer
+      .container
+        hr
+        .row
+          .col-sm-6.text-left
+            p &copy; RubySG 2015
+          .col-sm-6.text-right
+            p Made with #{icon :heart} by RubySG
