@@ -4,5 +4,9 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
+    begin
+      @events = JSON.parse(Curl.get("https://api.meetup.com/2/events?key=#{Rails.application.secrets.meetup_api_key}&group_urlname=Singapore-Ruby-Group&sign=true").body_str)
+    rescue
+    end
   end
 end

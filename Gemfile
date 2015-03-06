@@ -17,6 +17,7 @@ gem 'font-awesome-sass'
 
 gem 'rails_utils'
 gem 'httparty'
+gem 'curb'
 
 group :production do
   gem 'rails_12factor'

@@ -1,64 +1,93 @@
-.section#meet-us
-  .section--heading
-    h2 Meet Us
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      .col-sm-6
-        = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
-          = icon :ticket
-        p We meet on a (usually last) Tuesday of every month.
-      .col-sm-6
-        = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
-          = image_tag 'railsgirls.png', class: 'railsgirls'
-        p RailsGirls is held on the last Saturday of every month.
+.row
+  .col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2.col-lg-6.col-lg-offset-3
+    .section#meet-us
+      .section--heading
+        h2 Meet Us
+      .row.text-center
+        .col-sm-10.col-sm-offset-1
+          .col-xs-6
+            = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
+              = icon :ticket
+            p
+              |We meet on a 
+              b &#40;usually last&#41; 
+              b Tuesday
+              |  of every month.
+          .col-xs-6
+            = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
+              = image_tag 'railsgirls.png', class: 'railsgirls'
+            p
+              |RailsGirls is held on the 
+              b last Saturday
+              |  of every month.
+    .section#meetup-event
+      .section--heading
+        h2 Upcoming Meetup
+      .row
+        .col-sm-8.col-sm-offset-2
+          - if @events
+            - @events["results"].try(:each) do |event|
+              h3
+                b= link_to event["name"], event["event_url"], target: "_new"
 
-.section#join-us
-  .section--heading
-    h2 Join Us
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      .col-sm-4
-        = link_to 'https://www.facebook.com/groups/singaporerubybrigade/', class: 'icon' do
-          = icon :facebook
-        p Facebook Group
-      .col-sm-4
-        = link_to 'https://groups.google.com/forum/?fromgroups#!forum/singapore-rb', class: 'icon' do
-          = icon :google
-        p Google Group
-      .col-sm-4
-        = link_to 'https://github.com/rubysg/rubysg', class: 'icon' do
-          = icon :github
-        p GitHub
+              p.address-small
+                b.address-name= event["venue"]["name"]
+                br
+                = event["venue"]["address_1"]
+              p= strip_tags(event["description"]).truncate(255)
+          - else
+            h5.text-center The next meetup is still in the brewing :) Stay tuned!
+    .section#join-us
+      .section--heading
+        h2 Join Us
+      .row.text-center
+        .col-sm-10.col-sm-offset-1
+          .col-xs-4
+            = link_to 'https://www.facebook.com/groups/singaporerubybrigade/', class: 'icon' do
+              = icon :facebook
+              br
+              b.muted Facebook Group
+          .col-xs-4
+            = link_to 'https://groups.google.com/forum/?fromgroups#!forum/singapore-rb', class: 'icon' do
+              = icon :google
+              br
+              b.muted Google Group
+          .col-xs-4
+            = link_to 'https://github.com/rubysg/rubysg', class: 'icon' do
+              = icon :github
+              br
+              b.muted GitHub
 
-.section#chat-with-us
-  .section--heading
-    h2 Chat With Us
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      .col-sm-6
-        = link_to 'https://rubysg.slack.com', class: 'icon' do
-          = icon :slack
-        p Slack
-      .col-sm-6
-        strong Invite yourself to our Slack group!
-        hr
-        = form_for Invitation.new, html: {class: 'form-horizontal'} do |f|
-          .form-group
-            .col-sm-8.col-sm-offset-2
-              = f.text_field :email, class: 'form-control', placeholder: 'Enter Email'
-          .form-group
-            .col-sm-8.col-sm-offset-2
-              = f.submit 'Send Invite', class: 'btn btn-success btn-block', data: { disable_with: 'processing...' }
+    .section#chat-with-us
+      .section--heading
+        h2 Chat With Us
+      .row.text-center
+        .col-sm-8.col-sm-offset-2
+          = link_to 'https://rubysg.slack.com', class: 'icon' do
+            = icon :slack
+            br
+            strong Invite yourself to our Slack group!
+          hr
+          = form_for Invitation.new, html: {class: 'form-horizontal'} do |f|
+            .form-group
+              .col-sm-10.col-sm-offset-1
+                = f.text_field :email, class: 'form-control', placeholder: 'Enter Email'
+            .form-group
+              .col-sm-10.col-sm-offset-1
+                = f.submit 'Send Invite', class: 'btn btn-success btn-block', data: { disable_with: 'processing...' }
 
-.section#visiting-singapore
-  .section--heading
-    h2 Visiting Singapore?
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      = link_to 'https://github.com/rubysg/singapore', class: 'icon' do
-        = icon :plane
-        = icon :globe
-        = icon :'map-marker'
-        = icon :cutlery
-        = icon :bed
-      p We have prepared a guide for visiting Rubyists. Check out #{link_to 'the guide on GitHub', 'https://github.com/rubysg/singapore'} and feel free to reach out to us!
+    .section#visiting-singapore
+      .section--heading
+        h2 Visiting Singapore?
+      .row.text-center
+        .col-sm-10.col-sm-offset-1
+          = link_to 'https://github.com/rubysg/singapore', class: 'icon iconlist' do
+            = icon :plane
+            = icon :globe
+            = icon :'map-marker'
+            = icon :cutlery
+            = icon :bed
+          p
+            |We have prepared a guide for visiting Rubyists.
+            br
+            |Check out #{link_to 'the guide on GitHub', 'https://github.com/rubysg/singapore'} and feel free to reach out to us!
