@@ -3,15 +3,18 @@ html
   head
     title Ruby Singapore
     meta name='description' content='Hello! We are the Ruby community in Singapore! Join us at our next Monthly meetup or RailsGirls event.'
-
+    meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    script src="//use.typekit.net/rdt7pbi.js"
+    script
+      | try{Typekit.load();}catch(e){}
     = csrf_meta_tags
-  body
+  body class="v2"
     header
       .jumbotron
         .container
-          h1 RubySG
+          = image_tag "rubysg-logo.png", width: 220
           p Hello! We are the Ruby community in Singapore!
     .content
       .container
@@ -21,7 +24,7 @@ html
       .container
         hr
         .row
-          .col-sm-6.text-left
+          .col-sm-6.text-left.text-center-xs
             p &copy; RubySG #{Time.current.year}
-          .col-sm-6.text-right
+          .col-sm-6.text-right.text-center-xs
             p Made with #{icon :heart} by RubySG
