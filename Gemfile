@@ -2,7 +2,7 @@ ruby '2.2.1'
 source 'https://rubygems.org'
 
 gem 'puma'
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.1'
 gem 'pg'
 
 gem 'slim-rails'
