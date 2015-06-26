@@ -3,6 +3,7 @@ html
   head
     title Ruby Singapore
     meta name='description' content='Hello! We are the Ruby community in Singapore! Join us at our next Monthly meetup or RailsGirls event.'
+    meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
 
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
@@ -19,9 +20,8 @@ html
         = yield
     footer
       .container
-        hr
         .row
-          .col-sm-6.text-left
-            p &copy; RubySG #{Time.current.year}
-          .col-sm-6.text-right
-            p Made with #{icon :heart} by RubySG
+          .col-xs-6.text-left
+            span &copy; RubySG #{Time.current.year}
+          .col-xs-6.text-right
+            span Made with #{icon :heart} by RubySG
