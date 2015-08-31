@@ -3,14 +3,21 @@
     h2 Meet Us
   .row.text-center
     .col-sm-8.col-sm-offset-2
-      .col-sm-6
+      .col-sm-4
         = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
-          = icon :ticket
-        p We meet on a (usually last) Tuesday of every month.
-      .col-sm-6
+          = icon :calendar
+        h4 Ruby Meetup
+        p We meet usually on the last Tuesday of every month.
+      .col-sm-4
         = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
           = image_tag 'railsgirls.png', class: 'railsgirls'
-        p RailsGirls is held on the last Saturday of every month.
+        h4 RailsGirls SG
+        p RailsGirls SG is held on the last Saturday of every month.
+      .col-sm-4
+        = link_to 'http://www.meetup.com/Ruby-Tea-Party/', class: 'icon' do
+          = icon :coffee
+        h4 Ruby Tea Party
+        p Weekly extension of RailsGirls SG. Come and do/learn Ruby together.
 
 .section#join-us
   .section--heading
