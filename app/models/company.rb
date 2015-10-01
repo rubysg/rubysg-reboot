@@ -23,25 +23,29 @@ class Company
   end
 
   # Update the constant `LIST` with your company details.
-  # Do not worry about the position as the list will be sorted alphabetically.
+  #
+  # *Do not worry about the order as `LIST` will be sorted alphabetically.*
   #
   # 1. Name of Company
-  # 2. Logo URL
-  #   - Issue a Pull Request on GitHub, add your logo to the PR's description and use the GitHub link)
-  # 3. Nature of Company
-  #   - Needs to be one of these: ['Consultancy', 'Product', 'Freelancer']
+  # 2. Website of Company
+  # 3. Logo URL (max height 100px)
+  #   - Tip: Issue a Pull Request on GitHub, add your logo to the PR's description and use the GitHub link.
   # 4. Address of Company
-  #   - In the future, we might be able to map all companies onto the map!
+  #   - In the future, we might be able to map all companies onto a map!
   # 5. Hiring URL
-  #   - If you are hiring, add the link to the JD, otherwise, keep it nil.
+  #   - If you are hiring, add the link to the JD, otherwise, set as `nil`.
   # 6. Email
   #   - A generic company email
   #
   # Notes:
+  #
   # - Use single quotes
   # - Align hash values so that it's easier to scan
   #
-  # Thank you!
+  # After you are done, please run specs with `rspec`.
+  #
+  # There are basic specs that validate the integrity of constant `LIST`
+  # and so if specs fail, please fix the errors before issuing a Pull Request.
 
   LIST =
     [
@@ -52,6 +56,6 @@ class Company
         address:    '128 Prinsep Street, Singapore 188655',
         hiring_url: nil,
         email:      'hello@jollygoodcode.com'
-      },
+      }
     ]
 end
