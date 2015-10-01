@@ -1,0 +1,22 @@
+.section#meet-us
+  .section--heading
+    h2 Singapore Companies using Ruby
+
+  .row
+    - @companies.each do |company|
+      .col-sm-3
+        .company.text-center
+          .website
+            = link_to company.website, target: '_blank' do
+              .logo
+                = image_tag company.logo_url
+              .name
+                = company.name
+          .small.text-muted
+            .address
+              = company.address
+            .contact
+              = company.email
+          .hiring
+            - if company.hiring_url.present?
+              = link_to 'Hiring', company.hiring_url, class: 'btn btn-xs btn-danger btn-block', target: '_blank'
