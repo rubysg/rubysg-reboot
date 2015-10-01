@@ -6,8 +6,9 @@ RSpec.describe ApplicationController do
       get :index
     end
 
-    it 'should be success' do
+    it 'is successful' do
       do_request
+
       expect(response).to be_success
     end
 
