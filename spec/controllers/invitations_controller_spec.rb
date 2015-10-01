@@ -13,6 +13,7 @@ RSpec.describe InvitationsController do
 
       it 'sends invite' do
         do_request
+
         expect(response).to redirect_to root_path
         expect(flash[:notice]).to be_present
       end
@@ -23,6 +24,7 @@ RSpec.describe InvitationsController do
 
       it 'redirects with flash error' do
         do_request
+
         expect(response).to redirect_to root_path
         expect(flash[:alert]).to be_present
       end

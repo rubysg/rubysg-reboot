@@ -6,8 +6,9 @@ RSpec.describe ApplicationController do
       get :index
     end
 
-    it 'should be success' do
+    it 'is successful' do
       do_request
+
       expect(response).to be_success
     end
 
@@ -20,6 +21,18 @@ RSpec.describe ApplicationController do
           expect(response.body).to match '2046'
         end
       end
+    end
+  end
+
+  describe '#companies' do
+    def do_request
+      get :companies
+    end
+
+    it 'is successful' do
+      do_request
+
+      expect(response).to be_success
     end
   end
 end

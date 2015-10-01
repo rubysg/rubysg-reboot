@@ -5,4 +5,8 @@ class ApplicationController < ActionController::Base
 
   def index
   end
+
+  def companies
+    @companies = Company.all
+  end
 end

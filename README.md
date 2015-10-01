@@ -4,7 +4,6 @@
 
 This is the app for [ruby.sg](http://ruby.sg), rebooted - a community site for the Singapore Ruby Community!
 
-
 ## Contributing to ruby.sg
 
 ruby.sg needs your help and we would love to see contributions from anyone in the community.
@@ -15,6 +14,36 @@ You can also raise feature requests, or bug reports on GitHub Issues.
 
 The initial design of ruby.sg was done by @winstonyw who is not a designer by training. :)
 
+## Singapore Companies using Ruby
+
+You can add your company to [ruby.sg](http://ruby.sg#companies) by editing [companies.rb](blob/master/app/models/companies.rb).
+
+Instructions as follows:
+
+Update the constant `LIST` with your company details.
+
+*Do not worry about the order as `LIST` will be sorted alphabetically.*
+
+1. Name of Company
+2. Website of Company
+3. Logo URL (max height 100px)
+ - Tip: Issue a Pull Request on GitHub, add your logo to the PR's description and use the GitHub link.
+4. Address of Company
+ - In the future, we might be able to map all companies onto a map!
+5. Hiring URL
+ - If you are hiring, add the link to the JD, otherwise, set as `nil`.
+6. Email
+ - A generic company email
+
+Notes:
+
+- Use single quotes
+- Align hash values so that it's easier to scan
+
+After you are done, please run specs with `rspec`. 
+
+There are basic specs that validate the integrity of constant `LIST` 
+and so if specs fail, please fix the errors before issuing a Pull Request.
 
 ## Setup of Development Environment
 
@@ -41,7 +70,6 @@ Run `bin/setup` to install Gems and also setup your database.
 ### Run Specs
 
 Run `spring rspec`.
-
 
 ## Workflow
 
@@ -72,4 +100,4 @@ The app is currently deployed on Heroku. No fuss. No thrills.
 
 ## Questions
 
-Please feel free to email me winstonyw@gmail.com.
+Please feel free to email hello@ruby.sg.
