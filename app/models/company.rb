@@ -72,6 +72,14 @@ class Company
         address:    '1 Fusionopolis View, #09-02 Sandcrawler, Singapore 138577',
         hiring_url: 'http://www.ruckuswireless.com/careers',
         email:      'info@ruckuswireless.com'
+      },
+      {
+        name:       'HomeAway Asia',
+        website:    'http://www.homeaway.asia',
+        logo_url:   'http://static.homeaway.asia/assets/logo-ha@2x.png',
+        address:    'Blk 71, Ayer Rajah Crescent, #01-20, Singapore 139951',
+        hiring_url: nil,
+        email:      'devel@homeaway.asia'
       }
     ]
 end
