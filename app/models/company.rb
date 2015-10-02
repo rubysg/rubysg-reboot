@@ -154,6 +154,13 @@ class Company
         email:      'engineering@viki.com'
       },
       {
+        name:       'ShopVenture',
+        website:    'https://www.shopventure.com/',
+        logo_url:   'https://avatars0.githubusercontent.com/u/9315550?v=3&s=100',
+        address:    '101C Telok Ayer Street, #04-00 Singapore 068574',
+        email:      'allen@shopventure.com'
+      },
+      {
         name:       'GrabTaxi',
         website:    'https://www.grabtaxi.com/',
         logo_url:   'https://cloud.githubusercontent.com/assets/3825824/10251326/76338ac8-6962-11e5-8761-3fd931f9e740.png',
