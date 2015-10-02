@@ -121,5 +121,13 @@ class Company
         hiring_url: nil,
         email:      'contact.sg@neo.com'
       },
+      {
+        name:       'Cantab IP',
+        website:    'https://www.cantab-ip.com/',
+        logo_url:   'https://www.cantab-ip.com/images/cantab-ip-logo-200.png',
+        address:    'VBox 881846, Singapore 919191',
+        hiring_url: nil,
+        email:      'mail@cantab-ip.com'
+      },
     ]
 end
