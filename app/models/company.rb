@@ -152,6 +152,14 @@ class Company
         address:    '138 Market Street, #32-01 CapitaGreen, Singapore 048946',
         hiring_url: 'https://www.viki.com/jobs',
         email:      'engineering@viki.com'
+      },
+      {
+        name:       'GrabTaxi',
+        website:    'https://www.grabtaxi.com/',
+        logo_url:   'https://cloud.githubusercontent.com/assets/2296/10248847/b75b58fe-6954-11e5-8b27-d9000f8febc3.png',
+        address:    '138 Cecil Street, #07-01 Cecil Court, Singapore 069538',
+        hiring_url: 'https://grab.careers/',
+        email:      'careers@grabtaxi.com'
       }
     ]
 end
