@@ -12,8 +12,15 @@
     }
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
   .logo img {
-    max-width: 100%;
+    max-width: 80%;
     max-height: 100px;
   }
 

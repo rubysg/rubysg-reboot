@@ -74,6 +74,14 @@ class Company
         email:      'info@ruckuswireless.com'
       },
       {
+        name:       'HomeAway Asia',
+        website:    'http://www.homeaway.asia',
+        logo_url:   'https://cloud.githubusercontent.com/assets/1900876/10238424/27472246-68f2-11e5-9d23-bc5d2e2c71e5.png',
+        address:    'Blk 71, Ayer Rajah Crescent, #01-20, Singapore 139951',
+        hiring_url: nil,
+        email:      'devel@homeaway.asia'
+      },
+      {
         name:       'Roomorama',
         website:    'https://www.roomorama.com',
         logo_url:   'https://cloud.githubusercontent.com/assets/373453/10238847/b0b5f0de-68f7-11e5-85ab-068e40f6f2d8.jpg',
