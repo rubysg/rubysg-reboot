@@ -80,6 +80,14 @@ class Company
         address:    'Blk 71, Ayer Rajah Crescent, #01-20, Singapore 139951',
         hiring_url: nil,
         email:      'devel@homeaway.asia'
+      },
+      {
+        name:       'Roomorama',
+        website:    'https://www.roomorama.com',
+        logo_url:   'https://cloud.githubusercontent.com/assets/373453/10238847/b0b5f0de-68f7-11e5-85ab-068e40f6f2d8.jpg',
+        address:    '115 Amoy Street, Singapore 069935',
+        hiring_url: 'https://jobs.roomorama.com',
+        email:      'careers@roomorama.com'
       }
     ]
 end
