@@ -16,7 +16,7 @@ The initial design of ruby.sg was done by @winstonyw who is not a designer by tr
 
 ## Singapore Companies using Ruby
 
-You can add your company to [ruby.sg](http://ruby.sg#companies) by editing [company.rb](app/models/company.rb).
+You can add your company to [ruby.sg](http://ruby.sg#companies) by editing [company.rb](https://github.com/rubysg/rubysg-reboot/blob/master/app/models/company.rb).
 
 Instructions as follows:
 
@@ -40,9 +40,9 @@ Notes:
 - Use single quotes
 - Align hash values so that it's easier to scan
 
-After you are done, please run specs with `rspec`. 
+After you are done, please run specs with `rspec`.
 
-There are basic specs that validate the integrity of constant `LIST` 
+There are basic specs that validate the integrity of constant `LIST`
 and so if specs fail, please fix the errors before issuing a Pull Request.
 
 ## Setup of Development Environment
