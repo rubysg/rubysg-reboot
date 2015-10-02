@@ -88,6 +88,14 @@ class Company
         address:    '115 Amoy Street, Singapore 069935',
         hiring_url: 'https://jobs.roomorama.com',
         email:      'careers@roomorama.com'
+      },
+      {
+        name:       'The Cubiclerebels',
+        website:    'http://cubiclerebels.com',
+        logo_url:   'https://cloud.githubusercontent.com/assets/68039/10238934/9abe122e-68f8-11e5-9ba7-7cf95049324c.png',
+        address:    '13 Lorong 24A Geylang, Singapore 398537',
+        hiring_url: nil,
+        email:      'team@cubiclerebels.com'
       }
     ]
 end
