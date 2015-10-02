@@ -159,6 +159,14 @@ class Company
         logo_url:   'https://avatars0.githubusercontent.com/u/9315550?v=3&s=100',
         address:    '101C Telok Ayer Street, #04-00 Singapore 068574',
         email:      'allen@shopventure.com'
+      },
+      {
+        name:       'GrabTaxi',
+        website:    'https://www.grabtaxi.com/',
+        logo_url:   'https://cloud.githubusercontent.com/assets/3825824/10251326/76338ac8-6962-11e5-8761-3fd931f9e740.png',
+        address:    '28 Sin Ming Lane, #01-143 Midview city, Singapore 573972',
+        hiring_url: 'https://grab.careers/',
+        email:      'careers@grabtaxi.com'
       }
     ]
 end
