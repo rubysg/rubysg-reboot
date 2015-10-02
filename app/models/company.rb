@@ -56,6 +56,14 @@ class Company
         address:    '128 Prinsep Street, Singapore 188655',
         hiring_url: nil,
         email:      'hello@jollygoodcode.com'
+      },
+      {
+        name:       'Tinkerbox Studios',
+        website:    'http://www.tinkerbox.com.sg',
+        logo_url:   'https://cloud.githubusercontent.com/assets/5259935/10227563/a7f46946-68a0-11e5-9167-e0c6636e4329.png',
+        address:    '113b Jalan Besar, Singapore 208833',
+        hiring_url: nil,
+        email:      'info@tinkerbox.com.sg'
       }
     ]
 end
