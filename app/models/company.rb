@@ -68,7 +68,7 @@ class Company
       {
         name:       'Ruckus Wireless',
         website:    'http://www.ruckuswireless.com',
-        logo_url:   'https://cloud.githubusercontent.com/assets/761959/10227703/767c9568-68a1-11e5-9440-eaec3eb2e83d.jpeg',
+        logo_url:   'https://cloud.githubusercontent.com/assets/761959/10251882/860e1cca-6966-11e5-9f25-3402a189a7f9.png',
         address:    '1 Fusionopolis View, #09-02 Sandcrawler, Singapore 138577',
         hiring_url: 'http://www.ruckuswireless.com/careers',
         email:      'info@ruckuswireless.com'
