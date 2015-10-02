@@ -16,7 +16,7 @@ The initial design of ruby.sg was done by @winstonyw who is not a designer by tr
 
 ## Singapore Companies using Ruby
 
-You can add your company to [ruby.sg](http://ruby.sg#companies) by editing [companies.rb](app/models/companies.rb).
+You can add your company to [ruby.sg](http://ruby.sg#companies) by editing [company.rb](app/models/company.rb).
 
 Instructions as follows:
 

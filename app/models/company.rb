@@ -64,6 +64,14 @@ class Company
         address:    '113b Jalan Besar, Singapore 208833',
         hiring_url: nil,
         email:      'info@tinkerbox.com.sg'
+      },
+      {
+        name:       'Ruckus Wireless',
+        website:    'http://www.ruckuswireless.com',
+        logo_url:   'https://cloud.githubusercontent.com/assets/761959/10227703/767c9568-68a1-11e5-9440-eaec3eb2e83d.jpeg',
+        address:    '1 Fusionopolis View, #09-02 Sandcrawler, Singapore 138577',
+        hiring_url: 'http://www.ruckuswireless.com/careers',
+        email:      'info@ruckuswireless.com'
       }
     ]
 end
