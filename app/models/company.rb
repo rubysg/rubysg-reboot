@@ -167,6 +167,14 @@ class Company
         address:    '28 Sin Ming Lane, #01-143 Midview city, Singapore 573972',
         hiring_url: 'https://grab.careers/',
         email:      'careers@grabtaxi.com'
+      },
+      {
+        name:       'Beanstack',
+        website:    'http://www.beanstack.sg/',
+        logo_url:   'https://cloud.githubusercontent.com/assets/2155919/10252808/6c157ed4-696c-11e5-9000-8c7809209276.png',
+        address:    '2 Bukit Batok St 24 #04-05 Singapore 659480',
+        hiring_url: nil,
+        email:      'hello@beanstack.sg'
       }
     ]
 end
