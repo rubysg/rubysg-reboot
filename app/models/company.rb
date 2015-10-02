@@ -56,6 +56,14 @@ class Company
         address:    '128 Prinsep Street, Singapore 188655',
         hiring_url: nil,
         email:      'hello@jollygoodcode.com'
+      },
+      {
+        name:       'The Commissioned',
+        website:    'https://www.thecommissioned.com/',
+        logo_url:   'https://d1oatuxhb8j62x.cloudfront.net/assets/tc-logo-grey-7e18a18d4da188ed60abe6c96f2c2cee14a96d06ae4b91efd6c4bd16e21f484c.png',
+        address:    '79 Ayer Rajah Crescent, #04-04, Singapore 139955',
+        hiring_url: nil,
+        email:      'hello@thecommissioned.com'
       }
     ]
 end
