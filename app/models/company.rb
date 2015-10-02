@@ -156,7 +156,7 @@ class Company
       {
         name:       'GrabTaxi',
         website:    'https://www.grabtaxi.com/',
-        logo_url:   'https://cloud.githubusercontent.com/assets/2296/10248847/b75b58fe-6954-11e5-8b27-d9000f8febc3.png',
+        logo_url:   'https://cloud.githubusercontent.com/assets/3825824/10251326/76338ac8-6962-11e5-8761-3fd931f9e740.png',
         address:    '138 Cecil Street, #07-01 Cecil Court, Singapore 069538',
         hiring_url: 'https://grab.careers/',
         email:      'careers@grabtaxi.com'
