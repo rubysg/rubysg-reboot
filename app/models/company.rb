@@ -96,6 +96,14 @@ class Company
         address:    '13 Lorong 24A Geylang, Singapore 398537',
         hiring_url: nil,
         email:      'team@cubiclerebels.com'
+      },
+      {
+        name:       'ReferralCandy',
+        website:    'http://www.referralcandy.com',
+        logo_url:   'https://cloud.githubusercontent.com/assets/164703/10238307/6ab81ed8-68f0-11e5-8ac2-77520d02a639.png',
+        address:    'Block 71 Ayer Rajah Crescent, #06-26, Singapore 139951',
+        hiring_url: 'http://www.referralcandy.com/jobs',
+        email:      'engineering+welcome@referralcandy.com'
       }
     ]
 end
