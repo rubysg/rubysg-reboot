@@ -152,6 +152,13 @@ class Company
         address:    '138 Market Street, #32-01 CapitaGreen, Singapore 048946',
         hiring_url: 'https://www.viki.com/jobs',
         email:      'engineering@viki.com'
+      },
+      {
+        name:       'ShopVenture',
+        website:    'https://www.shopventure.com/',
+        logo_url:   'https://avatars0.githubusercontent.com/u/9315550?v=3&s=100',
+        address:    '101C Telok Ayer Street, #04-00 Singapore 068574',
+        email:      'allen@shopventure.com'
       }
     ]
 end
