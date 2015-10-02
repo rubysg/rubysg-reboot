@@ -136,6 +136,14 @@ class Company
         address:    '285 Ghim Moh Road Singapore 279622',
         hiring_url: 'mailto:hello@estl.moe',
         email:      'hello@estl.moe'
+      },
+      {
+        name:       'TradeGecko',
+        website:    'https://www.tradegecko.com',
+        logo_url:   'https://cloud.githubusercontent.com/assets/701246/10245604/a935a360-693b-11e5-83b0-f61ce1894330.png',
+        address:    '121 Telok Ayer St, 068590',
+        hiring_url: 'https://www.tradegecko.com/jobs',
+        email:      'hello@tradegecko.com'
       }
     ]
 end
