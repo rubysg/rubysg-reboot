@@ -129,5 +129,13 @@ class Company
         hiring_url: nil,
         email:      'mail@cantab-ip.com'
       },
+      {
+        name:       'ESTL',
+        website:    'https://github.com/moexmen',
+        logo_url:   'https://cloud.githubusercontent.com/assets/4353853/10241116/308a4200-6917-11e5-822a-22ffef56f44f.png',
+        address:    '285 Ghim Moh Road Singapore 279622',
+        hiring_url: 'mailto:hello@estl.moe',
+        email:      'hello@estl.moe'
+      }
     ]
 end
