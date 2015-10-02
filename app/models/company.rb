@@ -80,6 +80,14 @@ class Company
         address:    'Blk 71, Ayer Rajah Crescent, #01-20, Singapore 139951',
         hiring_url: nil,
         email:      'devel@homeaway.asia'
+      },{
+        name:       'The Cubiclerebels',
+        website:    'http://cubiclerebels.com',
+        logo_url:   '',
+        address:    '13 Lorong 24A Geylang, Singapore 398537',
+        hiring_url: nil,
+        email:      'team@cubiclerebels.com'
       }
+
     ]
 end
