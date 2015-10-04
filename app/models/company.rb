@@ -175,6 +175,14 @@ class Company
         address:    '2 Bukit Batok St 24 #04-05 Singapore 659480',
         hiring_url: nil,
         email:      'hello@beanstack.sg'
+      },
+      {
+        name:       'Rubify Technology',
+        website:    'http://www.rubify.com/',
+        logo_url:   'https://cloud.githubusercontent.com/assets/29207/10266530/caa3c7bc-6a9d-11e5-9f9f-7b3ed0d3d0ff.png',
+        address:    '300 Tampines Avenue 5, #09-02 Singapore 529653',
+        hiring_url: nil,
+        email:      'hello@rubify.com'
       }
     ]
 end
