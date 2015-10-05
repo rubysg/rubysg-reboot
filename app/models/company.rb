@@ -191,6 +191,14 @@ class Company
         address: '8 Burn Road, #15-13 Trivex, Singapore 369977',
         hiring_url: nil,
         email: 'hello@flowhero.io'
+      },
+      {
+        name: 'GDS @ Hive',
+        website: 'https://github.com/idagds',
+        logo_url: 'http://i.imgur.com/8vTd74v.jpg',
+        address: 'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577',
+        hiring_url: 'mailto:hiring@ida-gds.com',
+        email: 'hiring@ida-gds.com'
       }
     ]
 end
