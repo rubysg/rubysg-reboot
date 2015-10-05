@@ -199,6 +199,14 @@ class Company
         address: 'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577',
         hiring_url: 'mailto:hiring@ida-gds.com',
         email: 'hiring@ida-gds.com'
+      },
+      {
+          name: 'ThoughtWorks',
+          website: 'http://www.thoughtworks.com',
+          logo_url: 'http://www.thoughtworks.com/imgs/tw-logo.png',
+          address: '87B Amoy Street, Singapore 069906',
+          hiring_url: 'https://www.thoughtworks.com/careers',
+          email: 'join-sg@thoughtworks.com'
       }
     ]
 end
