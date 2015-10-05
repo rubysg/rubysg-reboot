@@ -183,6 +183,14 @@ class Company
         address:    '300 Tampines Avenue 5, #09-02 Singapore 529653',
         hiring_url: nil,
         email:      'hello@rubify.com'
+      },
+      {
+        name: 'Flowhero Labs',
+        website: 'http://www.flowhero.io/',
+        logo_url: 'https://cloud.githubusercontent.com/assets/297375/10273239/ddb007a4-6b5f-11e5-8bbf-204032afba4d.png',
+        address: '8 Burn Road, #15-13 Trivex, Singapore 369977',
+        hiring_url: nil,
+        email: 'hello@flowhero.io'
       }
     ]
 end
