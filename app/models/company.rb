@@ -185,28 +185,28 @@ class Company
         email:      'hello@rubify.com'
       },
       {
-        name: 'Flowhero Labs',
-        website: 'http://www.flowhero.io/',
-        logo_url: 'https://cloud.githubusercontent.com/assets/297375/10273239/ddb007a4-6b5f-11e5-8bbf-204032afba4d.png',
-        address: '8 Burn Road, #15-13 Trivex, Singapore 369977',
+        name:       'Flowhero Labs',
+        website:    'http://www.flowhero.io/',
+        logo_url:   'https://cloud.githubusercontent.com/assets/297375/10273239/ddb007a4-6b5f-11e5-8bbf-204032afba4d.png',
+        address:    '8 Burn Road, #15-13 Trivex, Singapore 369977',
         hiring_url: nil,
-        email: 'hello@flowhero.io'
+        email:      'hello@flowhero.io'
       },
       {
-        name: 'GDS @ Hive',
-        website: 'https://github.com/idagds',
-        logo_url: 'https://cloud.githubusercontent.com/assets/1000669/10274777/c94e7318-6b73-11e5-869a-fb6eb4ad807f.jpg',
-        address: 'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577',
+        name:       'GDS @ Hive',
+        website:    'https://github.com/idagds',
+        logo_url:   'https://cloud.githubusercontent.com/assets/1000669/10274777/c94e7318-6b73-11e5-869a-fb6eb4ad807f.jpg',
+        address:    'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577',
         hiring_url: 'mailto:hiring@ida-gds.com',
-        email: 'hiring@ida-gds.com'
+        email:      'hiring@ida-gds.com'
       },
       {
-          name: 'ThoughtWorks',
-          website: 'http://www.thoughtworks.com',
-          logo_url: 'http://www.thoughtworks.com/imgs/tw-logo.png',
-          address: '87B Amoy Street, Singapore 069906',
-          hiring_url: 'https://www.thoughtworks.com/careers',
-          email: 'join-sg@thoughtworks.com'
+        name:       'ThoughtWorks',
+        website:    'http://www.thoughtworks.com',
+        logo_url:   'http://www.thoughtworks.com/imgs/tw-logo.png',
+        address:    '87B Amoy Street, Singapore 069906',
+        hiring_url: 'https://www.thoughtworks.com/careers',
+        email:      'join-sg@thoughtworks.com'
       }
     ]
 end
