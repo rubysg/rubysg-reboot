@@ -117,7 +117,7 @@ class Company
         name:       'Neo',
         website:    'http://neo.com/',
         logo_url:   'https://cloud.githubusercontent.com/assets/1477218/10240552/ed1df6e4-690f-11e5-9992-487f3a5ad7d6.png',
-        address:    '53A Craig Road, Singapore 809691',
+        address:    '53 Craig Road, #02-00, Singapore 809691',
         hiring_url: nil,
         email:      'contact.sg@neo.com'
       },
