@@ -207,6 +207,14 @@ class Company
         address:    '87B Amoy Street, Singapore 069906',
         hiring_url: 'https://www.thoughtworks.com/careers',
         email:      'join-sg@thoughtworks.com'
-      }
+      },
+      {
+        name:       'NCS Pte Ltd',
+        website:    'http://ncs.com.sg/',
+        logo_url:   'http://info.singtel.com/sites/default/files/about-us/NCS.png',
+        address:    '5 Ang Mo Kio Street 62. NCS Hub Singapore 569141',
+        hiring_url: 'http://surfnation.net/',
+        email:      'agilepractice@ncs.com.sg'
+      }      
     ]
 end
