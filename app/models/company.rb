@@ -215,6 +215,14 @@ class Company
         address:    '5 Ang Mo Kio Street 62. NCS Hub Singapore 569141',
         hiring_url: 'http://surfnation.net/',
         email:      'agilepractice@ncs.com.sg'
-      }      
+      },
+      {
+        name:       'Aureso',
+        website:    'http://www.aureso.com',
+        logo_url:   'http://aureso.com/assets/img/Logo@2x.png',
+        address:    '59 Kampong Bahru Road, #02-03, Singapore 169367',
+        hiring_url: 'http://www.aureso.com/career',
+        email:      'team@aureso.com'
+      }
     ]
 end
