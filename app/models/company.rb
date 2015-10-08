@@ -223,6 +223,14 @@ class Company
         address:    '59 Kampong Bahru Road, #02-03, Singapore 169367',
         hiring_url: 'http://www.aureso.com/career',
         email:      'team@aureso.com'
+      },
+      {
+        name:       'Futureworkz',
+        website:    'http://www.futureworkz.com',
+        logo_url:   'https://s3-ap-southeast-1.amazonaws.com/futureworkz/3rd-party/logo.png',
+        address:    '3 Fusionopolis Place #03-55 Singapore 138523',
+        hiring_url: nil,
+        email:      'hello@futureworkz.com'
       }
     ]
 end
