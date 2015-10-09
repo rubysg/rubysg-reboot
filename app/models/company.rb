@@ -231,6 +231,14 @@ class Company
         address:    '3 Fusionopolis Place #03-55 Singapore 138523',
         hiring_url: nil,
         email:      'hello@futureworkz.com'
+      },
+      {
+        name:       'Luxola',
+        website:    'http://www.luxola.com',
+        logo_url:   'http://s0.luxola.com/assets/lx_logo_v4-67a12b178642e18c0cbad1f51a01b600.png',
+        address:    '217 Henderson Road, #01-10, Singapore 159555',
+        hiring_url: 'http://www.luxola.com/jobs',
+        email:      'contact@luxola.com'
       }
     ]
 end
