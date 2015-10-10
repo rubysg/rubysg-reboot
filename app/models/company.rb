@@ -239,6 +239,14 @@ class Company
         address:    '217 Henderson Road, #01-10, Singapore 159555',
         hiring_url: 'http://www.luxola.com/jobs',
         email:      'contact@luxola.com'
+      },
+      {
+        name:       'ProperHands',
+        website:    'http://www.properhands.com',
+        logo_url:   'http://properhands.com/assets/properhands-logo.png',
+        address:    '261 Waterloo St, #03-32, Waterloo Centre, Singapore 180261',
+        hiring_url: 'http://www.startupjobs.asia/company/2085-properhands-singapore',
+        email:      'contact@properhands.com'
       }
     ]
 end
