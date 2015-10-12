@@ -251,7 +251,7 @@ class Company
       {
         name:       'Ricoh Singapore',
         website:    'http://www.ricoh.sg/',
-        logo_url:   'http://www.ricoh.sg/common/img/header/ghdr-logo.gif',
+        logo_url:   'https://cloud.githubusercontent.com/assets/413879/10420511/2d39c36a-70c8-11e5-8938-e7929ce345f4.gif',
         address:    '20W Pasir Panjang Road #04-28 Mapletree Business City Singapore 117439',
         hiring_url: nil,
         email:      'rspapps@ricoh.sg'
