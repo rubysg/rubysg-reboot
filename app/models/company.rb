@@ -255,6 +255,6 @@ class Company
         address:    '20W Pasir Panjang Road #04-28 Mapletree Business City Singapore 117439',
         hiring_url: nil,
         email:      'rspapps@ricoh.sg'
-      },
+      }
     ]
 end
