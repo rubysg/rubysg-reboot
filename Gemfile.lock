@@ -92,6 +92,7 @@ GEM
       em-websocket (~> 0.5)
       guard (~> 2.8)
       multi_json (~> 1.8)
+    hashdiff (0.2.2)
     http_parser.rb (0.6.0)
     httparty (0.13.7)
       json (~> 1.8)
@@ -123,7 +124,7 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.18.3)
-    pry (0.10.2)
+    pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
@@ -194,7 +195,7 @@ GEM
       httparty (>= 0.10.0)
       rake
     safe_yaml (1.0.4)
-    sass (3.4.18)
+    sass (3.4.19)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.1)
@@ -238,9 +239,10 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    webmock (1.21.0)
+    webmock (1.22.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
+      hashdiff
 
 PLATFORMS
   ruby
