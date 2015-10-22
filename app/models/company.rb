@@ -255,6 +255,14 @@ class Company
         address:    '20W Pasir Panjang Road #04-28 Mapletree Business City Singapore 117439',
         hiring_url: nil,
         email:      'rspapps@ricoh.sg'
+      },
+      {
+        name:       'honestbee',
+        website:    'https://www.honestbee.com',
+        logo_url:   'https://cloud.githubusercontent.com/assets/12945452/10658532/765e7e3c-78ca-11e5-8090-892ec9912f19.png',
+        address:    '2 Alexandra Road, #04-01B, Singapore 159919',
+        hiring_url: 'http://honestbee.workable.com/',
+        email:      'edmund.yee@honestbee.com'
       }
     ]
 end
