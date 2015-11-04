@@ -263,6 +263,14 @@ class Company
         address:    '2 Alexandra Road, #04-01B, Singapore 159919',
         hiring_url: 'http://honestbee.workable.com/',
         email:      'edmund.yee@honestbee.com'
-      }
+      },
+      {
+        name:       'Singapore-MIT Alliance for Research and Technology Centre',
+        website:    'http://smart.mit.edu',
+        logo_url:   '',
+        address:    '1 CREATE Way, #10-01 CREATE Tower, Singapore 138602',
+        hiring_url: 'http://smart.mit.edu/jobs-at-smart/current-open-positions.html',
+        email:      nil
+      }    
     ]
 end
