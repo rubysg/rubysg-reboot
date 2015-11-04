@@ -4,7 +4,7 @@
 
   .row
     - @companies.each do |company|
-      .col-sm-3
+      .col-sm-3.company-wrapper
         .company.text-center
           .website
             = link_to company.website, target: '_blank' do

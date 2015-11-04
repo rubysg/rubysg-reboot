@@ -1,6 +1,35 @@
-.company {
-  margin-bottom: 50px;
+@mixin transition-setup {
+  transition: all ease-in 0.2s;
+  -webkit-transition: all ease-in 0.2s;
+  -moz-transition: all ease-in 0.2s;
+}
 
+.company-wrapper {
+  @include transition-setup;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  &:hover {
+    border: 1px solid #d43f3a;
+    .company {
+      .website {
+        .name {
+          transform: scale(1.2);
+          -webkit-transform: scale(1.2);
+          -moz-transform: scale(1.2);
+        }
+      }
+
+      .address-contact, .hiring {
+        transform: translate(0, 10px);
+      }
+    }
+  }
+}
+
+.company {
   .website {
     a {
       color: inherit;
@@ -17,6 +46,10 @@
     align-items: center;
     justify-content: center;
     height: 100px;
+
+    transition: all ease-in 0.2s;
+    -webkit-transition: all ease-in 0.2s;
+    -moz-transition: all ease-in 0.2s;
   }
 
   .logo img {
@@ -26,18 +59,21 @@
   }
 
   .name {
-    margin: 10px 0 5px 0;
+    margin: 15px 0 5px 0;
     font-size: 1.5em;
     font-weight: 500;
+    @include transition-setup;
   }
 
   .address-contact {
     min-height: 51px;
+    @include transition-setup;
   }
 
   .hiring {
     min-height: 22px;
     margin-top: 10px;
+    @include transition-setup;
 
     .btn {
       border-radius: 0;
