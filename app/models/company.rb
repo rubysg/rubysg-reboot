@@ -263,6 +263,14 @@ class Company
         address:    '2 Alexandra Road, #04-01B, Singapore 159919',
         hiring_url: 'http://honestbee.workable.com/',
         email:      'edmund.yee@honestbee.com'
+      },
+      {
+        name:       'Kaligo',
+        website:    'https://www.kaligo.com',
+        logo_url:   'https://d2xr67b5foriew.cloudfront.net/assets/images/scb/kaligo-logo-red-black.png',
+        address:    '36B Mosque Street, Singapore 059514',
+        hiring_url: 'http://sg.startupjobs.asia/sg/company/1479-kaligo-singapore',
+        email:      'greg@kaligo.com'
       }
     ]
 end
