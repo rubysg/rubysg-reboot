@@ -270,7 +270,7 @@ class Company
         logo_url:   'https://cloud.githubusercontent.com/assets/15645205/10930156/95eef638-82f6-11e5-9a55-3a1199222cf6.png',
         address:    '1 CREATE Way, #10-01 CREATE Tower, Singapore 138602',
         hiring_url: 'http://smart.mit.edu/jobs-at-smart/current-open-positions.html',
-        email:      nil
+        email:      'fmsurvey@smart.mit.edu'
       }    
     ]
 end
