@@ -271,6 +271,14 @@ class Company
         address:    '36B Mosque Street, Singapore 059514',
         hiring_url: 'http://sg.startupjobs.asia/sg/company/1479-kaligo-singapore',
         email:      'greg@kaligo.com'
+      },
+      {
+        name:       'Singapore-MIT Alliance for Research and Technology Centre',
+        website:    'http://smart.mit.edu',
+        logo_url:   'https://cloud.githubusercontent.com/assets/15645205/10930156/95eef638-82f6-11e5-9a55-3a1199222cf6.png',
+        address:    '1 CREATE Way, #10-01 CREATE Tower, Singapore 138602',
+        hiring_url: 'http://smart.mit.edu/jobs-at-smart/current-open-positions.html',
+        email:      'fmsurvey@smart.mit.edu'
       }
     ]
 end
