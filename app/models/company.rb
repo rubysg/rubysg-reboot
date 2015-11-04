@@ -271,6 +271,14 @@ class Company
         address:    '36B Mosque Street, Singapore 059514',
         hiring_url: 'http://sg.startupjobs.asia/sg/company/1479-kaligo-singapore',
         email:      'greg@kaligo.com'
+      },
+      {
+        name:       'Canopy',
+        website:    'https://canopy.sg',
+        logo_url:   'https://goo.gl/ipIzwe',
+        address:    '7 Kim Yam Road, Singapore 239323',
+        hiring_url: nil,
+        email:      'admin@mesitis.com'
       }
     ]
 end
