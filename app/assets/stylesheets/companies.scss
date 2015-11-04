@@ -1,3 +1,22 @@
+.company-wrapper {
+  transition: all ease-in 0.2s;
+  -webkit-transition: all ease-in 0.2s;
+  -moz-transition: all ease-in 0.2s;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+    .company {
+      .website {
+        .logo {
+          transform: scale(1.1) translate(0, 10px);
+          -webkit-transform: scale(1.1) translate(0, 10px);
+          -moz-transform: scale(1.1) translate(0, 10px);
+        }
+      }
+    }
+  }
+}
+
 .company {
   margin-bottom: 50px;
 
@@ -17,6 +36,10 @@
     align-items: center;
     justify-content: center;
     height: 100px;
+
+    transition: all ease-in 0.2s;
+    -webkit-transition: all ease-in 0.2s;
+    -moz-transition: all ease-in 0.2s;
   }
 
   .logo img {
@@ -26,7 +49,7 @@
   }
 
   .name {
-    margin: 10px 0 5px 0;
+    margin: 15px 0 5px 0;
     font-size: 1.5em;
     font-weight: 500;
   }
