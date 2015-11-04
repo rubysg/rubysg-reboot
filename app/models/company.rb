@@ -285,7 +285,7 @@ class Company
         website:    'https://canopy.sg',
         logo_url:   'https://goo.gl/ipIzwe',
         address:    '7 Kim Yam Road, Singapore 239323',
-        hiring_url: nil,
+        hiring_url: 'mailto:admin@mesitis.com?subject=I%20can%20help%20you%20write%20better%20Ruby!',
         email:      'admin@mesitis.com'
       }
     ]
