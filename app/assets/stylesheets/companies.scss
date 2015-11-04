@@ -73,6 +73,7 @@
   .hiring {
     min-height: 22px;
     margin-top: 10px;
+    @include transition-setup;
 
     .btn {
       border-radius: 0;
