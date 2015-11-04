@@ -279,6 +279,14 @@ class Company
         address:    '1 CREATE Way, #10-01 CREATE Tower, Singapore 138602',
         hiring_url: 'http://smart.mit.edu/jobs-at-smart/current-open-positions.html',
         email:      'fmsurvey@smart.mit.edu'
+      },
+      {
+        name:       'Canopy',
+        website:    'https://canopy.sg',
+        logo_url:   'https://goo.gl/ipIzwe',
+        address:    '7 Kim Yam Road, Singapore 239323',
+        hiring_url: nil,
+        email:      'admin@mesitis.com'
       }
     ]
 end
