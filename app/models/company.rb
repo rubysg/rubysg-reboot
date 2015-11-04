@@ -62,7 +62,7 @@ class Company
         website:    'http://www.tinkerbox.com.sg',
         logo_url:   'https://cloud.githubusercontent.com/assets/5259935/10227563/a7f46946-68a0-11e5-9167-e0c6636e4329.png',
         address:    '113b Jalan Besar, Singapore 208833',
-        hiring_url: nil,
+        hiring_url: 'mailto:jaryl@tinkerbox.com.sg',
         email:      'info@tinkerbox.com.sg'
       },
       {
@@ -131,7 +131,7 @@ class Company
       },
       {
         name:       'ESTL',
-        website:    'https://github.com/moexmen',
+        website:    'http://blog.estl.moe',
         logo_url:   'https://cloud.githubusercontent.com/assets/4353853/10241116/308a4200-6917-11e5-822a-22ffef56f44f.png',
         address:    '285 Ghim Moh Road Singapore 279622',
         hiring_url: 'mailto:hello@estl.moe',
@@ -255,6 +255,14 @@ class Company
         address:    '20W Pasir Panjang Road #04-28 Mapletree Business City Singapore 117439',
         hiring_url: nil,
         email:      'rspapps@ricoh.sg'
+      },
+      {
+        name:       'honestbee',
+        website:    'https://www.honestbee.com',
+        logo_url:   'https://cloud.githubusercontent.com/assets/12945452/10658532/765e7e3c-78ca-11e5-8090-892ec9912f19.png',
+        address:    '2 Alexandra Road, #04-01B, Singapore 159919',
+        hiring_url: 'http://honestbee.workable.com/',
+        email:      'edmund.yee@honestbee.com'
       }
     ]
 end
