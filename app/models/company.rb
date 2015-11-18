@@ -287,6 +287,14 @@ class Company
         address:    '7 Kim Yam Road, Singapore 239323',
         hiring_url: 'mailto:admin@mesitis.com?subject=I%20can%20help%20you%20write%20better%20Ruby!',
         email:      'admin@mesitis.com'
+      },
+      {
+        name:       'SourceClear',
+        website:    'https://srcclr.com',
+        logo_url:   'https://srcclr.com/images/srcclr__logo--primary-grey.png',
+        address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964',
+        hiring_url: 'https://jobs.lever.co/srcclr/',
+        email:      'hello@srcclr.com'
       }
     ]
 end
