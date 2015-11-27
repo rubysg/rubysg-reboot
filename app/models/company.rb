@@ -295,6 +295,14 @@ class Company
         address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964',
         hiring_url: 'https://jobs.lever.co/srcclr/',
         email:      'hello@srcclr.com'
+      },
+      {
+        name:       'Grain',
+        website:    'https://grain.com.sg',
+        logo_url:   'https://grain.com.sg/grain.png',
+        address:    '82 Lorong 23 Geylang, #04-08, Singapore 388409',
+        hiring_url: 'https://grain.com.sg/jobs',
+        email:      'hello@grain.com.sg'
       }
     ]
 end
