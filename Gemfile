@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 gem 'puma'
-gem 'rails', '4.2.4'
+gem 'rails', '~> 4.2.5.1'
 gem 'pg'
 
 gem 'slim-rails'
@@ -47,3 +47,5 @@ group :test do
 end
 
 gem 'nokogiri', '>= 1.6.7.2'
+
+gem 'rails-html-sanitizer', '~> 1.0.3'
