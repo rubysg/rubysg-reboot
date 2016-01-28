@@ -303,6 +303,14 @@ class Company
         address:    '82 Lorong 23 Geylang, #04-08, Singapore 388409',
         hiring_url: 'https://grain.com.sg/jobs',
         email:      'hello@grain.com.sg'
+      },
+      {
+        name:       'Mobile Market Monitor',
+        website:    'https://www.mobilemarketmonitor.com/',
+        logo_url:   'https://www.mobilemarketmonitor.com/assets/images/mmm-logo.png',
+        address:    '75 High Street, Singapore 179435',
+        hiring_url: 'mailto:jorge@mobilemarketmonitor.com',
+        email:      'support@mobilemarketmonitor.com'
       }
     ]
 end
