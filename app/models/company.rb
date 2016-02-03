@@ -161,12 +161,12 @@ class Company
         email:      'support@shopventure.com'
       },
       {
-        name:       'GrabTaxi',
-        website:    'https://www.grabtaxi.com/',
-        logo_url:   'https://cloud.githubusercontent.com/assets/3825824/10251326/76338ac8-6962-11e5-8761-3fd931f9e740.png',
-        address:    '28 Sin Ming Lane, #01-143 Midview city, Singapore 573972',
+        name:       'Grab',
+        website:    'https://www.grab.co/',
+        logo_url:   'https://avatars2.githubusercontent.com/u/2368682?v=3&s=512',
+        address:    '138 Cecil Street, #01-01 Cecil Court, Singapore 069538',
         hiring_url: 'https://grab.careers/',
-        email:      'careers@grabtaxi.com'
+        email:      'careers@grab.co'
       },
       {
         name:       'Beanstack',
