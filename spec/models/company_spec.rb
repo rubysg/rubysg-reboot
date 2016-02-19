@@ -15,7 +15,7 @@ RSpec.describe Company do
     let(:company_c) { double(:company_c, name: 'MNO') }
 
     it 'sorts by name (ignore case)' do
-      expect(Company::LIST).to receive(:map) { [company_a, company_b, company_c] }
+      expect(Company.companies).to receive(:map) { [company_a, company_b, company_c] }
 
       expect(Company.all).to eq [company_b, company_c, company_a]
     end
