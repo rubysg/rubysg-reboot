@@ -20,16 +20,13 @@ class Company
     :email
   )
 
-  class << self
-
-    def all
-      companies.map { |company| Company.new(company) }.sort_by {|company| company.name.downcase }
-    end
+  def self.all
+    companies.map { |company| Company.new(company) }.sort_by {|company| company.name.downcase }
+  end
 
     def companies
       @companies ||= File.open(File.join(File.dirname(__FILE__), "companies.yml")) do |file|
         @companies = YAML.load(file).to_ary
-      end
     end
   end
 end
