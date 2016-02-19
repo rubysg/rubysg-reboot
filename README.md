@@ -16,13 +16,9 @@ The initial design of ruby.sg was done by @winstonyw who is not a designer by tr
 
 ## Singapore Companies using Ruby
 
-You can add your company to [ruby.sg](http://ruby.sg#companies) by editing [company.rb](https://github.com/rubysg/rubysg-reboot/blob/master/app/models/company.rb).
+You can add your company to [ruby.sg](http://ruby.sg#companies) by editing [config/initializers/companies.yml](https://github.com/rubysg/rubysg-reboot/blob/master/config/initializers/companies.yml).
 
-Instructions as follows:
-
-Update the constant `LIST` with your company details.
-
-*Do not worry about the order as `LIST` will be sorted alphabetically.*
+*Do not worry about the order as the list will be sorted alphabetically.*
 
 1. Name of Company
 2. Website of Company
@@ -42,7 +38,7 @@ Notes:
 
 After you are done, please run specs with `rspec`.
 
-There are basic specs that validate the integrity of constant `LIST`
+There are basic specs that validate the integrity of of the company list
 and so if specs fail, please fix the errors before issuing a Pull Request.
 
 ## Setup of Development Environment
