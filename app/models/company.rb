@@ -27,14 +27,9 @@ class Company
     end
 
     def companies
-
-      return @companies if @companies
-
-      File.open(File.join(File.dirname(__FILE__), "companies.yml")) do |file|
+      @companies ||= File.open(File.join(File.dirname(__FILE__), "companies.yml")) do |file|
         @companies = YAML.load(file).to_ary
       end
-
-      @companies
     end
   end
 end
