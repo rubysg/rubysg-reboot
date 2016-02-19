@@ -1,5 +1,3 @@
-require 'yaml'
-
 class Company
   include ActiveModel::Model
 
