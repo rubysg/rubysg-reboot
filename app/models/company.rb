@@ -21,12 +21,6 @@ class Company
   )
 
   def self.all
-    companies.map { |company| Company.new(company) }.sort_by {|company| company.name.downcase }
-  end
-
-    def companies
-      @companies ||= File.open(File.join(File.dirname(__FILE__), "companies.yml")) do |file|
-        @companies = YAML.load(file).to_ary
-    end
+    RubysgReboot::COMPANIES.map { |company| Company.new(company) }.sort_by {|company| company.name.downcase }
   end
 end
