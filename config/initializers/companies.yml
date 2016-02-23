@@ -28,7 +28,7 @@
   website:    'http://www.jollygoodcode.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/1000669/9362336/72f9c406-46d2-11e5-94de-5060e83fcf83.jpg'
   address:    '128 Prinsep Street, Singapore 188655'
-  hiring_url: nil
+  hiring_url:
   email:      'hello@jollygoodcode.com'
 -
   name:       'Tinkerbox Studios'
@@ -63,7 +63,7 @@
   website:    'http://cubiclerebels.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/68039/10238934/9abe122e-68f8-11e5-9ba7-7cf95049324c.png'
   address:    '13 Lorong 24A Geylang, Singapore 398537'
-  hiring_url: nil
+  hiring_url:
   email:      'team@cubiclerebels.com'
 -
   name:       'ReferralCandy'
@@ -77,21 +77,21 @@
   website:    'https://www.thecommissioned.com/'
   logo_url:   'https://df40y35bcdmht.cloudfront.net/assets/images/tc-logo-reverse-white.png'
   address:    '79 Ayer Rajah Crescent, #04-04, Singapore 139955'
-  hiring_url: nil
+  hiring_url:
   email:      'hello@thecommissioned.com'
 -
   name:       'Neo'
   website:    'http://neo.com/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1477218/10240552/ed1df6e4-690f-11e5-9992-487f3a5ad7d6.png'
   address:    '53 Craig Road, #02-00, Singapore 809691'
-  hiring_url: nil
+  hiring_url:
   email:      'contact.sg@neo.com'
 -
   name:       'Cantab IP'
   website:    'https://www.cantab-ip.com/'
   logo_url:   'https://www.cantab-ip.com/images/cantab-ip-logo-200.png'
   address:    'VBox 881846, Singapore 919191'
-  hiring_url: nil
+  hiring_url:
   email:      'mail@cantab-ip.com'
 -
   name:       'ESTL'
@@ -132,21 +132,21 @@
   website:    'http://www.beanstack.sg/'
   logo_url:   'https://cloud.githubusercontent.com/assets/2155919/10252808/6c157ed4-696c-11e5-9000-8c7809209276.png'
   address:    '2 Bukit Batok St 24 #04-05 Singapore 659480'
-  hiring_url: nil
+  hiring_url:
   email:      'hello@beanstack.sg'
 -
   name:       'Rubify Technology'
   website:    'http://www.rubify.com/'
   logo_url:   'https://cloud.githubusercontent.com/assets/29207/10266530/caa3c7bc-6a9d-11e5-9f9f-7b3ed0d3d0ff.png'
   address:    '300 Tampines Avenue 5, #09-02 Singapore 529653'
-  hiring_url: nil
+  hiring_url:
   email:      'hello@rubify.com'
 -
   name:       'Flowhero Labs'
   website:    'http://www.flowhero.io/'
   logo_url:   'https://cloud.githubusercontent.com/assets/297375/10273239/ddb007a4-6b5f-11e5-8bbf-204032afba4d.png'
   address:    '8 Burn Road, #15-13 Trivex, Singapore 369977'
-  hiring_url: nil
+  hiring_url:
   email:      'hello@flowhero.io'
 -
   name:       'GDS @ Hive'
@@ -181,7 +181,7 @@
   website:    'http://www.futureworkz.com'
   logo_url:   'https://s3-ap-southeast-1.amazonaws.com/futureworkz/3rd-party/logo.png'
   address:    '3 Fusionopolis Place #03-55 Singapore 138523'
-  hiring_url: nil
+  hiring_url:
   email:      'hello@futureworkz.com'
 -
   name:       'Luxola'
@@ -202,7 +202,7 @@
   website:    'http://www.ricoh.sg/'
   logo_url:   'https://cloud.githubusercontent.com/assets/413879/10420511/2d39c36a-70c8-11e5-8938-e7929ce345f4.gif'
   address:    '20W Pasir Panjang Road #04-28 Mapletree Business City Singapore 117439'
-  hiring_url: nil
+  hiring_url:
   email:      'rspapps@ricoh.sg'
 -
   name:       'honestbee'
