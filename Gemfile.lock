@@ -38,7 +38,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.5)
+    autoprefixer-rails (6.3.6)
       execjs
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -134,7 +134,7 @@ GEM
       slop (~> 3.4)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
-    puma (3.2.0)
+    puma (3.3.0)
     rack (1.6.4)
     rack-livereload (0.3.16)
       rack
