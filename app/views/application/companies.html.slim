@@ -1,22 +1,25 @@
-.section#meet-us
-  .section--heading
-    h2 Singapore Companies using Ruby
-
-  .row
-    - @companies.each do |company|
-      .col-sm-3.company-wrapper
-        .company.text-center
-          .website
-            = link_to company.website, target: '_blank' do
-              .logo
-                = image_tag company.logo_url
-              .name
-                = company.name
-          .address-contact.small.text-muted
-            .address
-              = company.address
-            .contact
-              = company.email
-          .hiring
-            - if company.hiring_url.present?
-              = link_to 'Hiring', company.hiring_url, class: 'btn btn-xs btn-danger btn-block', target: '_blank'
+.container
+  .section
+    h2.section-heading Singapore Companies using Ruby
+    .row
+      - @companies.each do |company|
+        .col-sm-8.col-sm-offset-2.company-wrapper
+          .company
+            .row
+              .col-sm-3
+                .website
+                  = link_to company.website, target: '_blank' do
+                    .logo
+                      = image_tag company.logo_url
+              .col-sm-6
+                .name
+                  = company.name
+                .address-contact.small
+                  .address
+                    = company.address
+                  .contact.text-muted
+                    = company.email
+              .col-sm-2.col-sm-offset-1
+                - if company.hiring_url.present?
+                  .hiring
+                    = link_to 'Hiring', company.hiring_url, class: 'btn btn-primary', target: '_blank'
