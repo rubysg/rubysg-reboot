@@ -253,3 +253,10 @@
   address:    '75 High Street, Singapore 179435'
   hiring_url: 'mailto:jorge@mobilemarketmonitor.com'
   email:      'support@mobilemarketmonitor.com'
+-
+  name:       'GuavaPass'
+  website:    'https://www.guavapass.com/'
+  logo_url:   'https://guavapass.com/assets/logo-inline-c9bafea65accd8b5a66a037de79623e3.png'
+  address:    '6 Jiak Chuan Road, Singapore 089262'
+  hiring_url: 
+  email:      'dev@guavapass.com'
