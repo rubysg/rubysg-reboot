@@ -122,11 +122,11 @@
   email:      'support@shopventure.com'
 -
   name:       'Grab'
-  website:    'https://www.grab.co/'
+  website:    'https://www.grab.com'
   logo_url:   'https://avatars2.githubusercontent.com/u/2368682?v=3&s=512'
   address:    '138 Cecil Street, #01-01 Cecil Court, Singapore 069538'
-  hiring_url: 'https://grab.careers/'
-  email:      'careers@grab.co'
+  hiring_url: 'https://grab.careers'
+  email:      'careers@grab.com'
 -
   name:       'Beanstack'
   website:    'http://www.beanstack.sg/'
