@@ -6,6 +6,7 @@
 .company {
   background-color: #fff;
   padding: 25px;
+  position: relative;
 
   @media (max-width: 768px) {
     text-align: center;
@@ -17,14 +18,14 @@
     }
   }
 
-  .logo {
+  .company-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100px;
   }
 
-  .logo img {
+  .company-logo img {
     margin-bottom: 20px;
     max-width: 80%;
     max-height: 100px;
@@ -35,25 +36,58 @@
     }
   }
 
-  .name {
+  .company-hiring {
+    $size: 72px;
+
+    color: #fff;
+    display: inline-block;
+    height: $size;
+    position: absolute;
+    width: $size;
+    right: 0;
+    top: 0;
+
+    &:before {
+      border: $size/2 solid $theme-red;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+      content: ' ';
+      height: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: border 0.3s linear;
+      width: 0;
+
+      &:hover {
+        $darken-color: darken($theme-red, 10%);
+        border-right-color: $darken-color;
+        border-top-color: $darken-color;
+      }
+    }
+
+    .hiring-icon {
+      $offset: 10px;
+
+      position: absolute;
+      top: $offset;
+      right: $offset;
+    }
+  }
+
+  .company-name {
     color: $theme-black;
     margin-bottom: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
-  .address {
+  .company-address {
     color: $theme-gray;
-    margin-bottom: 5px;
-  }
-
-  .hiring {
-    min-height: 22px;
-    margin-top: 10px;
-    text-align: right;
-
-    @media (max-width: 768px) {
-      text-align: center;
-    }
+    height: 2em;
+    margin-bottom: 15px;
   }
 }

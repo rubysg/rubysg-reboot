@@ -3,23 +3,23 @@
     h2.section-heading Singapore Companies using Ruby
     .row
       - @companies.each do |company|
-        .col-sm-8.col-sm-offset-2.company-wrapper
+        .col-sm-6.company-wrapper
           .company
+            - if company.hiring_url.present?
+              = link_to company.hiring_url, class: 'company-hiring', target: '_blank'
+                i.fa.fa-2x.fa-briefcase.hiring-icon
             .row
               .col-sm-3
                 .website
                   = link_to company.website, target: '_blank' do
-                    .logo
+                    .company-logo
                       = image_tag company.logo_url
-              .col-sm-6
-                .name
+              .col-sm-9
+                .company-name
                   = company.name
                 .address-contact.small
-                  .address
+                  .company-address
                     = company.address
                   .contact.text-muted
                     = company.email
               .col-sm-2.col-sm-offset-1
-                - if company.hiring_url.present?
-                  .hiring
-                    = link_to 'Hiring', company.hiring_url, class: 'btn btn-primary', target: '_blank'
