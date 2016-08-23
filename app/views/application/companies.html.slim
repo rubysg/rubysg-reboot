@@ -3,18 +3,16 @@
     h2.section-heading Singapore Companies using Ruby
     .row
       - @companies.each do |company|
-        .col-sm-6.company-wrapper
+        .col-md-6.company-wrapper
           .company
             - if company.hiring_url.present?
               = link_to company.hiring_url, class: 'company-hiring', target: '_blank'
                 i.fa.fa-2x.fa-briefcase.hiring-icon
-            .row
-              .col-sm-3
-                .website
-                  = link_to company.website, target: '_blank' do
-                    .company-logo
-                      = image_tag company.logo_url
-              .col-sm-9
+            .media
+              .media-left
+                = link_to company.website, target: '_blank' do
+                  .media-object.company-logo style='background-image: url(#{company.logo_url})'
+              .media-body
                 .company-name
                   = company.name
                 .address-contact.small
@@ -22,4 +20,3 @@
                     = company.address
                   .contact.text-muted
                     = company.email
-              .col-sm-2.col-sm-offset-1
