@@ -260,3 +260,10 @@
   address:    '6 Jiak Chuan Road, Singapore 089262'
   hiring_url: 
   email:      'dev@guavapass.com'
+-
+  name:       'Mimetic.ai'
+  website:    'https://www.mimetic.ai/'
+  logo_url:   nil
+  address:    '79 Ayer Rajah Crescent, #04-09, Singapore 139955'
+  hiring_url: 
+  email:      'hello@mimetic.ai'
