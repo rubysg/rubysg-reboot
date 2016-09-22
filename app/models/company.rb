@@ -7,7 +7,8 @@ class Company
     :logo_url,
     :address,
     :hiring_url,
-    :email
+    :email,
+    :contribution_count
   )
 
   validates_presence_of(
@@ -18,7 +19,11 @@ class Company
     :email
   )
 
+  def supporter?
+    contribution_count.to_i > 1
+  end
+
   def self.all
-    RubysgReboot::COMPANIES.map { |company| Company.new(company) }.sort_by {|company| company.name.downcase }
+    RubysgReboot::COMPANIES.map { |company| Company.new(company) }.sort_by { |company| company.name.downcase }
   end
 end

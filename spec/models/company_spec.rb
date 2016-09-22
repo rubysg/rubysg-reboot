@@ -21,11 +21,27 @@ RSpec.describe Company do
     end
   end
 
-  context "validates company list" do
-    it "has valid companies" do
+  context 'validates company list' do
+    it 'has valid companies' do
       Company.all.each do |company|
-        expect(company.valid?).to be_truthy, "#{company.name} is invalid: #{company.errors.full_messages}"
+        expect(company).to be_valid, "#{company.name} is invalid: #{company.errors.full_messages}"
       end
+    end
+  end
+
+  describe '#supporter?' do
+    let(:company) { Company.new(contribution_count: contribution_count) }
+
+    context 'with a supporting company' do
+      let(:contribution_count) { 2 }
+
+      it { expect(company.supporter?).to be_truthy }
+    end
+
+    context 'with a non-supporting company' do
+      let(:contribution_count) { 1 }
+
+      it { expect(company.supporter?).to be_falsey }
     end
   end
 end
