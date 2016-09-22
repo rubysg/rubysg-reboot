@@ -258,12 +258,19 @@
   website:    'https://www.guavapass.com/'
   logo_url:   'https://guavapass.com/assets/logo-inline-c9bafea65accd8b5a66a037de79623e3.png'
   address:    '6 Jiak Chuan Road, Singapore 089262'
-  hiring_url: 
+  hiring_url:
   email:      'dev@guavapass.com'
 -
   name:       'Mimetic.ai'
   website:    'https://www.mimetic.ai/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1900876/18735402/2874b954-80b0-11e6-98b2-d4bfa99ea7be.png'
   address:    '79 Ayer Rajah Crescent, #04-09, Singapore 139955'
-  hiring_url: 
+  hiring_url:
   email:      'hello@mimetic.ai'
+-
+  name:       'Pocketmath'
+  website:    'https://www.pocketmath.com/'
+  logo_url:   'https://s3.amazonaws.com/mail.pocketmath.com/pm_icon.svg'
+  address:    '883 North Bridge Road, Southbank #17-05, Singapore 198785'
+  hiring_url: 'http://www.pocketmath.com/careers'
+  email:      'frederic@pocketmath.com'
