@@ -23,16 +23,4 @@ RSpec.describe ApplicationController do
       end
     end
   end
-
-  describe '#companies' do
-    def do_request
-      get :companies
-    end
-
-    it 'is successful' do
-      do_request
-
-      expect(response).to be_success
-    end
-  end
 end
