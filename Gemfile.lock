@@ -192,7 +192,7 @@ GEM
       rspec-mocks (~> 3.5.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
-    ruby_dep (1.4.0)
+    ruby_dep (1.5.0)
     runtimeerror_notifier (0.0.27)
       actionmailer
       actionpack
