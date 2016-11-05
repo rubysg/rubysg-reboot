@@ -36,7 +36,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
     arel (6.0.3)
     autoprefixer-rails (6.5.1.1)
       execjs
@@ -134,6 +135,7 @@ GEM
       slop (~> 3.4)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
+    public_suffix (2.0.3)
     puma (3.6.0)
     rack (1.6.4)
     rack-livereload (0.3.16)
