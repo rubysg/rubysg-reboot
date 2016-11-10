@@ -157,11 +157,11 @@
   email:      'hello@flowhero.io'
 -
   name:       'GDS @ Hive'
-  website:    'https://github.com/idagds'
+  website:    'https://gds-gov.tech/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1000669/10274777/c94e7318-6b73-11e5-869a-fb6eb4ad807f.jpg'
   address:    'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577'
-  hiring_url: 'mailto:hiring@ida-gds.com'
-  email:      'hiring@ida-gds.com'
+  hiring_url: 'https://gds-gov.tech/careers/'
+  email:      'hiring@gds-gov.tech'
   contribution_count: 2
 -
   name:       'ThoughtWorks'
