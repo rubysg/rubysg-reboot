@@ -72,7 +72,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.2.0.1)
+    eventmachine (1.2.1)
     execjs (2.7.0)
     ffi (1.9.14)
     font-awesome-sass (4.7.0)
