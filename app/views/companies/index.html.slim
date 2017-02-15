@@ -1,0 +1,11 @@
+.container
+  .section
+    - @companies.group_by(&:supporter?).reverse_each do |supporter, companies|
+      - if supporter
+        h2.section-heading We #{icon :heart} Sharing
+        p.text-center These #{companies.size} companies have sponsored at least two local meetups this year with venue, food, or talks.
+      - else
+        h2.section-heading More Companies Using Ruby
+
+      .row
+        = render companies

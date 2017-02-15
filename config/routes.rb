@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'application#index'
-  get  :companies, to: 'application#companies'
 
+  resources :companies, only: [:index]
   resources :invitations, only: [:create]
 end

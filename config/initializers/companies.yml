@@ -30,13 +30,15 @@
   address:    '128 Prinsep Street, Singapore 188655'
   hiring_url:
   email:      'hello@jollygoodcode.com'
+  contribution_count: 2
 -
   name:       'Tinkerbox Studios'
   website:    'http://www.tinkerbox.com.sg'
   logo_url:   'https://cloud.githubusercontent.com/assets/5259935/10227563/a7f46946-68a0-11e5-9167-e0c6636e4329.png'
   address:    '113b Jalan Besar, Singapore 208833'
-  hiring_url: 'mailto:jaryl@tinkerbox.com.sg'
+  hiring_url: 'https://www.tinkerbox.com.sg/careers'
   email:      'info@tinkerbox.com.sg'
+  contribution_count: 4
 -
   name:       'Ruckus Wireless'
   website:    'http://www.ruckuswireless.com'
@@ -44,6 +46,7 @@
   address:    '1 Fusionopolis View, #09-02 Sandcrawler, Singapore 138577'
   hiring_url: 'http://www.ruckuswireless.com/careers'
   email:      'info@ruckuswireless.com'
+  contribution_count: 2
 -
   name:       'HomeAway Asia'
   website:    'http://www.homeaway.asia'
@@ -86,6 +89,7 @@
   address:    '53 Craig Road, #02-00, Singapore 089691'
   hiring_url: 'http://pivotal.io/careers/engineering'
   email:      'ashenoy@pivotal.io'
+  contribution_count: 2
 -
   name:       'Cantab IP'
   website:    'https://www.cantab-ip.com/'
@@ -100,6 +104,7 @@
   address:    '285 Ghim Moh Road Singapore 279622'
   hiring_url: 'mailto:hello@estl.moe'
   email:      'hello@estl.moe'
+  contribution_count: 2
 -
   name:       'TradeGecko'
   website:    'https://www.tradegecko.com'
@@ -107,6 +112,7 @@
   address:    '121 Telok Ayer St, 068590'
   hiring_url: 'https://www.tradegecko.com/jobs'
   email:      'hello@tradegecko.com'
+  contribution_count: 1
 -
   name:       'Viki'
   website:    'https://www.viki.com/'
@@ -127,6 +133,7 @@
   address:    '138 Cecil Street, #01-01 Cecil Court, Singapore 069538'
   hiring_url: 'https://grab.careers'
   email:      'careers@grab.com'
+  contribution_count: 3
 -
   name:       'Beanstack'
   website:    'http://www.beanstack.sg/'
@@ -150,11 +157,12 @@
   email:      'hello@flowhero.io'
 -
   name:       'GDS @ Hive'
-  website:    'https://github.com/idagds'
+  website:    'https://gds-gov.tech/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1000669/10274777/c94e7318-6b73-11e5-869a-fb6eb4ad807f.jpg'
   address:    'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577'
-  hiring_url: 'mailto:hiring@ida-gds.com'
-  email:      'hiring@ida-gds.com'
+  hiring_url: 'https://gds-gov.tech/careers/'
+  email:      'hiring@gds-gov.tech'
+  contribution_count: 2
 -
   name:       'ThoughtWorks'
   website:    'http://www.thoughtworks.com'
@@ -211,6 +219,7 @@
   address:    '2 Alexandra Road, #04-01B, Singapore 159919'
   hiring_url: 'http://honestbee.workable.com/'
   email:      'edmund.yee@honestbee.com'
+  contribution_count: 2
 -
   name:       'Kaligo'
   website:    'https://www.kaligo.com'
@@ -218,6 +227,7 @@
   address:    '36B Mosque Street, Singapore 059514'
   hiring_url: 'http://sg.startupjobs.asia/sg/company/1479-kaligo-singapore'
   email:      'greg@kaligo.com'
+  contribution_count: 3
 -
   name:       'SMART Centre'
   website:    'http://smart.mit.edu'
@@ -239,6 +249,7 @@
   address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964'
   hiring_url: 'https://jobs.lever.co/srcclr/'
   email:      'hello@srcclr.com'
+  contribution_count: 1
 -
   name:       'Grain'
   website:    'https://grain.com.sg'
@@ -260,6 +271,7 @@
   address:    '6 Jiak Chuan Road, Singapore 089262'
   hiring_url:
   email:      'dev@guavapass.com'
+  contribution_count: 1
 -
   name:       'Mimetic.ai'
   website:    'https://www.mimetic.ai/'
@@ -274,3 +286,4 @@
   address:    '883 North Bridge Road, Southbank #17-05, Singapore 198785'
   hiring_url: 'http://www.pocketmath.com/careers'
   email:      'frederic@pocketmath.com'
+  contribution_count: 1
