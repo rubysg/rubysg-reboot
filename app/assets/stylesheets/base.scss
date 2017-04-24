@@ -110,6 +110,10 @@
       background-image: image-url('meetup-3.jpg');
     }
 
+    &.conference-img-1 {
+      background-image: image-url('conference-1.jpg');
+    }
+
     @media (max-width: 400px) {
       height: 250px;
     }
