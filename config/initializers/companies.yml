@@ -294,3 +294,10 @@
   address:    '2A Pahang Street 02-00, Singapore 198604'
   hiring_url: 'http://www.getperx.com/careers/'
   email:      'jobs@getperx.com'
+-
+  name:       'EngageRocket'
+  website:    'http://www.engagerocket.co'
+  logo_url:   'https://user-images.githubusercontent.com/5259935/29824397-c3b15f02-8cd1-11e7-88a1-7c4831272fb5.jpg'
+  address:    '10 Raeburn Park, Singapore 088702'
+  hiring_url: 'https://engagerocket.co/senior-developer'
+  email:      'hello@engagerocket.co'
