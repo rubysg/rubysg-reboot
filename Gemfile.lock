@@ -117,13 +117,13 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.3)
     multi_json (1.12.2)
     multi_xml (0.6.0)
     nenv (0.3.0)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -268,7 +268,7 @@ DEPENDENCIES
   guard-livereload
   httparty
   jquery-rails
-  nokogiri (>= 1.6.8)
+  nokogiri (>= 1.8.1)
   pg
   pry-rails
   puma
@@ -288,9 +288,7 @@ DEPENDENCIES
   uglifier
   webmock
 
-
 RUBY VERSION
    ruby 2.4.0p0
-
 BUNDLED WITH
    1.13.7

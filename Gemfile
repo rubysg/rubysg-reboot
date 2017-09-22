@@ -46,6 +46,6 @@ group :test do
   gem 'webmock'
 end
 
-gem 'nokogiri', '>= 1.6.8'
+gem 'nokogiri', '>= 1.8.1'
 
 gem 'rails-html-sanitizer', '~> 1.0.3'
