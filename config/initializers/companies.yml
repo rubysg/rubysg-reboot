@@ -214,12 +214,12 @@
   email:      'edmund.yee@honestbee.com'
   contribution_count: 2
 -
-  name:       'Kaligo'
-  website:    'https://www.kaligo.com'
-  logo_url:   'https://d2xr67b5foriew.cloudfront.net/assets/images/scb/kaligo-logo-red-black.png'
-  address:    '36B Mosque Street, Singapore 059514'
-  hiring_url: 'http://sg.startupjobs.asia/sg/company/1479-kaligo-singapore'
-  email:      'greg@kaligo.com'
+  name:       'Kaligo Solutions'
+  website:    'http://www.kaligosolutions.com'
+  logo_url:   'https://d2xr67b5foriew.cloudfront.net/assets/images/kaligo_vertical_350.png'
+  address:    '298 Jalan Besar, #03-01, Singapore 208959'
+  hiring_url: 'http://engineering.kaligo.com'
+  email:      'tech-careers@kaligo.com'
   contribution_count: 3
 -
   name:       'SMART Centre'
