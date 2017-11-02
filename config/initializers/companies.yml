@@ -7,11 +7,12 @@
 # 4. Address of Company
 #   - In the future, we might be able to map all companies onto a map!
 # 5. Hiring URL
-#   - If you are hiring, add the link to the JD, otherwise, set as `nil`.
+#   - If you are hiring, add the link to the job description / hiring page. Otherwise, set as `nil`.
 # 6. Email
-#   - A generic company email
+#   - Company/hiring contact email
 #
-# *Do not worry about the order as the list will be sorted alphabetically.*
+# *Companies who have sponsored community meet-ups and/or provided speakers will be prioritised*
+# *Companies with recently updated information will be shown first - maintainers will curate the list for fairness*
 #
 # Notes:
 #
@@ -30,13 +31,12 @@
   address:    '128 Prinsep Street, Singapore 188655'
   hiring_url:
   email:      'hello@jollygoodcode.com'
-  contribution_count: 2
 -
   name:       'Tinkerbox Studios'
   website:    'http://www.tinkerbox.com.sg'
   logo_url:   'https://cloud.githubusercontent.com/assets/5259935/10227563/a7f46946-68a0-11e5-9167-e0c6636e4329.png'
   address:    '113b Jalan Besar, Singapore 208833'
-  hiring_url: 'https://www.tinkerbox.com.sg/careers'
+  hiring_url:
   email:      'info@tinkerbox.com.sg'
   contribution_count: 4
 -
@@ -44,15 +44,15 @@
   website:    'http://www.ruckuswireless.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/761959/10251882/860e1cca-6966-11e5-9f25-3402a189a7f9.png'
   address:    '1 Fusionopolis View, #09-02 Sandcrawler, Singapore 138577'
-  hiring_url: 'http://www.ruckuswireless.com/careers'
+  hiring_url:
   email:      'info@ruckuswireless.com'
-  contribution_count: 2
+  contribution_count: 1
 -
   name:       'HomeAway Asia'
   website:    'http://www.homeaway.asia'
   logo_url:   'https://cloud.githubusercontent.com/assets/1900876/10238424/27472246-68f2-11e5-9d23-bc5d2e2c71e5.png'
   address:    '83 Clemenceau Ave, #17-05 UE Square, Singapore 239920'
-  hiring_url: 'mailto:jobs@homeaway.asia'
+  hiring_url:
   email:      'devel@homeaway.asia'
 -
   name:       'The Cubiclerebels'
@@ -66,7 +66,7 @@
   website:    'http://www.referralcandy.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/164703/10238307/6ab81ed8-68f0-11e5-8ac2-77520d02a639.png'
   address:    'Block 71 Ayer Rajah Crescent, #06-26, Singapore 139951'
-  hiring_url: 'http://www.referralcandy.com/jobs'
+  hiring_url:
   email:      'engineering+welcome@referralcandy.com'
 -
   name:       'The Commissioned'
@@ -80,9 +80,8 @@
   website:    'http://pivotal.io/'
   logo_url:   'https://cloud.githubusercontent.com/assets/578958/16254360/b158170c-3871-11e6-9849-74d9f8c455fc.png'
   address:    '53 Craig Road, #02-00, Singapore 089691'
-  hiring_url: 'http://pivotal.io/careers/engineering'
+  hiring_url:
   email:      'ashenoy@pivotal.io'
-  contribution_count: 2
 -
   name:       'Cantab IP'
   website:    'https://www.cantab-ip.com/'
@@ -95,24 +94,24 @@
   website:    'https://estl.tech/'
   logo_url:   'https://cloud.githubusercontent.com/assets/4353853/10241116/308a4200-6917-11e5-822a-22ffef56f44f.png'
   address:    '285 Ghim Moh Road Singapore 279622'
-  hiring_url: 'mailto:hello@estl.moe'
+  hiring_url:
   email:      'hello@estl.moe'
-  contribution_count: 2
 -
   name:       'TradeGecko'
   website:    'https://www.tradegecko.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/701246/10245604/a935a360-693b-11e5-83b0-f61ce1894330.png'
   address:    '121 Telok Ayer St, 068590'
-  hiring_url: 'https://www.tradegecko.com/jobs'
+  hiring_url:
   email:      'hello@tradegecko.com'
-  contribution_count: 1
+  contribution_count: 5
 -
   name:       'Viki'
   website:    'https://www.viki.com/'
   logo_url:   'https://cloud.githubusercontent.com/assets/2296/10248847/b75b58fe-6954-11e5-8b27-d9000f8febc3.png'
   address:    '138 Market Street, #32-01 CapitaGreen, Singapore 048946'
-  hiring_url: 'https://www.viki.com/jobs'
+  hiring_url:
   email:      'engineering@viki.com'
+  contribution_count: 5
 -
   name:       'ShopVenture'
   website:    'https://www.shopventure.com/'
@@ -124,9 +123,8 @@
   website:    'https://www.grab.com'
   logo_url:   'https://avatars2.githubusercontent.com/u/2368682?v=3&s=512'
   address:    '138 Cecil Street, #01-01 Cecil Court, Singapore 069538'
-  hiring_url: 'https://grab.careers'
+  hiring_url:
   email:      'careers@grab.com'
-  contribution_count: 3
 -
   name:       'Beanstack'
   website:    'http://www.beanstack.sg/'
@@ -153,29 +151,28 @@
   website:    'https://gds-gov.tech/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1000669/10274777/c94e7318-6b73-11e5-869a-fb6eb4ad807f.jpg'
   address:    'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577'
-  hiring_url: 'https://gds-gov.tech/careers/'
+  hiring_url:
   email:      'hiring@gds-gov.tech'
-  contribution_count: 2
 -
   name:       'ThoughtWorks'
   website:    'http://www.thoughtworks.com'
   logo_url:   'http://www.thoughtworks.com/imgs/tw-logo.png'
   address:    '87B Amoy Street, Singapore 069906'
-  hiring_url: 'https://www.thoughtworks.com/careers'
+  hiring_url:
   email:      'join-sg@thoughtworks.com'
 -
   name:       'NCS Pte Ltd'
   website:    'http://ncs.com.sg/'
   logo_url:   'http://info.singtel.com/sites/default/files/about-us/NCS.png'
   address:    '5 Ang Mo Kio Street 62. NCS Hub Singapore 569141'
-  hiring_url: 'http://surfnation.net/'
+  hiring_url:
   email:      'agilepractice@ncs.com.sg'
 -
   name:       'Aureso'
   website:    'http://www.aureso.com'
   logo_url:   'https://s3.postimg.org/blelc6iqb/13427793_534811873395141_8229663433544113851_n.png'
   address:    '59 Kampong Bahru Road, #02-03, Singapore 169367'
-  hiring_url: 'http://www.aureso.com/career'
+  hiring_url:
   email:      'team@aureso.com'
 -
   name:       'Futureworkz'
@@ -189,14 +186,14 @@
   website:    'http://www.luxola.com'
   logo_url:   'http://s0.luxola.com/assets/lx_logo_v4-67a12b178642e18c0cbad1f51a01b600.png'
   address:    '217 Henderson Road, #01-10, Singapore 159555'
-  hiring_url: 'http://www.luxola.com/jobs'
+  hiring_url:
   email:      'contact@luxola.com'
 -
   name:       'ProperHands'
   website:    'http://www.properhands.com'
   logo_url:   'http://properhands.com/assets/properhands-logo.png'
   address:    '261 Waterloo St, #03-32, Waterloo Centre, Singapore 180261'
-  hiring_url: 'http://www.startupjobs.asia/company/2085-properhands-singapore'
+  hiring_url:
   email:      'contact@properhands.com'
 -
   name:       'Ricoh Singapore'
@@ -210,9 +207,9 @@
   website:    'https://www.honestbee.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/12945452/10658532/765e7e3c-78ca-11e5-8090-892ec9912f19.png'
   address:    '2 Alexandra Road, #04-01B, Singapore 159919'
-  hiring_url: 'http://honestbee.workable.com/'
+  hiring_url:
   email:      'edmund.yee@honestbee.com'
-  contribution_count: 2
+  contribution_count: 1
 -
   name:       'Kaligo Solutions'
   website:    'http://www.kaligosolutions.com'
@@ -220,42 +217,41 @@
   address:    '298 Jalan Besar, #03-01, Singapore 208959'
   hiring_url: 'http://engineering.kaligo.com'
   email:      'tech-careers@kaligo.com'
-  contribution_count: 3
+  contribution_count: 6
 -
   name:       'SMART Centre'
   website:    'http://smart.mit.edu'
   logo_url:   'https://cloud.githubusercontent.com/assets/15645205/10930156/95eef638-82f6-11e5-9a55-3a1199222cf6.png'
   address:    '1 CREATE Way, #10-01 CREATE Tower, Singapore 138602'
-  hiring_url: 'http://smart.mit.edu/jobs-at-smart/current-open-positions/article/299-software-engineer-smart-phone-based-travel-survey-.html'
+  hiring_url:
   email:      'fang.zhao@smart.mit.edu'
 -
   name:       'Canopy'
   website:    'https://canopy.sg'
   logo_url:   'https://goo.gl/ipIzwe'
   address:    '7 Kim Yam Road, Singapore 239323'
-  hiring_url: 'mailto:admin@mesitis.com?subject=I%20can%20help%20you%20write%20better%20Ruby!'
+  hiring_url:
   email:      'admin@mesitis.com'
 -
   name:       'SourceClear'
   website:    'https://srcclr.com'
   logo_url:   'https://srcclr.com/images/srcclr__logo--primary-grey.png'
   address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964'
-  hiring_url: 'https://jobs.lever.co/srcclr/'
+  hiring_url:
   email:      'hello@srcclr.com'
-  contribution_count: 1
 -
   name:       'Grain'
   website:    'https://grain.com.sg'
   logo_url:   'https://grain.com.sg/grain.png'
   address:    '5 Burn Road, #05-01, Singapore 369972'
-  hiring_url: 'https://grain.com.sg/jobs'
+  hiring_url:
   email:      'hello@grain.com.sg'
 -
   name:       'Mobile Market Monitor'
   website:    'https://www.mobilemarketmonitor.com/'
   logo_url:   'https://www.mobilemarketmonitor.com/assets/images/mmm-logo.png'
   address:    '75 High Street, Singapore 179435'
-  hiring_url: 'mailto:jorge@mobilemarketmonitor.com'
+  hiring_url:
   email:      'support@mobilemarketmonitor.com'
 -
   name:       'GuavaPass'
@@ -272,32 +268,34 @@
   address:    '79 Ayer Rajah Crescent, #04-09, Singapore 139955'
   hiring_url:
   email:      'hello@mimetic.ai'
+  contribution_count: 1
 -
   name:       'Pocketmath'
   website:    'https://www.pocketmath.com/'
   logo_url:   'https://s3.amazonaws.com/mail.pocketmath.com/pm_icon.svg'
   address:    '883 North Bridge Road, Southbank #17-05, Singapore 198785'
-  hiring_url: 'http://www.pocketmath.com/careers'
+  hiring_url:
   email:      'frederic@pocketmath.com'
-  contribution_count: 1
+  contribution_count: 4
 -
   name:       'Perx Technologies'
   website:    'https://www.getperx.com'
   logo_url:   'http://www.getperx.com/wp-content/themes/_tk-master/includes/images/perx-logo.png'
   address:    '2A Pahang Street 02-00, Singapore 198604'
-  hiring_url: 'http://www.getperx.com/careers/'
+  hiring_url:
   email:      'jobs@getperx.com'
 -
   name:       'EngageRocket'
   website:    'http://www.engagerocket.co'
   logo_url:   'https://user-images.githubusercontent.com/5259935/29824397-c3b15f02-8cd1-11e7-88a1-7c4831272fb5.jpg'
   address:    '10 Raeburn Park, Singapore 088702'
-  hiring_url: 'https://engagerocket.co/senior-developer'
+  hiring_url:
   email:      'hello@engagerocket.co'
 -
   name:       'MoneySmart'
   website:    'https://www.moneysmart.co/'
   logo_url:   'https://user-images.githubusercontent.com/655963/32009258-2c19651c-b9e1-11e7-9a38-4d36ff861769.png'
   address:    '115A Commonwealth Drive #05-01, Singapore 149596'
-  hiring_url: 'https://www.moneysmart.co/jobs'
+  hiring_url:
   email:      'richa.vandergill@moneysmart.co'
+  contribution_count: 1
