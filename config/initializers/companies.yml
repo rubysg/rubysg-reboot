@@ -1,28 +1,4 @@
-# Add your company details in the following format:
-#
-# 1. Name of Company
-# 2. Website of Company
-# 3. Logo URL (max height 100px)
-#   - Tip: Issue a Pull Request on GitHub, add your logo to the PR's description and use the GitHub link.
-# 4. Address of Company
-#   - In the future, we might be able to map all companies onto a map!
-# 5. Hiring URL
-#   - If you are hiring, add the link to the job description / hiring page. Otherwise, set as `nil`.
-# 6. Email
-#   - Company/hiring contact email
-#
-# *Companies who have sponsored community meet-ups and/or provided speakers will be prioritised*
-# *Companies with recently updated information will be shown first - maintainers will curate the list for fairness*
-#
-# Notes:
-#
-# - Use single quotes
-# - Align hash values so that it's easier to scan
-#
-# After you are done, please run specs with `rspec`.
-#
-# There are basic specs that validate the integrity of of the company list
-# and so if specs fail, please fix the errors before issuing a Pull Request.
+# Please refer to [README.md](https://github.com/rubysg/rubysg-reboot/blob/master/README.md) for the guidelines
 
 -
   name:       'Jolly Good Code'
@@ -289,13 +265,13 @@
   website:    'http://www.engagerocket.co'
   logo_url:   'https://user-images.githubusercontent.com/5259935/29824397-c3b15f02-8cd1-11e7-88a1-7c4831272fb5.jpg'
   address:    '10 Raeburn Park, Singapore 088702'
-  hiring_url:
+  hiring_url: 'https://engagerocket.co/senior-developer'
   email:      'hello@engagerocket.co'
 -
   name:       'MoneySmart'
   website:    'https://www.moneysmart.co/'
   logo_url:   'https://user-images.githubusercontent.com/655963/32009258-2c19651c-b9e1-11e7-9a38-4d36ff861769.png'
   address:    '115A Commonwealth Drive #05-01, Singapore 149596'
-  hiring_url:
+  hiring_url: 'https://www.moneysmart.co/jobs'
   email:      'richa.vandergill@moneysmart.co'
   contribution_count: 1
