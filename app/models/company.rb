@@ -20,7 +20,7 @@ class Company
   )
 
   def supporter?
-    contribution_count.to_i > 1
+    contribution_count.to_i >= 1
   end
 
   def self.all

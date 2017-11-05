@@ -1,11 +1,10 @@
 .container
   .section
-    - @companies.group_by(&:supporter?).reverse_each do |supporter, companies|
-      - if supporter
-        h2.section-heading We #{icon :heart} Sharing
-        p.text-center These companies have sponsored Ruby meetups (venue or food) and/or provided speakers. Thank you!
-      - else
-        h2.section-heading More Companies Using Ruby
+    h2.section-heading Our Community Supporters! Thank you! #{icon :heart}
+    p.text-center These companies have recently sponsored RubySG meetups and/or provided speakers
+    .row
+      = render @supporter_companies, partial: 'company'
 
-      .row
-        = render companies
+    h2.section-heading More Companies Using Ruby
+    .row
+      = render @other_companies, partial: 'company'
