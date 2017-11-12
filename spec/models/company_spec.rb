@@ -39,7 +39,7 @@ RSpec.describe Company do
     end
 
     context 'with a non-supporting company' do
-      let(:contribution_count) { 1 }
+      let(:contribution_count) { 0 }
 
       it { expect(company.supporter?).to be_falsey }
     end
