@@ -10,24 +10,13 @@ RSpec.describe Company do
   end
 
   describe '#all' do
-    let(:company_a) { double(:company_a, name: 'abc', updated_on: '2016-01-01') }
-    let(:company_b) { double(:company_b, name: 'xyz', updated_on: '2016-01-01') }
-    let(:company_c) { double(:company_c, name: 'MNO', updated_on: '2017-01-01') }
-    let(:company_d) { double(:company_d, name: 'MNO', updated_on: '2017-01-02') }
+    let(:company_a) { Company.new(name: 'abc', updated_on: '2016-01-01') }
+    let(:company_b) { Company.new(name: 'xyz', updated_on: '2016-01-01') }
+    let(:company_c) { Company.new(name: 'MNO', updated_on: '2017-01-01') }
+    let(:company_d) { Company.new(name: 'MNO', updated_on: '2017-01-02') }
 
     it 'sorts by updated_on descending, then name ascending (ignore case)' do
       expect(RubysgReboot::COMPANIES).to receive(:map) { [company_a, company_b, company_c, company_d] }
-
-      # stub 'company' test doubles to respond to :<=> method for custom sort
-      allow(company_a).to receive(:<=>).with(company_b).and_return(-1)
-      allow(company_a).to receive(:<=>).with(company_c).and_return(1)
-      allow(company_a).to receive(:<=>).with(company_d).and_return(1)
-
-      allow(company_b).to receive(:<=>).with(company_c).and_return(1)
-      allow(company_b).to receive(:<=>).with(company_d).and_return(1)
-
-      allow(company_c).to receive(:<=>).with(company_d).and_return(1)
-
       expect(Company.all).to eq [company_d, company_c, company_a, company_b]
     end
   end
