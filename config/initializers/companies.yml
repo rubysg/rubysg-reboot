@@ -7,7 +7,7 @@
   address:    '128 Prinsep Street, Singapore 188655'
   hiring_url:
   email:      'hello@jollygoodcode.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Tinkerbox Studios'
   website:    'http://www.tinkerbox.com.sg'
@@ -15,7 +15,7 @@
   address:    '113b Jalan Besar, Singapore 208833'
   hiring_url:
   email:      'info@tinkerbox.com.sg'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 4
 -
   name:       'Ruckus Wireless'
@@ -24,7 +24,7 @@
   address:    '1 Fusionopolis View, #09-02 Sandcrawler, Singapore 138577'
   hiring_url:
   email:      'info@ruckuswireless.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 1
 -
   name:       'HomeAway Asia'
@@ -33,7 +33,7 @@
   address:    '83 Clemenceau Ave, #17-05 UE Square, Singapore 239920'
   hiring_url:
   email:      'devel@homeaway.asia'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'The Cubiclerebels'
   website:    'http://cubiclerebels.com'
@@ -41,7 +41,7 @@
   address:    '13 Lorong 24A Geylang, Singapore 398537'
   hiring_url:
   email:      'team@cubiclerebels.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'ReferralCandy'
   website:    'http://www.referralcandy.com'
@@ -49,7 +49,7 @@
   address:    'Block 71 Ayer Rajah Crescent, #06-26, Singapore 139951'
   hiring_url:
   email:      'engineering+welcome@referralcandy.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'The Commissioned'
   website:    'https://www.thecommissioned.com/'
@@ -57,7 +57,7 @@
   address:    '79 Ayer Rajah Crescent, #04-04, Singapore 139955'
   hiring_url:
   email:      'hello@thecommissioned.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Pivotal Labs'
   website:    'http://pivotal.io/'
@@ -65,7 +65,7 @@
   address:    '53 Craig Road, #02-00, Singapore 089691'
   hiring_url:
   email:      'ashenoy@pivotal.io'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Cantab IP'
   website:    'https://www.cantab-ip.com/'
@@ -73,7 +73,7 @@
   address:    'VBox 881846, Singapore 919191'
   hiring_url:
   email:      'mail@cantab-ip.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'ESTL'
   website:    'https://estl.tech/'
@@ -81,7 +81,7 @@
   address:    '285 Ghim Moh Road Singapore 279622'
   hiring_url:
   email:      'hello@estl.moe'
-  updated_at: '2017-10-01'
+  updated_on: '2017-10-01'
 -
   name:       'TradeGecko'
   website:    'https://www.tradegecko.com'
@@ -89,7 +89,7 @@
   address:    '121 Telok Ayer St, 068590'
   hiring_url:
   email:      'hello@tradegecko.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 5
 -
   name:       'Viki'
@@ -98,7 +98,7 @@
   address:    '138 Market Street, #32-01 CapitaGreen, Singapore 048946'
   hiring_url:
   email:      'engineering@viki.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 5
 -
   name:       'ShopVenture'
@@ -106,7 +106,7 @@
   logo_url:   'https://avatars0.githubusercontent.com/u/9315550?v=3&s=100'
   address:    '101C Telok Ayer Street, #04-00 Singapore 068574'
   email:      'support@shopventure.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Grab'
   website:    'https://www.grab.com'
@@ -114,7 +114,7 @@
   address:    '138 Cecil Street, #01-01 Cecil Court, Singapore 069538'
   hiring_url:
   email:      'careers@grab.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Beanstack'
   website:    'http://www.beanstack.sg/'
@@ -122,7 +122,7 @@
   address:    '2 Bukit Batok St 24 #04-05 Singapore 659480'
   hiring_url:
   email:      'hello@beanstack.sg'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Rubify Technology'
   website:    'http://www.rubify.com/'
@@ -130,7 +130,7 @@
   address:    '300 Tampines Avenue 5, #09-02 Singapore 529653'
   hiring_url:
   email:      'hello@rubify.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Flowhero Labs'
   website:    'http://www.flowhero.io/'
@@ -138,7 +138,7 @@
   address:    '8 Burn Road, #15-13 Trivex, Singapore 369977'
   hiring_url:
   email:      'hello@flowhero.io'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'GDS @ Hive'
   website:    'https://gds-gov.tech/'
@@ -146,7 +146,7 @@
   address:    'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577'
   hiring_url:
   email:      'hiring@gds-gov.tech'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'ThoughtWorks'
   website:    'http://www.thoughtworks.com'
@@ -154,7 +154,7 @@
   address:    '87B Amoy Street, Singapore 069906'
   hiring_url:
   email:      'join-sg@thoughtworks.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'NCS Pte Ltd'
   website:    'http://ncs.com.sg/'
@@ -162,7 +162,7 @@
   address:    '5 Ang Mo Kio Street 62. NCS Hub Singapore 569141'
   hiring_url:
   email:      'agilepractice@ncs.com.sg'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Aureso'
   website:    'http://www.aureso.com'
@@ -170,7 +170,7 @@
   address:    '59 Kampong Bahru Road, #02-03, Singapore 169367'
   hiring_url:
   email:      'team@aureso.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Futureworkz'
   website:    'http://www.futureworkz.com'
@@ -178,7 +178,7 @@
   address:    '3 Fusionopolis Place #03-55 Singapore 138523'
   hiring_url:
   email:      'hello@futureworkz.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Luxola'
   website:    'http://www.luxola.com'
@@ -186,7 +186,7 @@
   address:    '217 Henderson Road, #01-10, Singapore 159555'
   hiring_url:
   email:      'contact@luxola.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'ProperHands'
   website:    'http://www.properhands.com'
@@ -194,7 +194,7 @@
   address:    '261 Waterloo St, #03-32, Waterloo Centre, Singapore 180261'
   hiring_url:
   email:      'contact@properhands.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Ricoh Singapore'
   website:    'http://www.ricoh.sg/'
@@ -202,7 +202,7 @@
   address:    '20W Pasir Panjang Road #04-28 Mapletree Business City Singapore 117439'
   hiring_url:
   email:      'rspapps@ricoh.sg'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'honestbee'
   website:    'https://www.honestbee.com'
@@ -210,7 +210,7 @@
   address:    '2 Alexandra Road, #04-01B, Singapore 159919'
   hiring_url:
   email:      'edmund.yee@honestbee.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 1
 -
   name:       'Kaligo Solutions'
@@ -219,7 +219,7 @@
   address:    '298 Jalan Besar, #03-01, Singapore 208959'
   hiring_url: 'http://engineering.kaligo.com'
   email:      'tech-careers@kaligo.com'
-  updated_at: '2017-10-05'
+  updated_on: '2017-10-05'
   contribution_count: 6
 -
   name:       'SMART Centre'
@@ -228,7 +228,7 @@
   address:    '1 CREATE Way, #10-01 CREATE Tower, Singapore 138602'
   hiring_url:
   email:      'fang.zhao@smart.mit.edu'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Canopy'
   website:    'https://canopy.sg'
@@ -236,7 +236,7 @@
   address:    '7 Kim Yam Road, Singapore 239323'
   hiring_url:
   email:      'admin@mesitis.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'SourceClear'
   website:    'https://srcclr.com'
@@ -244,7 +244,7 @@
   address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964'
   hiring_url:
   email:      'hello@srcclr.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Grain'
   website:    'https://grain.com.sg'
@@ -252,7 +252,7 @@
   address:    '5 Burn Road, #05-01, Singapore 369972'
   hiring_url:
   email:      'hello@grain.com.sg'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'Mobile Market Monitor'
   website:    'https://www.mobilemarketmonitor.com/'
@@ -260,7 +260,7 @@
   address:    '75 High Street, Singapore 179435'
   hiring_url:
   email:      'support@mobilemarketmonitor.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'GuavaPass'
   website:    'https://www.guavapass.com/'
@@ -268,7 +268,7 @@
   address:    '6 Jiak Chuan Road, Singapore 089262'
   hiring_url:
   email:      'dev@guavapass.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 1
 -
   name:       'Mimetic.ai'
@@ -277,7 +277,7 @@
   address:    '79 Ayer Rajah Crescent, #04-09, Singapore 139955'
   hiring_url:
   email:      'hello@mimetic.ai'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 1
 -
   name:       'Pocketmath'
@@ -286,7 +286,7 @@
   address:    '883 North Bridge Road, Southbank #17-05, Singapore 198785'
   hiring_url:
   email:      'frederic@pocketmath.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
   contribution_count: 4
 -
   name:       'Perx Technologies'
@@ -295,7 +295,7 @@
   address:    '2A Pahang Street 02-00, Singapore 198604'
   hiring_url:
   email:      'jobs@getperx.com'
-  updated_at: '2017-01-01'
+  updated_on: '2017-01-01'
 -
   name:       'EngageRocket'
   website:    'http://www.engagerocket.co'
@@ -303,7 +303,7 @@
   address:    '10 Raeburn Park, Singapore 088702'
   hiring_url: 'https://engagerocket.co/senior-developer'
   email:      'hello@engagerocket.co'
-  updated_at: '2017-08-29'
+  updated_on: '2017-08-29'
   contribution_count: 1
 -
   name:       'MoneySmart'
@@ -312,5 +312,5 @@
   address:    '115A Commonwealth Drive #05-01, Singapore 149596'
   hiring_url: 'https://www.moneysmart.co/jobs'
   email:      'richa.vandergill@moneysmart.co'
-  updated_at: '2017-10-26'
+  updated_on: '2017-10-26'
   contribution_count: 1

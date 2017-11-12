@@ -8,7 +8,7 @@ class Company
     :address,
     :hiring_url,
     :email,
-    :updated_at,
+    :updated_on,
     :contribution_count
   )
 
@@ -18,7 +18,7 @@ class Company
     :logo_url,
     :address,
     :email,
-    :updated_at
+    :updated_on
   )
 
   def supporter?
@@ -27,8 +27,8 @@ class Company
 
   def <=>(other)
     # sort by most recently updated, then by ascending company name
-    return 1  if Date.parse(self.updated_at) < Date.parse(other.updated_at)
-    return -1 if Date.parse(self.updated_at) > Date.parse(other.updated_at)
+    return 1  if Date.parse(self.updated_on) < Date.parse(other.updated_on)
+    return -1 if Date.parse(self.updated_on) > Date.parse(other.updated_on)
     self.name.downcase <=> other.name.downcase
   end
 
