@@ -1,7 +1,6 @@
 class CompaniesController < ApplicationController
   def index
-    companies = Company.all
-    @supporter_companies = companies.select(&:supporter?).sort_by.with_index { |company, i| [-company.contribution_count, i] }
-    @other_companies = companies - @supporter_companies
+    @supporter_companies = Company.fetch_supporters
+    @other_companies = Company.fetch_non_supporters
   end
 end

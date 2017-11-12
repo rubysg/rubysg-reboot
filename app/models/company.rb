@@ -25,6 +25,14 @@ class Company
     contribution_count.to_i >= 1
   end
 
+  def self.fetch_supporters
+    self.all.select(&:supporter?).sort_by.with_index { |company, i| [-company.contribution_count, i] }
+  end
+
+  def self.fetch_non_supporters
+    self.all.reject(&:supporter?)
+  end
+
   def <=>(other)
     # sort by most recently updated, then by ascending company name
     return 1  if Date.parse(self.updated_on) < Date.parse(other.updated_on)
