@@ -9,15 +9,15 @@ RSpec.describe Company do
     it { is_expected.to validate_presence_of :email }
   end
 
-  describe '.all' do
-    let(:company_a) { double(:company_a, name: 'xyz') }
-    let(:company_b) { double(:company_b, name: 'abc') }
-    let(:company_c) { double(:company_c, name: 'MNO') }
+  describe '#all' do
+    let(:company_a) { Company.new(name: 'abc', updated_on: '2016-01-01') }
+    let(:company_b) { Company.new(name: 'xyz', updated_on: '2016-01-01') }
+    let(:company_c) { Company.new(name: 'MNO', updated_on: '2017-01-01') }
+    let(:company_d) { Company.new(name: 'MNO', updated_on: '2017-01-02') }
 
-    it 'sorts by name (ignore case)' do
-      expect(RubysgReboot::COMPANIES).to receive(:map) { [company_a, company_b, company_c] }
-
-      expect(Company.all).to eq [company_b, company_c, company_a]
+    it 'sorts by updated_on descending, then name ascending (ignore case)' do
+      expect(RubysgReboot::COMPANIES).to receive(:map) { [company_a, company_b, company_c, company_d] }
+      expect(Company.all).to eq [company_d, company_c, company_a, company_b]
     end
   end
 
@@ -39,7 +39,7 @@ RSpec.describe Company do
     end
 
     context 'with a non-supporting company' do
-      let(:contribution_count) { 1 }
+      let(:contribution_count) { 0 }
 
       it { expect(company.supporter?).to be_falsey }
     end
