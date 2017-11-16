@@ -188,14 +188,6 @@
   email:      'contact@luxola.com'
   updated_on: '2017-01-01'
 -
-  name:       'ProperHands'
-  website:    'http://www.properhands.com'
-  logo_url:   'http://properhands.com/assets/properhands-logo.png'
-  address:    '261 Waterloo St, #03-32, Waterloo Centre, Singapore 180261'
-  hiring_url:
-  email:      'contact@properhands.com'
-  updated_on: '2017-01-01'
--
   name:       'Ricoh Singapore'
   website:    'http://www.ricoh.sg/'
   logo_url:   'https://cloud.githubusercontent.com/assets/413879/10420511/2d39c36a-70c8-11e5-8938-e7929ce345f4.gif'
