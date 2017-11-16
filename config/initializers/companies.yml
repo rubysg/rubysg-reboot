@@ -44,12 +44,12 @@
   updated_on: '2017-01-01'
 -
   name:       'ReferralCandy'
-  website:    'http://www.referralcandy.com'
+  website:    'https://www.referralcandy.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/164703/10238307/6ab81ed8-68f0-11e5-8ac2-77520d02a639.png'
   address:    'Block 71 Ayer Rajah Crescent, #06-26, Singapore 139951'
-  hiring_url:
+  hiring_url: 'https://www.referralcandy.com/jobs'
   email:      'engineering+welcome@referralcandy.com'
-  updated_on: '2017-01-01'
+  updated_on: '2017-11-16'
 -
   name:       'The Commissioned'
   website:    'https://www.thecommissioned.com/'
