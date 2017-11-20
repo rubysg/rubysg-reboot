@@ -172,14 +172,6 @@
   email:      'hello@futureworkz.com'
   updated_on: '2017-01-01'
 -
-  name:       'Luxola'
-  website:    'http://www.luxola.com'
-  logo_url:   'http://s0.luxola.com/assets/lx_logo_v4-67a12b178642e18c0cbad1f51a01b600.png'
-  address:    '217 Henderson Road, #01-10, Singapore 159555'
-  hiring_url:
-  email:      'contact@luxola.com'
-  updated_on: '2017-01-01'
--
   name:       'Ricoh Singapore'
   website:    'http://www.ricoh.sg/'
   logo_url:   'https://cloud.githubusercontent.com/assets/413879/10420511/2d39c36a-70c8-11e5-8938-e7929ce345f4.gif'
