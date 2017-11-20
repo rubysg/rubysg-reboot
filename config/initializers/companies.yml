@@ -51,14 +51,6 @@
   email:      'engineering+welcome@referralcandy.com'
   updated_on: '2017-11-16'
 -
-  name:       'The Commissioned'
-  website:    'https://www.thecommissioned.com/'
-  logo_url:   'https://df40y35bcdmht.cloudfront.net/assets/images/tc-logo-reverse-white.png'
-  address:    '79 Ayer Rajah Crescent, #04-04, Singapore 139955'
-  hiring_url:
-  email:      'hello@thecommissioned.com'
-  updated_on: '2017-01-01'
--
   name:       'Pivotal Labs'
   website:    'http://pivotal.io/'
   logo_url:   'https://cloud.githubusercontent.com/assets/578958/16254360/b158170c-3871-11e6-9849-74d9f8c455fc.png'
