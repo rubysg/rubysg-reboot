@@ -94,11 +94,11 @@
 -
   name:       'Viki'
   website:    'https://www.viki.com/'
-  logo_url:   'https://cloud.githubusercontent.com/assets/2296/10248847/b75b58fe-6954-11e5-8b27-d9000f8febc3.png'
+  logo_url:   'https://user-images.githubusercontent.com/3222800/33178039-a76208bc-d09f-11e7-9767-8d2d94197aae.png'
   address:    '138 Market Street, #32-01 CapitaGreen, Singapore 048946'
-  hiring_url:
+  hiring_url: 'https://rakuten.referrals.selectminds.com/viki/'
   email:      'engineering@viki.com'
-  updated_on: '2017-01-01'
+  updated_on: '2017-11-23'
   contribution_count: 5
 -
   name:       'ShopVenture'
