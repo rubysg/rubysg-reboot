@@ -267,7 +267,7 @@
 -
   name:       'Perx Technologies'
   website:    'http://www.perxtech.com/'
-  logo_url:   'http://www.perxtech.com/wp-content/uploads/2017/10/logo.png'
+  logo_url:   'https://s3-ap-southeast-1.amazonaws.com/perx-cdn/images/perx/logo_web.png'
   address:    '2A Pahang Street 02-00, Singapore 198604'
   hiring_url:
   email:      'jobs@getperx.com'
