@@ -290,3 +290,11 @@
   email:      'richa.vandergill@moneysmart.co'
   updated_on: '2017-10-26'
   contribution_count: 1
+-
+  name:       'Burpple'
+  website:    'https://www.burpple.com'
+  logo_url:   'https://user-images.githubusercontent.com/9005540/33381467-1014d7c8-d559-11e7-8f8e-9f41ce5ce83a.jpg'
+  address:    '20 Kallang Avenue, #01-01, Singapore 339411'
+  hiring_url: 'https://burpple.com/careers'
+  email:      'jobs@burpple.com'
+  updated_on: '2017-11-29'
