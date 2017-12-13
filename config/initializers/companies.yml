@@ -279,8 +279,8 @@
   address:    '10 Raeburn Park, Singapore 088702'
   hiring_url: 'https://engagerocket.co/senior-developer'
   email:      'hello@engagerocket.co'
-  updated_on: '2017-08-29'
-  contribution_count: 1
+  updated_on: '2017-12-14'
+  contribution_count: 2
 -
   name:       'MoneySmart'
   website:    'https://www.moneysmart.co/'
@@ -298,3 +298,28 @@
   hiring_url: 'https://burpple.com/careers'
   email:      'jobs@burpple.com'
   updated_on: '2017-11-29'
+-
+  name:       'Wantedly'
+  website:    'http://bit.ly/wantedly4'
+  logo_url:   'https://user-images.githubusercontent.com/761959/33948620-4d13df48-e062-11e7-8aea-c3642b262661.png'
+  address:    'WeWork Beach Centre, 15 Beach Road #03-128, Singapore 189667'
+  hiring_url: 'http://bit.ly/wantedly-engineer'
+  email:      'hello.sg@wantedly.com'
+  updated_on: '2017-12-14'
+  contribution_count: 4
+-
+  name:       'Saleswhale'
+  website:    'http://bit.ly/saleswhale-wantedly'
+  logo_url:   'https://user-images.githubusercontent.com/761959/33948875-03cc0710-e063-11e7-9887-b635396eaf75.png'
+  address:    '10 Hoe Chiang Road #04-01 Keppel Towers, Singapore 089315'
+  hiring_url: 'http://bit.ly/saleswhale-wantedly'
+  email:      'jobs@saleswhale.com'
+  updated_on: '2017-12-14'
+-
+  name:       'SGAG'
+  website:    'http://bit.ly/sgag-wantedly'
+  logo_url:   'https://user-images.githubusercontent.com/761959/33948989-3c90fcb8-e063-11e7-9677-c3c28925c65b.png'
+  address:    '85 Playfair Road #06-01, Singapore 368000'
+  hiring_url: 'http://bit.ly/sgag-wantedly'
+  email:      'contact@sgag.sg'
+  updated_on: '2017-12-14'
