@@ -4,7 +4,7 @@ ruby '2.4.0'
 
 gem 'puma'
 gem 'rails', '~> 4.2'
-gem 'pg'
+gem 'pg', '0.21.0'
 
 gem 'slim-rails'
 gem 'sass-rails'
