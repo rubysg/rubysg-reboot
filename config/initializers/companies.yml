@@ -323,3 +323,12 @@
   hiring_url: 'http://bit.ly/sgag-wantedly'
   email:      'contact@sgag.sg'
   updated_on: '2017-12-14'
+-
+  name:       'Silicon Jungles'
+  website:    'https://siliconjungles.com'
+  logo_url:   'https://user-images.githubusercontent.com/297375/37890270-891e5842-3102-11e8-8b4c-09c443d4b024.png'
+  address:    '81 Ayer Rajah Crescent, #01-41, Singapore 139967'
+  hiring_url: 'http://startupjobs.asia/job/36808-full-stack-web-developer'
+  email:      'hello@siliconjungles.com'
+  updated_on: '2018-03-26'
+  contribution_count: 2
