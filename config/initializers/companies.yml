@@ -16,7 +16,6 @@
   hiring_url:
   email:      'info@tinkerbox.com.sg'
   updated_on: '2017-01-01'
-  contribution_count: 4
 -
   name:       'Ruckus Wireless'
   website:    'http://www.ruckuswireless.com'
@@ -25,7 +24,6 @@
   hiring_url:
   email:      'info@ruckuswireless.com'
   updated_on: '2017-01-01'
-  contribution_count: 1
 -
   name:       'HomeAway Asia'
   website:    'http://www.homeaway.asia'
@@ -82,7 +80,7 @@
   hiring_url:
   email:      'hello@tradegecko.com'
   updated_on: '2017-01-01'
-  contribution_count: 5
+  contribution_count: 3
 -
   name:       'Viki'
   website:    'https://www.viki.com/'
@@ -195,8 +193,8 @@
   address:    '298 Jalan Besar, #03-01, Singapore 208959'
   hiring_url: 'http://engineering.kaligo.com'
   email:      'tech-careers@kaligo.com'
-  updated_on: '2017-10-05'
-  contribution_count: 6
+  updated_on: '2018-04-03'
+  contribution_count: 5
 -
   name:       'SMART Centre'
   website:    'http://smart.mit.edu'
@@ -224,7 +222,7 @@
 -
   name:       'Grain'
   website:    'https://grain.com.sg'
-  logo_url:   'https://grain.com.sg/grain.png'
+  logo_url:   'https://user-images.githubusercontent.com/761959/38454204-197faad0-3a95-11e8-96ea-82a9d45d3d1b.png'
   address:    '5 Burn Road, #05-01, Singapore 369972'
   hiring_url:
   email:      'hello@grain.com.sg'
@@ -240,7 +238,7 @@
 -
   name:       'GuavaPass'
   website:    'https://www.guavapass.com/'
-  logo_url:   'https://guavapass.com/assets/logo-inline-c9bafea65accd8b5a66a037de79623e3.png'
+  logo_url:   'https://user-images.githubusercontent.com/761959/38454034-3a6909ec-3a92-11e8-8947-aba39472ab60.png'
   address:    '6 Jiak Chuan Road, Singapore 089262'
   hiring_url:
   email:      'dev@guavapass.com'
@@ -254,7 +252,6 @@
   hiring_url:
   email:      'hello@mimetic.ai'
   updated_on: '2017-01-01'
-  contribution_count: 1
 -
   name:       'Pocketmath'
   website:    'https://www.pocketmath.com/'
@@ -263,11 +260,11 @@
   hiring_url:
   email:      'carebears@pocketmath.com'
   updated_on: '2017-11-24'
-  contribution_count: 4
+  contribution_count: 1
 -
   name:       'Perx Technologies'
   website:    'http://www.perxtech.com/'
-  logo_url:   'https://s3-ap-southeast-1.amazonaws.com/perx-cdn/images/perx/logo_web.png'
+  logo_url:   'https://user-images.githubusercontent.com/761959/38454184-a4464580-3a94-11e8-829b-322009f0e1ce.png'
   address:    '2A Pahang Street 02-00, Singapore 198604'
   hiring_url:
   email:      'careers@perxtech.com'
@@ -288,8 +285,8 @@
   address:    '115A Commonwealth Drive #05-01, Singapore 149596'
   hiring_url: 'https://www.moneysmart.co/jobs'
   email:      'richa.vandergill@moneysmart.co'
-  updated_on: '2017-10-26'
-  contribution_count: 1
+  updated_on: '2018-04-03'
+  contribution_count: 2
 -
   name:       'Burpple'
   website:    'https://www.burpple.com'
@@ -305,8 +302,8 @@
   address:    'WeWork Beach Centre, 15 Beach Road #03-128, Singapore 189667'
   hiring_url: 'http://bit.ly/wantedly-engineer'
   email:      'hello.sg@wantedly.com'
-  updated_on: '2017-12-14'
-  contribution_count: 4
+  updated_on: '2018-04-03'
+  contribution_count: 6
 -
   name:       'Saleswhale'
   website:    'http://bit.ly/saleswhale-wantedly'
@@ -330,5 +327,5 @@
   address:    '81 Ayer Rajah Crescent, #01-41, Singapore 139967'
   hiring_url: 'http://startupjobs.asia/job/36808-full-stack-web-developer'
   email:      'hello@siliconjungles.com'
-  updated_on: '2018-03-26'
-  contribution_count: 6
+  updated_on: '2018-04-03'
+  contribution_count: 7
