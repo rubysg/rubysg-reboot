@@ -77,8 +77,8 @@
   website:    'https://www.tradegecko.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/701246/10245604/a935a360-693b-11e5-83b0-f61ce1894330.png'
   address:    '121 Telok Ayer St, 068590'
-  hiring_url:
-  email:      'hello@tradegecko.com'
+  hiring_url: 'https://www.tradegecko.com/jobs'
+  email:      'mo@tradegecko.com'
   updated_on: '2017-01-01'
   contribution_count: 3
 -
