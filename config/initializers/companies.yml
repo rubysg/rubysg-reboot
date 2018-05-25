@@ -329,3 +329,11 @@
   email:      'hello@siliconjungles.com'
   updated_on: '2018-04-03'
   contribution_count: 7
+-
+  name:       'SimplePay'
+  website:    'https://www.simplepay.com.sg'
+  logo_url:   'https://cdn.techinasia.com/data/images/4fd4d977488e962d1696ad2cd212603a.png'
+  address:    '531A Upper Cross Street, #03-102 Hong Lim Complex, Singapore, 051531'
+  hiring_url: 'https://www.simplepay.com.sg/careers'
+  email:      'careers@simplepay.com.sg'
+  updated_on: '2018-05-25'
