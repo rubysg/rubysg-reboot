@@ -340,7 +340,7 @@
 -
   name:       'OpsManager'
   website:    'https://www.opsmanager.com'
-  logo_url:   'https://raw.githubusercontent.com/opsmanager/logo-opsmanager/master/exports/OpsManagerIcon-1770x.png'
+  logo_url:   'https://s3-ap-southeast-1.amazonaws.com/opsmanager-static-assets/OpsManagerIcon-1770x.png'
   address:    '71A Duxton Rd, Singapore, 089530'
   email:      'hello@opsmanager.com'
   updated_on: '2018-06-27'
