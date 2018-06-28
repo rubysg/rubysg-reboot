@@ -341,6 +341,7 @@
   name:       'OpsManager'
   website:    'https://www.opsmanager.com'
   logo_url:   'https://s3-ap-southeast-1.amazonaws.com/opsmanager-static-assets/OpsManagerIcon-1770x.png'
+  hiring_url: 'https://www.opsmanager.com/jobs'
   address:    '71A Duxton Rd, Singapore, 089530'
   email:      'hello@opsmanager.com'
   updated_on: '2018-06-27'
