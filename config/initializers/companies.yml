@@ -337,3 +337,10 @@
   hiring_url: 'https://www.simplepay.com.sg/careers'
   email:      'careers@simplepay.com.sg'
   updated_on: '2018-05-25'
+-
+  name:       'OpsManager'
+  website:    'https://www.opsmanager.com'
+  logo_url:   'https://raw.githubusercontent.com/opsmanager/logo-opsmanager/master/exports/OpsManagerIcon-1770x.png'
+  address:    '71A Duxton Rd, Singapore, 089530'
+  email:      'hello@opsmanager.com'
+  updated_on: '2018-06-27'
