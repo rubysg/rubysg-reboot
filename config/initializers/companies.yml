@@ -345,3 +345,12 @@
   address:    '71A Duxton Rd, Singapore, 089530'
   email:      'hello@opsmanager.com'
   updated_on: '2018-06-27'
+-
+  name:       'Stripe'
+  website:    'https://stripe.com'
+  logo_url:   'https://stripe.com/img/about/logos/logos/blue.png'
+  hiring_url: 'https://stripe.com/jobs#location=singapore'
+  address:    '#03, 89 Neil Rd, Singapore, 088849'
+  email:      'jobs+singapore@stripe.com'
+  updated_on: '2018-07-12'
+  contribution_count: 1
