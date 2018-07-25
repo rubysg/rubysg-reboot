@@ -140,11 +140,12 @@
 -
   name:       'ThoughtWorks'
   website:    'http://www.thoughtworks.com'
-  logo_url:   'http://www.thoughtworks.com/imgs/tw-logo.png'
-  address:    '87B Amoy Street, Singapore 069906'
-  hiring_url:
+  logo_url:   'https://www.thoughtworks.com/imgs/tw-logo.png'
+  address:    '18 Cross Street, #11-08 China Square Central, 048423'
+  hiring_url: 'https://www.thoughtworks.com/careers'
   email:      'join-sg@thoughtworks.com'
-  updated_on: '2017-01-01'
+  updated_on: '2018-07-25'
+  contribution_count: 1
 -
   name:       'NCS Pte Ltd'
   website:    'http://ncs.com.sg/'
