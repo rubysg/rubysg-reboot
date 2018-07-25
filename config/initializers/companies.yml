@@ -140,9 +140,9 @@
 -
   name:       'ThoughtWorks'
   website:    'http://www.thoughtworks.com'
-  logo_url:   'https://lh3.googleusercontent.com/2jxBFMl9Va1NWFlTe9Vswsl5wIM3bTm5UFUhyKIkEpya0A8NV9gYmWsFCxGe5UBrpOZv9hSLfZSwLw=w3238-h1906-rw'
+  logo_url:   'https://www.thoughtworks.com/imgs/tw-logo.png'
   address:    '18 Cross Street, #11-08 China Square Central, 048423'
-  hiring_url:
+  hiring_url: 'https://www.thoughtworks.com/careers'
   email:      'join-sg@thoughtworks.com'
   updated_on: '2017-01-01'
 -
