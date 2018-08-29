@@ -355,3 +355,11 @@
   email:      'jobs+singapore@stripe.com'
   updated_on: '2018-07-12'
   contribution_count: 4
+-
+  name:       'Sephora'
+  website:    'https://sephora.sg'
+  logo_url:   'https://user-images.githubusercontent.com/35408/44762012-1023b180-ab78-11e8-80e2-892df2494450.png'
+  address:    '391A, Orchard Road, Ngee Ann City Tower A, #16-00, 238873'
+  hiring_url: 'https://www.sephora.sg/jobs'
+  email:      'tech@sephoradigital.com'
+  updated_on: '2018-08-29'
