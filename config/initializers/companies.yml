@@ -363,3 +363,12 @@
   hiring_url: 'https://www.sephora.sg/jobs'
   email:      'tech@sephoradigital.com'
   updated_on: '2018-08-29'
+-
+  name:       'Shopify'
+  website:    'http://shopify.com'
+  logo_url:   'https://user-images.githubusercontent.com/761959/44944692-fa2f1e80-ae0d-11e8-870d-3f7dd02b675c.png'
+  address:    '71 Robinson Road #13-155, Singapore 068895'
+  hiring_url: 'https://www.shopify.com/careers'
+  email:
+  updated_on: '2018-09-01'
+  contribution_count: 4
