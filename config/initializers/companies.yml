@@ -372,3 +372,11 @@
   email:      '-'
   updated_on: '2018-09-01'
   contribution_count: 4
+-
+  name:       'Black Tangent'
+  website:    'https://blacktangent.com'
+  logo_url:   'https://user-images.githubusercontent.com/1222916/47350084-9cb99e80-d6e7-11e8-84a6-6b39f7c8a48b.png'
+  address:    '5 Shenton Way UIC Building #10-01, Singapore 068808'
+  hiring_url: 'https://blacktangent.com/careers'
+  email:      'hello@blacktangent.com'
+  updated_on: '2018-10-23'
