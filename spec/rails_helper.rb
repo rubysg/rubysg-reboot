@@ -53,3 +53,10 @@ RSpec.configure do |config|
   # http://api.rubyonrails.org/classes/ActiveSupport/Testing/TimeHelpers.html#method-i-travel
   config.include ActiveSupport::Testing::TimeHelpers
 end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library        :rails
+  end
+end
