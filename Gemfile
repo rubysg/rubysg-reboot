@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.5.3'
 
 gem 'puma'
-gem 'rails', '4.2.4'
-gem 'pg'
+gem 'rails', '~> 5.0.7.1'
+gem 'pg', '0.21.0' # Fix version until Rails supports 1.0.0
 
 gem 'slim-rails'
 gem 'sass-rails'
@@ -45,3 +45,7 @@ end
 group :test do
   gem 'webmock'
 end
+
+gem 'nokogiri', '>= 1.8.1'
+
+gem 'rails-html-sanitizer', '>= 1.0.4'

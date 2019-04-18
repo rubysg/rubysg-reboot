@@ -1,84 +1,82 @@
-.section#meet-us
-  .section--heading
-    h2 Meet Us
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      .col-sm-4
-        = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
-          = icon :calendar
-        h4 Ruby Meetup
-        p We meet usually on the last Tuesday of every month.
-      .col-sm-4
-        = link_to 'http://www.meetup.com/Singapore-Ruby-Group/', class: 'icon' do
-          = image_tag 'railsgirls.png', class: 'railsgirls'
-        h4 RailsGirls SG
-        p RailsGirls SG is held on the last Saturday of every month.
-      .col-sm-4
-        = link_to 'http://www.meetup.com/Ruby-Tea-Party/', class: 'icon' do
-          = icon :coffee
-        h4 Ruby Tea Party
-        p Weekly extension of RailsGirls SG. Come and do/learn Ruby together.
+#meet-us
+  .container-fluid
+    .row
+      .col-md-6
+        .section
+          h3.section-heading.sub.heading-line Ruby Meetups
+          p We meet usually on the last Tuesday of every month and speakers will give talks about Ruby
+            and share 5 random Ruby tips. Building & shipping is how we roll. It's a great way to meet Ruby enthusiasts!
+          a.btn.btn-lg.btn-primary href='http://www.meetup.com/Singapore-Ruby-Group' target='_blank'
+            span Meet Us
+      .col-md-6.carousel-container
+        #carousel-example-generic.carousel.slide data-ride="carousel"
+          ol.carousel-indicators
+            li.active data-slide-to="0" data-target="#carousel-example-generic"
+            li data-slide-to="1" data-target="#carousel-example-generic"
+            li data-slide-to="2" data-target="#carousel-example-generic"
+          .carousel-inner role="listbox"
+            .item.active
+              div.carousel-img.meetup-img-1
+            .item
+              div.carousel-img.meetup-img-2
+            .item
+              div.carousel-img.meetup-img-3
 
-.section#join-us
-  .section--heading
-    h2 Join Us
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      .col-sm-4
-        = link_to 'https://www.facebook.com/groups/singaporerubybrigade/', class: 'icon' do
-          = icon :facebook
-        p Facebook Group
-      .col-sm-4
-        = link_to 'https://groups.google.com/forum/?fromgroups#!forum/singapore-rb', class: 'icon' do
-          = icon :google
-        p Google Group
-      .col-sm-4
-        = link_to 'https://github.com/rubysg', class: 'icon' do
-          = icon :github
-        p GitHub
+    .row
+      .col-md-6.carousel-container
+        div.carousel-img.conference-img-1
+      .col-md-6
+        .section
+          h3.section-heading.sub.heading-line RedDotRubyConf
+          p Join us for South East Asia's largest Ruby conference. Two whole days, jam packed with fun and talks. Hear Matz and other great speakers from all over the world talk about the future of Ruby.
+          a.btn.btn-lg.btn-primary href='https://engineers.sg/conference/reddotrubyconf2017' target='_blank'
+            span Watch The Talks
+
+.section.section-gray#join-us
+  .container-fluid
+    h3.section-heading.heading-line Join Us
+    .row.text-center
+      a.col-sm-4.join-us-col.join-us-fb href='https://www.facebook.com/groups/singaporerubybrigade' target='_blank'
+        = icon(:fab, :facebook, class: "fa-lg")
+        span Facebook
+      a.col-sm-4.join-us-col.join-us-google href='https://groups.google.com/forum/?fromgroups#!forum/singapore-rb' target='_blank'
+        = icon(:fab, :google, class: "fa-lg")
+        span Google Group
+      a.col-sm-4.join-us-col.join-us-github href='https://github.com/rubysg' target='_blank'
+        = icon(:fab, :github, class: "fa-lg")
+        span GitHub
 
 .section#chat-with-us
-  .section--heading
-    h2 Chat With Us
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      .col-sm-6
-        = link_to 'https://rubysg.slack.com', class: 'icon' do
-          = icon :slack
-        p Slack
-      .col-sm-6
-        strong Invite yourself to our Slack group!
-        hr
+  .container
+    h3.section-heading.heading-line Chat With Us
+    .row.text-center
+      .col-sm-8.col-sm-offset-2
+        strong Invite yourself to our <a href="https://rubysg.slack.com" target="_blank">Slack group!</a>
         = form_for Invitation.new, html: {class: 'form-horizontal'} do |f|
           .form-group
-            .col-sm-8.col-sm-offset-2
-              = f.text_field :email, class: 'form-control', placeholder: 'Enter Email'
-          .form-group
-            .col-sm-8.col-sm-offset-2
-              = f.submit 'Send Invite', class: 'btn btn-success btn-block', data: { disable_with: 'processing...' }
+            .input-group
+            .col-sm-6.col-sm-offset-3
+              br
+              = f.text_field :email, class: 'form-control input-lg', placeholder: 'Enter your email'
+              br
+              = f.submit 'Send Invite', class: 'btn btn-lg btn-info btn-block', data: { disable_with: 'processing...' }
         p.text-muted
           small
-            ' or send an email to hello@ruby.sg
+            ' or send an email to #{link_to 'hello@ruby.sg', 'mailto:hello@ruby.sg'}.
 
-.section#companies
-  .section--heading
-    h2 Singapore Companies using Ruby
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      .col-sm-12
-        = link_to companies_path, class: 'icon' do
-          = icon :list
-        p Companies Listing
+.section.section-black#companies
+  .container
+    .row
+      .col-sm-8.col-sm-offset-2
+        h3.section-heading.heading-line.sub Looking for a job in Ruby?
+        p These Singapore companies use Ruby and they may be hiring.
+        br
+        = link_to 'Check them out', companies_path, class: 'btn btn-primary btn-lg'
 
 .section#visiting-singapore
-  .section--heading
-    h2 Visiting Singapore?
-  .row.text-center
-    .col-sm-8.col-sm-offset-2
-      = link_to 'https://github.com/rubysg/singapore', class: 'icon' do
-        = icon :plane
-        = icon :globe
-        = icon :'map-marker'
-        = icon :cutlery
-        = icon :bed
-      p We have prepared a guide for visiting Rubyists. Check out #{link_to 'the guide on GitHub', 'https://github.com/rubysg/singapore'} and feel free to reach out to us!
+  .container
+    h2.section-heading.heading-line Visiting Singapore?
+    .row.text-center
+      .col-sm-6.col-sm-offset-3
+        = image_tag('skyline.png', class: 'img-responsive')
+        p We have prepared a guide for visiting Rubyists. Check out #{link_to 'the guide on GitHub', 'https://github.com/rubysg/singapore'} and feel free to reach out to us!

@@ -1,46 +1,95 @@
+.company-wrapper {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
 .company {
-  margin-bottom: 50px;
+  background-color: #fff;
+  padding: 25px;
+  position: relative;
 
   .website {
     a {
       color: inherit;
-
-      &:hover {
-        text-decoration: none;
-        color: #fbb040;
-      }
     }
   }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
+  .media {
+    margin-top: 0;
+
+    .media-left {
+      padding-right: 30px;
+    }
   }
 
-  .logo img {
-    max-width: 80%;
-    max-height: 100px;
-    object-fit: contain;
+  .company-logo {
+    $logo-size: 100px;
+
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: $logo-size;
+    width: $logo-size;
   }
 
-  .name {
-    margin: 10px 0 5px 0;
-    font-size: 1.5em;
+  .company-hiring {
+    $size: 72px;
+
+    color: #fff;
+    display: inline-block;
+    height: $size;
+    position: absolute;
+    width: $size;
+    right: 0;
+    top: 0;
+
+    &:before {
+      border: $size/2 solid $theme-red;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+      content: ' ';
+      height: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: border 0.3s linear;
+      width: 0;
+
+      &:hover {
+        $darken-color: darken($theme-red, 10%);
+        border-right-color: $darken-color;
+        border-top-color: $darken-color;
+      }
+    }
+
+    .hiring-icon {
+      $offset: 10px;
+
+      position: absolute;
+      top: $offset;
+      right: $offset;
+    }
+  }
+
+  .company-name {
+    color: $theme-black;
+    margin-bottom: 5px;
+    font-size: 1.2em;
     font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
-  .address-contact {
-    min-height: 51px;
-  }
+  .company-address {
+    color: $theme-gray;
+    height: 2em;
+    margin-bottom: 15px;
 
-  .hiring {
-    min-height: 22px;
-    margin-top: 10px;
-
-    .btn {
-      border-radius: 0;
+    @media (max-width: 768px) {
+      height: auto;
+      margin-bottom: 5px;
     }
   }
 }

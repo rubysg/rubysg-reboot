@@ -1,34 +1,87 @@
-.jumbotron {
-  background: #f5f5f5;
+.logo {
+  margin-right: 2rem;
+  width: 10rem;
+}
+
+.banner {
+  background-color: $brand-primary;
+  background-image: image-url('skyline.png');
+  background-size: 100% auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 0;
   text-align: center;
 
-  p {
-    font-size: 18px;
+  .title {
+    margin-bottom: 3rem;
+
+    a {
+     color: inherit;
+
+      &:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+
+  .blurb {
+    font-size: 2rem;
   }
 }
 
 .section {
-  margin-bottom: 40px;
+  $padding: 10rem;
 
-  &--heading {
-    margin-bottom: 50px;
-    text-align: center;
+  padding-bottom: $padding;
+  padding-top: $padding;
+
+  &.section-gray {
+    background-color: $theme-gray;
+    color: #fff;
+
+    .section-heading {
+      color: #fff;
+    }
   }
 
-  &--heading h2 {
-    display: inline;
-    padding: 0 10px;
+  &.section-black {
+    background-color: $theme-black;
+    color: #fff;
 
-    background: #e1383f;
-    color: white;
-
-    font-size: 2em;
-    font-weight: 100;
+    .section-heading {
+      color: #fff;
+    }
   }
 
-  i.fa {
-    font-size: 8em;
+  .section-heading {
+    color: $gray;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
     text-align: center;
+
+    &.heading-line {
+      &:after {
+        content: '';
+        width: 65px;
+        display: block;
+        height: 1px;
+        border-bottom: 4px solid $brand-primary;
+        text-align: center;
+        margin: 10px auto 0;
+      }
+    }
+
+    &.sub {
+      text-align: left;
+
+      &.heading-line {
+        &:after {
+          margin-left: 0;
+        }
+      }
+    }
   }
 
   p {
@@ -36,20 +89,73 @@
   }
 }
 
-a {
-  color: #fbb040;
-  &:hover {
-    color: darken(#fbb040, 5%);
+.carousel-container {
+  padding: 0;
+
+  .carousel-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+    &.meetup-img-1 {
+      background-image: image-url('meetup-1.jpg');
+    }
+
+    &.meetup-img-2 {
+      background-image: image-url('meetup-2.jpg');
+    }
+
+    &.meetup-img-3 {
+      background-image: image-url('meetup-3.jpg');
+    }
+
+    &.conference-img-1 {
+      background-image: image-url('conference-1.jpg');
+    }
+
+    @media (max-width: 400px) {
+      height: 250px;
+    }
   }
 }
 
-.jumbotron a,
-a.icon {
-  color: inherit;
+.join-us-col {
+  $darken-amount: 10%;
 
-  &:hover {
-    text-decoration: none;
-    color: #fbb040;
+  color: #fff;
+  display: block;
+  font-size: 3rem;
+  padding: 4rem;
+  text-align: center;
+  transition: background-color 0.3s linear;
+
+  &.join-us-fb {
+    background-color: $facebook-blue;
+
+    &:hover {
+      background-color: darken($facebook-blue, $darken-amount);
+    }
+  }
+
+  &.join-us-google {
+    background-color: $google-plus-red;
+
+    &:hover {
+      background-color: darken($google-plus-red, $darken-amount);
+    }
+  }
+
+  &.join-us-github {
+    background-color: $github-blue;
+
+    &:hover {
+      background-color: darken($github-blue, $darken-amount);
+    }
+  }
+
+  i.fab {
+    margin-right: 2rem;
   }
 }
 
@@ -58,9 +164,14 @@ footer {
   padding: 10px;
 }
 
+#join-us {
+  padding-bottom: 0;
+}
+
 #meet-us {
-  img.railsgirls {
-    margin: 5px 0 4px 0;
+  .section {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 

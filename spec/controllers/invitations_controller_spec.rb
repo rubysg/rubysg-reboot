@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe InvitationsController do
   describe '#create' do
     def do_request
-      post :create, invitation: params
+      post :create, params: { invitation: params }
     end
 
     context 'success' do
