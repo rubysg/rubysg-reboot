@@ -123,12 +123,12 @@
   updated_on: '2017-01-01'
 -
   name:       'Flowhero Labs'
-  website:    'http://www.flowhero.io/'
+  website:    'https://flowhero.io/'
   logo_url:   'https://cloud.githubusercontent.com/assets/297375/10273239/ddb007a4-6b5f-11e5-8bbf-204032afba4d.png'
   address:    '8 Burn Road, #15-13 Trivex, Singapore 369977'
   hiring_url:
   email:      'hello@flowhero.io'
-  updated_on: '2017-01-01'
+  updated_on: '2019-04-18'
 -
   name:       'GDS @ Hive'
   website:    'https://gds-gov.tech/'
@@ -323,12 +323,12 @@
   updated_on: '2017-12-14'
 -
   name:       'Silicon Jungles'
-  website:    'https://siliconjungles.com'
-  logo_url:   'https://user-images.githubusercontent.com/297375/37890270-891e5842-3102-11e8-8b4c-09c443d4b024.png'
-  address:    '81 Ayer Rajah Crescent, #01-41, Singapore 139967'
-  hiring_url: 'http://startupjobs.asia/job/36808-full-stack-web-developer'
+  website:    'https://siliconjungles.io'
+  logo_url:   'https://siliconjungles.com/assets/Silicon-Jungles-Logo.svg'
+  address:    '175A Bencoolen Street, Burlington Square, #07-04, Singapore 189650'
+  hiring_url: 'https://siliconjungles.io'
   email:      'hello@siliconjungles.com'
-  updated_on: '2018-04-03'
+  updated_on: '2019-04-18'
   contribution_count: 9
 -
   name:       'SimplePay'
