@@ -20,7 +20,6 @@ gem 'rails_utils'
 gem 'httparty'
 
 group :production do
-  gem 'rails_12factor'
   gem 'runtimeerror_notifier'
 end
 
