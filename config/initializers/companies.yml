@@ -281,12 +281,12 @@
   contribution_count: 5
 -
   name:       'MoneySmart'
-  website:    'https://www.moneysmart.co/'
+  website:    'https://www.moneysmart.com/'
   logo_url:   'https://user-images.githubusercontent.com/655963/32009258-2c19651c-b9e1-11e7-9a38-4d36ff861769.png'
-  address:    '115A Commonwealth Drive #05-01, Singapore 149596'
-  hiring_url: 'https://www.moneysmart.co/jobs'
-  email:      'richa.vandergill@moneysmart.co'
-  updated_on: '2018-04-03'
+  address:    '8 Commonwealth Ln #04-02, Singapore 149555'
+  hiring_url: 'https://www.moneysmart.com/jobs'
+  email:      'careers@moneysmart.com'
+  updated_on: '2019-04-30'
   contribution_count: 2
 -
   name:       'Burpple'
@@ -380,3 +380,11 @@
   hiring_url: 'https://blacktangent.com/careers'
   email:      'hello@blacktangent.com'
   updated_on: '2018-10-23'
+-
+  name:       'Agile Lab'
+  website:    'https://agilelab.sg'
+  logo_url:   'https://user-images.githubusercontent.com/7512904/57511875-7500ef80-7334-11e9-9e1c-5be1d5e51f2d.png'
+  address:    '73 Ayer Rajah Crescent, #02-28 Singapore 139952'
+  hiring_url: 'https://blog.agilelab.sg/join-us-d3db9114b94b'
+  email:      'hello@agilelab.sg'
+  updated_on: '2019-05-10'
