@@ -51,18 +51,7 @@
     h3.section-heading.heading-line Chat With Us
     .row.text-center
       .col-sm-8.col-sm-offset-2
-        strong Invite yourself to our <a href="https://rubysg.slack.com" target="_blank">Slack group!</a>
-        = form_for Invitation.new, html: {class: 'form-horizontal'} do |f|
-          .form-group
-            .input-group
-            .col-sm-6.col-sm-offset-3
-              br
-              = f.text_field :email, class: 'form-control input-lg', placeholder: 'Enter your email'
-              br
-              = f.submit 'Send Invite', class: 'btn btn-lg btn-info btn-block', data: { disable_with: 'processing...' }
-        p.text-muted
-          small
-            ' or send an email to #{link_to 'hello@ruby.sg', 'mailto:hello@ruby.sg'}.
+        strong Invite yourself to our <a href="https://rubysg.slack.com" target="_blank">Slack group</a> by sending an email to #{link_to 'hello@ruby.sg', 'mailto:hello@ruby.sg'}.
 
 .section.section-black#companies
   .container
