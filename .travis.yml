@@ -6,5 +6,5 @@ rvm:
 services:
   - postgresql
 before_script:
-  - psql -c 'create database rubysg-reboot_test;' -U postgres
+  - psql -c 'create database "rubysg-reboot_test";' -U postgres
   - bin/setup
