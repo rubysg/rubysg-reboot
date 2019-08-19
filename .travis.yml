@@ -3,5 +3,8 @@ sudo: false
 cache: bundler
 rvm:
   - 2.6.3
+services:
+  - postgresql
 before_script:
+  - psql -c 'create database rubysg-reboot_test;' -U postgres
   - bin/setup
