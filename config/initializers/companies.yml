@@ -1,14 +1,6 @@
 # Please refer to [README.md](https://github.com/rubysg/rubysg-reboot/blob/master/README.md) for the guidelines
 
 -
-  name:       'Jolly Good Code'
-  website:    'http://www.jollygoodcode.com'
-  logo_url:   'https://cloud.githubusercontent.com/assets/1000669/9362336/72f9c406-46d2-11e5-94de-5060e83fcf83.jpg'
-  address:    '128 Prinsep Street, Singapore 188655'
-  hiring_url:
-  email:      'hello@jollygoodcode.com'
-  updated_on: '2017-01-01'
--
   name:       'Tinkerbox Studios'
   website:    'http://www.tinkerbox.com.sg'
   logo_url:   'https://cloud.githubusercontent.com/assets/5259935/10227563/a7f46946-68a0-11e5-9167-e0c6636e4329.png'
@@ -90,13 +82,6 @@
   email:      'engineering@viki.com'
   updated_on: '2018-08-03'
   contribution_count: 10
--
-  name:       'ShopVenture'
-  website:    'https://www.shopventure.com/'
-  logo_url:   'https://avatars0.githubusercontent.com/u/9315550?v=3&s=100'
-  address:    '101C Telok Ayer Street, #04-00 Singapore 068574'
-  email:      'support@shopventure.com'
-  updated_on: '2017-01-01'
 -
   name:       'Grab'
   website:    'https://www.grab.com'
@@ -369,7 +354,7 @@
   logo_url:   'https://user-images.githubusercontent.com/761959/44944692-fa2f1e80-ae0d-11e8-870d-3f7dd02b675c.png'
   address:    '71 Robinson Road #13-155, Singapore 068895'
   hiring_url: 'https://www.shopify.com/careers'
-  email:      '-'
+  email:      'winston.teo@shopify.com'
   updated_on: '2018-09-01'
   contribution_count: 4
 -
