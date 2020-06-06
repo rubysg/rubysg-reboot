@@ -14,6 +14,12 @@ class Api::RubySgBotController < Api::ApplicationController
     end
 
     head :no_content
+
+  rescue ArgumentError
+    # if return code is not 2XX, telegram api will keep sending the request.
+    #   There is no error logging for the application for the moment therefore
+    #   just letting it fail silently for now.
+    head :no_content
   end
 
   private
