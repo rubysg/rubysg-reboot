@@ -18,6 +18,7 @@ gem 'font-awesome-sass'
 
 gem 'rails_utils'
 gem 'httparty'
+gem 'addressable'
 
 group :production do
   gem 'runtimeerror_notifier'
