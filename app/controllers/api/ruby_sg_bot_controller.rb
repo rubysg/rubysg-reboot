@@ -1,6 +1,6 @@
 class Api::RubySgBotController < Api::ApplicationController
   def webhook
-    if join_group?
+    if ruby_sg_bot_joined_group?
       if RubySgBotSubscriber.find_or_create_by(chat_id: tg_chat_id.to_s)
         telegram_bot_api.send_message(
           tg_chat_id,
@@ -9,7 +9,7 @@ class Api::RubySgBotController < Api::ApplicationController
           TELEGRAM_MESSAGE
         )
       end
-    elsif left_group?
+    elsif ruby_sg_bot_left_group?
       RubySgBotSubscriber.find_by(chat_id: tg_chat_id.to_s)&.destroy
     end
 
@@ -32,13 +32,13 @@ class Api::RubySgBotController < Api::ApplicationController
     "1292813591"
   end
 
-  def join_group?
+  def ruby_sg_bot_joined_group?
     tg_object[:chat][:type] == "group" &&
       tg_object[:new_chat_member] &&
       tg_object[:new_chat_member][:id].to_s == rubysg_bot_id
   end
 
-  def left_group?
+  def ruby_sg_bot_left_group?
     tg_object[:chat][:type] == "group" &&
       tg_object[:left_chat_member] &&
       tg_object[:left_chat_member][:id].to_s == rubysg_bot_id
