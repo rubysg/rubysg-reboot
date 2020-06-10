@@ -18,6 +18,8 @@ gem 'font-awesome-sass'
 
 gem 'rails_utils'
 gem 'httparty'
+gem 'addressable'
+gem 'rufus-scheduler'
 
 group :production do
   gem 'runtimeerror_notifier'
