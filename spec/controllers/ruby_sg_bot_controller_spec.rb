@@ -30,10 +30,39 @@ RSpec.describe Api::RubySgBotController do
       end
     end
 
+    describe "added to supergroup" do
+      let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_join_supergroup.json").read) }
+
+      it "creates a new subscriber" do
+        do_request(params)
+
+        expect(RubySgBotSubscriber.count).to eq 1
+      end
+
+      it "sends message with TelegramBotApi" do
+        do_request(params)
+
+        expect(@telegram_bot_api.messages.length).to eq 1
+        expect(@telegram_bot_api.messages.first.first).to eq :send_message
+      end
+    end
+
     describe "removed from group" do
       let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_left_group.json").read) }
 
-      before { RubySgBotSubscriber.create(chat_id: "-414380229") }
+      before { RubySgBotSubscriber.create(chat_id: "-321") }
+
+      it "removes a new subscriber" do
+        do_request(params)
+
+        expect(RubySgBotSubscriber.count).to eq 0
+      end
+    end
+
+    describe "removed from supergroup" do
+      let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_left_supergroup.json").read) }
+
+      before { RubySgBotSubscriber.create(chat_id: "-123") }
 
       it "removes a new subscriber" do
         do_request(params)

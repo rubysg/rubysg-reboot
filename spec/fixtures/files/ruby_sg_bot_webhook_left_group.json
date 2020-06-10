@@ -3,7 +3,7 @@
   "message": {
     "message_id": 147,
     "from": {
-      "id": 83351527,
+      "id": 987,
       "is_bot": false,
       "first_name": "Kang Sheng",
       "last_name": "Tay",
@@ -11,7 +11,7 @@
       "language_code": "en"
     },
     "chat": {
-      "id": -414380229,
+      "id": -321,
       "title": "test group",
       "type": "group",
       "all_members_are_administrators": true
@@ -37,7 +37,7 @@
     "message": {
       "message_id": 147,
       "from": {
-        "id": 83351527,
+        "id": 987,
         "is_bot": false,
         "first_name": "Kang Sheng",
         "last_name": "Tay",
@@ -45,7 +45,7 @@
         "language_code": "en"
       },
       "chat": {
-        "id": -414380229,
+        "id": -321,
         "title": "test group",
         "type": "group",
         "all_members_are_administrators": true

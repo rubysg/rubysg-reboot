@@ -1,9 +1,9 @@
 {
-  "update_id": 57665220,
+  "update_id": 57665279,
   "message": {
-    "message_id": 144,
+    "message_id": 371,
     "from": {
-      "id": 987,
+      "id": 83351527,
       "is_bot": false,
       "first_name": "Kang Sheng",
       "last_name": "Tay",
@@ -11,12 +11,11 @@
       "language_code": "en"
     },
     "chat": {
-      "id": -321,
-      "title": "test group",
-      "type": "group",
-      "all_members_are_administrators": true
+      "id": -1001298298654,
+      "title": "RubySG",
+      "type": "supergroup"
     },
-    "date": 1591420477,
+    "date": 1591803772,
     "new_chat_participant": {
       "id": 1292813591,
       "is_bot": true,
@@ -36,14 +35,12 @@
       "username": "rubysg_bot"
     }]
   },
-  "controller": "api/ruby_sg_bot",
-  "action": "webhook",
   "ruby_sg_bot": {
-    "update_id": 57665220,
+    "update_id": 57665279,
     "message": {
-      "message_id": 144,
+      "message_id": 371,
       "from": {
-        "id": 987,
+        "id": 83351527,
         "is_bot": false,
         "first_name": "Kang Sheng",
         "last_name": "Tay",
@@ -51,12 +48,11 @@
         "language_code": "en"
       },
       "chat": {
-        "id": -321,
-        "title": "test group",
-        "type": "group",
-        "all_members_are_administrators": true
+        "id": -1001298298654,
+        "title": "RubySG",
+        "type": "supergroup"
       },
-      "date": 1591420477,
+      "date": 1591803772,
       "new_chat_participant": {
         "id": 1292813591,
         "is_bot": true,
