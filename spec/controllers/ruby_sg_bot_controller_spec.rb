@@ -50,7 +50,15 @@ RSpec.describe Api::RubySgBotController do
     describe "removed from group" do
       let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_left_group.json").read) }
 
-      before { RubySgBotSubscriber.create(chat_id: "-414380229") }
+      before { RubySgBotSubscriber.create(chat_id: "-321") }
+
+      it "removes a new subscriber" do
+        do_request(params)
+
+        expect(RubySgBotSubscriber.count).to eq 0
+      end
+    end
+
     describe "removed from supergroup" do
       let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_left_supergroup.json").read) }
 
