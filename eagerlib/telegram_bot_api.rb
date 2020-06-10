@@ -8,7 +8,7 @@ class TelegramBotApi
     parsed_url = Addressable::URI.parse("#{@base_url}/sendMessage?#{query_params}")
     response = HTTParty.get(parsed_url.normalize.to_s)
 
-    Rails.logger.info "TelegramBotApi#send_message response.body=#{x.body}"
+    Rails.logger.info "TelegramBotApi#send_message response.body=#{response.body}"
     response.code == 200
   end
 
