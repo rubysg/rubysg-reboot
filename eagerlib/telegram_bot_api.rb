@@ -1,7 +1,5 @@
 class TelegramBotApi
-  def initialize(bot_token)
-    raise(ArgumentError, "no bot_token given") unless bot_token
-
+  def initialize(bot_token:)
     @bot_token = bot_token
     @base_url = "https://api.telegram.org/bot#{@bot_token}"
   end
