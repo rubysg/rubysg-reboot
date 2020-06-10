@@ -1,7 +1,6 @@
 class TelegramBotApi
-  def initialize(bot_token:)
-    @bot_token = bot_token
-    @base_url = "https://api.telegram.org/bot#{@bot_token}"
+  def initialize(token:)
+    @base_url = "https://api.telegram.org/bot#{token}"
   end
 
   def send_message(chat_id, text, parse_mode = "Markdown")
@@ -9,7 +8,8 @@ class TelegramBotApi
     parsed_url = Addressable::URI.parse("#{@base_url}/sendMessage?#{query_params}")
     response = HTTParty.get(parsed_url.normalize.to_s)
 
-    response.code == "200"
+    Rails.logger.info "TelegramBotApi#send_message response.body=#{x.body}"
+    response.code == 200
   end
 
   class Test
