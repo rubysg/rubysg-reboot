@@ -25,13 +25,13 @@ class Api::RubySgBotController < Api::ApplicationController
   end
 
   def ruby_sg_bot_joined_group?
-    tg_object[:chat][:type] == "group" &&
+    (tg_object[:chat][:type] == "group" || tg_object[:chat][:type] == "supergroup") &&
       tg_object[:new_chat_member] &&
       tg_object[:new_chat_member][:id].to_s == rubysg_bot_id
   end
 
   def ruby_sg_bot_left_group?
-    tg_object[:chat][:type] == "group" &&
+    (tg_object[:chat][:type] == "group" || tg_object[:chat][:type] == "supergroup") &&
       tg_object[:left_chat_member] &&
       tg_object[:left_chat_member][:id].to_s == rubysg_bot_id
   end
