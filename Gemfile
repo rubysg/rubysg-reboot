@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.7.1'
 
 gem 'puma'
-gem 'rails', '~> 5.0.7.1'
+gem 'rails', '~> 5'
 gem 'pg', '0.21.0' # Fix version until Rails supports 1.0.0
 
 gem 'slim-rails'
