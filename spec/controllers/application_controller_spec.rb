@@ -9,7 +9,7 @@ RSpec.describe ApplicationController do
     it 'is successful' do
       do_request
 
-      expect(response).to be_success
+      expect(response).to be_successful
     end
 
     context 'from the future' do

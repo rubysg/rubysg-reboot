@@ -11,7 +11,7 @@ RSpec.describe CompaniesController do
     it 'is successful' do
       do_request
 
-      expect(response).to be_success
+      expect(response).to be_successful
     end
   end
 end
