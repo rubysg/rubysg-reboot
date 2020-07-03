@@ -16,6 +16,7 @@ gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
+gem 'frozen_record'
 gem 'rack-cors'
 gem 'rails_utils'
 gem 'httparty'
