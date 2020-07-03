@@ -22,5 +22,8 @@ module RubysgReboot
 
     config.time_zone = 'Singapore'
     config.paths.add('eagerlib', eager_load: true)
+
+    # allow all hosts
+    config.hosts << /.*/
   end
 end
