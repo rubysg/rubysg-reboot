@@ -4,9 +4,29 @@ class SendWeeklyUpdatesJob < ApplicationJob
   def perform(id)
     sub = RubySgBotSubscriber.find_by(chat_id: id.to_s)
 
-    telegram_bot_api.send_message(
-      sub.chat_id,
-      <<~TEXT_MESSAGE
+    featured = ruby_weekly.featured_articles.each_with_index.map do |a, i|
+      <<~MARKDOWN
+      #{i+1}. #{a[:title]}. [Read More!](#{a[:link]})
+        ```text
+        #{a[:subtitle]}
+        ```
+      MARKDOWN
+    end.join("\n")
+
+    message = construct_message do
+      <<~MARKDOWN
+      🗞 _Ruby Weekly_
+      #{ruby_weekly.issue_link}
+
+      #{featured}
+      MARKDOWN
+    end
+
+    telegram_bot_api.send_message(sub.chat_id, message)
+  end
+
+  def construct_message(&block)
+    header = <<~MARKDOWN
       🛎 *It's Friday! Here are some Ruby goodness for you~*
 
       ```
@@ -16,18 +36,26 @@ class SendWeeklyUpdatesJob < ApplicationJob
            '. \\   / .'
              '.\\ /.'
                '.'
-      ```
-      🗞 https://rubyweekly.com/latest
 
-      Have an awesome weekend~!
+      ```
+    MARKDOWN
+
+    footer = <<~MARKDOWN
+
+      Thanks all folks. Have an awesome weekend~! 👋
       🤖RubySGBot🤖
-      TEXT_MESSAGE
-    )
+    MARKDOWN
+
+    header + yield + footer
   end
 
   private
 
+  def ruby_weekly
+    RubyWeekly.new
+  end
+
   def telegram_bot_api
-    TelegramBotApi.new(ENV["RUBY_SG_BOT_TOKEN"])
+    TelegramBotApi.new(token: ENV["RUBY_SG_BOT_TOKEN"])
   end
 end
