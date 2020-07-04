@@ -129,8 +129,8 @@
   updated_on: '2018-07-25'
   contribution_count: 1
 - name:       'NCS Pte Ltd'
-  website:    'http://ncs.com.sg/'
-  logo_url:   'http://info.singtel.com/sites/default/files/about-us/NCS.png'
+  website:    'https://ncs.com.sg/'
+  logo_url:   '' # original URL to image does not work
   address:    '5 Ang Mo Kio Street 62. NCS Hub Singapore 569141'
   hiring_url: ''
   email:      'agilepractice@ncs.com.sg'
@@ -138,7 +138,7 @@
   contribution_count: 0
 - name:       'Aureso'
   website:    'http://www.aureso.com'
-  logo_url:   'https://s3.postimg.org/blelc6iqb/13427793_534811873395141_8229663433544113851_n.png'
+  logo_url:   '' # original URL to image does not work
   address:    '59 Kampong Bahru Road, #02-03, Singapore 169367'
   hiring_url: ''
   email:      'team@aureso.com'
@@ -146,7 +146,7 @@
   contribution_count: 0
 - name:       'Futureworkz'
   website:    'http://www.futureworkz.com'
-  logo_url:   'https://s3-ap-southeast-1.amazonaws.com/futureworkz/3rd-party/logo.png'
+  logo_url:   '' # original URL to image does not work
   address:    '3 Fusionopolis Place #03-55 Singapore 138523'
   hiring_url: ''
   email:      'hello@futureworkz.com'
@@ -186,7 +186,7 @@
   contribution_count: 0
 - name:       'Canopy'
   website:    'https://canopy.sg'
-  logo_url:   'https://goo.gl/ipIzwe'
+  logo_url:   '' # original URL to image does not work
   address:    '7 Kim Yam Road, Singapore 239323'
   hiring_url: ''
   email:      'admin@mesitis.com'
@@ -194,7 +194,7 @@
   contribution_count: 0
 - name:       'SourceClear'
   website:    'https://srcclr.com'
-  logo_url:   'https://srcclr.com/images/srcclr__logo--primary-grey.png'
+  logo_url:   '' # original URL to image does not work
   address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964'
   hiring_url: ''
   email:      'hello@srcclr.com'
