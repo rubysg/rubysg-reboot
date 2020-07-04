@@ -4,7 +4,7 @@ RSpec.describe Company do
   before { Company.base_path = "#{Rails.root}/spec/fixtures/files" }
   after { Company.base_path = "#{Rails.root}/db/data" }
 
-  it "validate company.yml" do
+  it "validate companies.yml" do
     Company.base_path = "#{Rails.root}/db/data"
 
     Company.all.each do |c|
