@@ -1,47 +1,72 @@
 require 'rails_helper'
+require 'frozen_record/test_helper'
 
 RSpec.describe Company do
-  context 'validations' do
-    it { is_expected.to validate_presence_of :name }
-    it { is_expected.to validate_presence_of :website }
-    it { is_expected.to validate_presence_of :logo_url }
-    it { is_expected.to validate_presence_of :address }
-    it { is_expected.to validate_presence_of :email }
-  end
-
-  describe '#all' do
-    let(:company_a) { Company.new(name: 'abc', updated_on: '2016-01-01') }
-    let(:company_b) { Company.new(name: 'xyz', updated_on: '2016-01-01') }
-    let(:company_c) { Company.new(name: 'MNO', updated_on: '2017-01-01') }
-    let(:company_d) { Company.new(name: 'MNO', updated_on: '2017-01-02') }
-
-    it 'sorts by updated_on descending, then name ascending (ignore case)' do
-      expect(RubysgReboot::COMPANIES).to receive(:map) { [company_a, company_b, company_c, company_d] }
-      expect(Company.all).to eq [company_d, company_c, company_a, company_b]
+  it "validate companies.yml" do
+    Company.all.each do |c|
+      expect(c.name).to be_truthy
+      expect(c.website).to be_truthy
+      expect(c.logo_url).to be_truthy
+      expect(c.address).to be_truthy
+      expect(c.hiring_url).to be_truthy
+      expect(c.email).to be_truthy
+      expect(c.updated_on).to be_truthy
+      expect(c.contribution_count).to be_truthy
     end
   end
 
-  context 'validates company list' do
-    it 'has valid companies' do
-      Company.all.each do |company|
-        expect(company).to be_valid, "#{company.name} is invalid: #{company.errors.full_messages}"
+  context "test data" do
+    before do
+      FrozenRecord::TestHelper.load_fixture(
+        Company,
+        Rails.root.join("spec", "fixtures", "files")
+      )
+    end
+
+    describe '#sorted' do
+      it '#sorted, returns companies sorted by updated_on desc, then name asc (ignore case)' do
+        companies = Company.sorted
+        expect(companies[0].name).to eq "DCompany"
+        expect(companies[1].name).to eq "BCompany"
+        expect(companies[2].name).to eq "CCompany"
+        expect(companies[3].name).to eq "ACompany"
       end
     end
-  end
 
-  describe '#supporter?' do
-    let(:company) { Company.new(contribution_count: contribution_count) }
+    describe '#supporter?' do
+      it "true when contribution_count is > 0" do
+        company = Company.new(contribution_count: 1)
+        expect(company.supporter?).to eq true
+      end
 
-    context 'with a supporting company' do
-      let(:contribution_count) { 2 }
-
-      it { expect(company.supporter?).to be_truthy }
+      it "false when contribution_count is = 0" do
+        company = Company.new(contribution_count: 0)
+        expect(company.supporter?).to eq false
+      end
     end
 
-    context 'with a non-supporting company' do
-      let(:contribution_count) { 0 }
+    describe '#supporters' do
+      let(:companies) { Company.supporters }
 
-      it { expect(company.supporter?).to be_falsey }
+      it "list of companies that has contribution_count >= 1" do
+        companies.each do |c|
+          expect(c.contribution_count).to be >= 1
+        end
+      end
+
+      it "companies are sorted by contribution_count :desc, then updated_on :desc" do
+        expect(companies[0].name).to eq "CCompany"
+        expect(companies[1].name).to eq "DCompany"
+        expect(companies[2].name).to eq "BCompany"
+      end
+    end
+
+    describe '#non_supporters' do
+      it "list of companies that has contribution_count < 1" do
+        Company.non_supporters.each do |c|
+          expect(c.contribution_count).to be < 1
+        end
+      end
     end
   end
 end

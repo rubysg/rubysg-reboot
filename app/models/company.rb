@@ -1,46 +1,23 @@
-class Company
-  include ActiveModel::Model
-
-  attr_accessor(
-    :name,
-    :website,
-    :logo_url,
-    :address,
-    :hiring_url,
-    :email,
-    :updated_on,
-    :contribution_count
-  )
-
-  validates_presence_of(
-    :name,
-    :website,
-    :logo_url,
-    :address,
-    :email,
-    :updated_on
-  )
+class Company < FrozenRecord::Base
+  scope :sorted, -> { all.order(updated_on: :desc, name: :asc, contribution_count: :desc) }
 
   def supporter?
     contribution_count.to_i >= 1
   end
 
-  def self.fetch_supporters
-    self.all.select(&:supporter?).sort_by.with_index { |company, i| [-company.contribution_count, i] }
+  def self.supporters
+    sorted
+      .select(&:supporter?)
+      .sort_by do |company|
+        [
+          -company.contribution_count,
+          Date.today - Date.strptime(company.updated_on, "%Y-%m-%d")
+        ]
+      end
   end
 
-  def self.fetch_non_supporters
-    self.all.reject(&:supporter?)
-  end
-
-  def <=>(other)
-    # sort by most recently updated, then by ascending company name
-    return 1  if Date.parse(self.updated_on) < Date.parse(other.updated_on)
-    return -1 if Date.parse(self.updated_on) > Date.parse(other.updated_on)
-    self.name.downcase <=> other.name.downcase
-  end
-
-  def self.all
-    RubysgReboot::COMPANIES.map { |company| Company.new(company) }.sort
+  def self.non_supporters
+    sorted
+      .reject(&:supporter?)
   end
 end

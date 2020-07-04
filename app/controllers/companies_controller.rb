@@ -1,6 +1,6 @@
 class CompaniesController < ApplicationController
   def index
-    @supporter_companies = Company.fetch_supporters
-    @other_companies = Company.fetch_non_supporters
+    @supporter_companies = Company.supporters
+    @other_companies = Company.non_supporters
   end
 end

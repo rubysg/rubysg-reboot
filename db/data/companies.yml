@@ -1,71 +1,70 @@
 # Please refer to [README.md](https://github.com/rubysg/rubysg-reboot/blob/master/README.md) for the guidelines
 
--
-  name:       'Tinkerbox Studios'
+- name:       'Tinkerbox Studios'
   website:    'http://www.tinkerbox.com.sg'
   logo_url:   'https://cloud.githubusercontent.com/assets/5259935/10227563/a7f46946-68a0-11e5-9167-e0c6636e4329.png'
   address:    '113b Jalan Besar, Singapore 208833'
-  hiring_url:
+  hiring_url: ''
   email:      'info@tinkerbox.com.sg'
   updated_on: '2017-01-01'
--
-  name:       'Ruckus Wireless'
+  contribution_count: 0
+- name:       'Ruckus Wireless'
   website:    'http://www.ruckuswireless.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/761959/10251882/860e1cca-6966-11e5-9f25-3402a189a7f9.png'
   address:    '1 Fusionopolis View, #09-02 Sandcrawler, Singapore 138577'
-  hiring_url:
+  hiring_url: ''
   email:      'info@ruckuswireless.com'
   updated_on: '2017-01-01'
--
-  name:       'HomeAway Asia'
+  contribution_count: 0
+- name:       'HomeAway Asia'
   website:    'http://www.homeaway.asia'
   logo_url:   'https://cloud.githubusercontent.com/assets/1900876/10238424/27472246-68f2-11e5-9d23-bc5d2e2c71e5.png'
   address:    '83 Clemenceau Ave, #17-05 UE Square, Singapore 239920'
-  hiring_url:
+  hiring_url: ''
   email:      'devel@homeaway.asia'
   updated_on: '2017-01-01'
--
-  name:       'The Cubiclerebels'
+  contribution_count: 0
+- name:       'The Cubiclerebels'
   website:    'http://cubiclerebels.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/68039/10238934/9abe122e-68f8-11e5-9ba7-7cf95049324c.png'
   address:    '13 Lorong 24A Geylang, Singapore 398537'
-  hiring_url:
+  hiring_url: ''
   email:      'team@cubiclerebels.com'
   updated_on: '2017-01-01'
--
-  name:       'ReferralCandy'
+  contribution_count: 0
+- name:       'ReferralCandy'
   website:    'https://www.referralcandy.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/164703/10238307/6ab81ed8-68f0-11e5-8ac2-77520d02a639.png'
   address:    'Block 71 Ayer Rajah Crescent, #06-26, Singapore 139951'
   hiring_url: 'https://www.referralcandy.com/jobs'
   email:      'engineering+welcome@referralcandy.com'
   updated_on: '2017-11-16'
--
-  name:       'Pivotal Labs'
+  contribution_count: 0
+- name:       'Pivotal Labs'
   website:    'http://pivotal.io/'
   logo_url:   'https://cloud.githubusercontent.com/assets/578958/16254360/b158170c-3871-11e6-9849-74d9f8c455fc.png'
   address:    '53 Craig Road, #02-00, Singapore 089691'
-  hiring_url:
+  hiring_url: ''
   email:      'ashenoy@pivotal.io'
   updated_on: '2017-01-01'
--
-  name:       'Cantab IP'
+  contribution_count: 0
+- name:       'Cantab IP'
   website:    'https://www.cantab-ip.com/'
   logo_url:   'https://www.cantab-ip.com/images/cantab-ip-logo-200.png'
   address:    'VBox 881846, Singapore 919191'
-  hiring_url:
+  hiring_url: ''
   email:      'mail@cantab-ip.com'
   updated_on: '2017-01-01'
--
-  name:       'ESTL'
+  contribution_count: 0
+- name:       'ESTL'
   website:    'https://estl.tech/'
   logo_url:   'https://cloud.githubusercontent.com/assets/4353853/10241116/308a4200-6917-11e5-822a-22ffef56f44f.png'
   address:    '285 Ghim Moh Road Singapore 279622'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@estl.moe'
   updated_on: '2017-10-01'
--
-  name:       'TradeGecko'
+  contribution_count: 0
+- name:       'TradeGecko'
   website:    'https://www.tradegecko.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/701246/10245604/a935a360-693b-11e5-83b0-f61ce1894330.png'
   address:    '121 Telok Ayer St, 068590'
@@ -73,8 +72,7 @@
   email:      'mo@tradegecko.com'
   updated_on: '2017-01-01'
   contribution_count: 3
--
-  name:       'Viki'
+- name:       'Viki'
   website:    'https://www.viki.com/'
   logo_url:   'https://user-images.githubusercontent.com/3222800/33178039-a76208bc-d09f-11e7-9767-8d2d94197aae.png'
   address:    '138 Market Street, #32-01 CapitaGreen, Singapore 048946'
@@ -82,48 +80,47 @@
   email:      'engineering@viki.com'
   updated_on: '2018-08-03'
   contribution_count: 10
--
-  name:       'Grab'
+- name:       'Grab'
   website:    'https://www.grab.com'
   logo_url:   'https://avatars2.githubusercontent.com/u/2368682?v=3&s=512'
   address:    '138 Cecil Street, #01-01 Cecil Court, Singapore 069538'
-  hiring_url:
+  hiring_url: ''
   email:      'careers@grab.com'
   updated_on: '2017-01-01'
--
-  name:       'Beanstack'
+  contribution_count: 0
+- name:       'Beanstack'
   website:    'http://www.beanstack.sg/'
   logo_url:   'https://cloud.githubusercontent.com/assets/2155919/10252808/6c157ed4-696c-11e5-9000-8c7809209276.png'
   address:    '2 Bukit Batok St 24 #04-05 Singapore 659480'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@beanstack.sg'
   updated_on: '2017-01-01'
--
-  name:       'Rubify Technology'
+  contribution_count: 0
+- name:       'Rubify Technology'
   website:    'http://www.rubify.com/'
   logo_url:   'https://cloud.githubusercontent.com/assets/29207/10266530/caa3c7bc-6a9d-11e5-9f9f-7b3ed0d3d0ff.png'
   address:    '300 Tampines Avenue 5, #09-02 Singapore 529653'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@rubify.com'
   updated_on: '2017-01-01'
--
-  name:       'Flowhero Labs'
+  contribution_count: 0
+- name:       'Flowhero Labs'
   website:    'https://flowhero.io/'
   logo_url:   'https://cloud.githubusercontent.com/assets/297375/10273239/ddb007a4-6b5f-11e5-8bbf-204032afba4d.png'
   address:    '8 Burn Road, #15-13 Trivex, Singapore 369977'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@flowhero.io'
   updated_on: '2019-04-18'
--
-  name:       'GDS @ Hive'
+  contribution_count: 0
+- name:       'GDS @ Hive'
   website:    'https://gds-gov.tech/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1000669/10274777/c94e7318-6b73-11e5-869a-fb6eb4ad807f.jpg'
   address:    'Sandcrawler, 1 Fusionopolis View, #08-01, Singapore 138577'
-  hiring_url:
+  hiring_url: ''
   email:      'hiring@gds-gov.tech'
   updated_on: '2017-01-01'
--
-  name:       'ThoughtWorks'
+  contribution_count: 0
+- name:       'ThoughtWorks'
   website:    'http://www.thoughtworks.com'
   logo_url:   'https://www.thoughtworks.com/imgs/tw-logo.png'
   address:    '18 Cross Street, #11-08 China Square Central, 048423'
@@ -131,40 +128,39 @@
   email:      'join-sg@thoughtworks.com'
   updated_on: '2018-07-25'
   contribution_count: 1
--
-  name:       'NCS Pte Ltd'
-  website:    'http://ncs.com.sg/'
-  logo_url:   'http://info.singtel.com/sites/default/files/about-us/NCS.png'
+- name:       'NCS Pte Ltd'
+  website:    'https://ncs.com.sg/'
+  logo_url:   '' # original URL to image does not work
   address:    '5 Ang Mo Kio Street 62. NCS Hub Singapore 569141'
-  hiring_url:
+  hiring_url: ''
   email:      'agilepractice@ncs.com.sg'
   updated_on: '2017-01-01'
--
-  name:       'Aureso'
+  contribution_count: 0
+- name:       'Aureso'
   website:    'http://www.aureso.com'
-  logo_url:   'https://s3.postimg.org/blelc6iqb/13427793_534811873395141_8229663433544113851_n.png'
+  logo_url:   '' # original URL to image does not work
   address:    '59 Kampong Bahru Road, #02-03, Singapore 169367'
-  hiring_url:
+  hiring_url: ''
   email:      'team@aureso.com'
   updated_on: '2017-01-01'
--
-  name:       'Futureworkz'
+  contribution_count: 0
+- name:       'Futureworkz'
   website:    'http://www.futureworkz.com'
-  logo_url:   'https://s3-ap-southeast-1.amazonaws.com/futureworkz/3rd-party/logo.png'
+  logo_url:   '' # original URL to image does not work
   address:    '3 Fusionopolis Place #03-55 Singapore 138523'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@futureworkz.com'
   updated_on: '2017-01-01'
--
-  name:       'Ricoh Singapore'
+  contribution_count: 0
+- name:       'Ricoh Singapore'
   website:    'http://www.ricoh.sg/'
   logo_url:   'https://cloud.githubusercontent.com/assets/413879/10420511/2d39c36a-70c8-11e5-8938-e7929ce345f4.gif'
   address:    '20W Pasir Panjang Road #04-28 Mapletree Business City Singapore 117439'
-  hiring_url:
+  hiring_url: ''
   email:      'rspapps@ricoh.sg'
   updated_on: '2017-01-01'
--
-  name:       'honestbee'
+  contribution_count: 0
+- name:       'honestbee'
   website:    'https://www.honestbee.com'
   logo_url:   'https://user-images.githubusercontent.com/1129607/33252835-6d8f6c86-d37b-11e7-9642-784c0e792d21.png'
   address:    '2 Alexandra Road, #04-01B Delta House, Singapore 159919'
@@ -172,8 +168,7 @@
   email:      'ta@honestbee.com'
   updated_on: '2017-11-27'
   contribution_count: 1
--
-  name:       'Ascenda Loyalty'
+- name:       'Ascenda Loyalty'
   website:    'http://www.ascendaloyalty.com'
   logo_url:   'https://user-images.githubusercontent.com/5259935/63224882-1bdf0c80-c1fd-11e9-8244-25eb4b374371.jpeg'
   address:    '380 Jalan Besar, #12-10, Singapore 209000'
@@ -181,82 +176,79 @@
   email:      'ted.johansson@ascendaloyalty.com'
   updated_on: '2019-08-18'
   contribution_count: 6
--
-  name:       'SMART Centre'
+- name:       'SMART Centre'
   website:    'http://smart.mit.edu'
   logo_url:   'https://cloud.githubusercontent.com/assets/15645205/10930156/95eef638-82f6-11e5-9a55-3a1199222cf6.png'
   address:    '1 CREATE Way, #10-01 CREATE Tower, Singapore 138602'
-  hiring_url:
+  hiring_url: ''
   email:      'fang.zhao@smart.mit.edu'
   updated_on: '2017-01-01'
--
-  name:       'Canopy'
+  contribution_count: 0
+- name:       'Canopy'
   website:    'https://canopy.sg'
-  logo_url:   'https://goo.gl/ipIzwe'
+  logo_url:   '' # original URL to image does not work
   address:    '7 Kim Yam Road, Singapore 239323'
-  hiring_url:
+  hiring_url: ''
   email:      'admin@mesitis.com'
   updated_on: '2017-01-01'
--
-  name:       'SourceClear'
+  contribution_count: 0
+- name:       'SourceClear'
   website:    'https://srcclr.com'
-  logo_url:   'https://srcclr.com/images/srcclr__logo--primary-grey.png'
+  logo_url:   '' # original URL to image does not work
   address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@srcclr.com'
   updated_on: '2017-01-01'
--
-  name:       'Grain'
+  contribution_count: 0
+- name:       'Grain'
   website:    'https://grain.com.sg'
   logo_url:   'https://user-images.githubusercontent.com/761959/38454204-197faad0-3a95-11e8-96ea-82a9d45d3d1b.png'
   address:    '5 Burn Road, #05-01, Singapore 369972'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@grain.com.sg'
   updated_on: '2017-01-01'
--
-  name:       'Mobile Market Monitor'
+  contribution_count: 0
+- name:       'Mobile Market Monitor'
   website:    'https://www.mobilemarketmonitor.com/'
   logo_url:   'https://www.mobilemarketmonitor.com/assets/images/mmm-logo.png'
   address:    '75 High Street, Singapore 179435'
-  hiring_url:
+  hiring_url: ''
   email:      'support@mobilemarketmonitor.com'
   updated_on: '2017-01-01'
--
-  name:       'GuavaPass'
+  contribution_count: 0
+- name:       'GuavaPass'
   website:    'https://www.guavapass.com/'
   logo_url:   'https://user-images.githubusercontent.com/761959/38454034-3a6909ec-3a92-11e8-8947-aba39472ab60.png'
   address:    '6 Jiak Chuan Road, Singapore 089262'
-  hiring_url:
+  hiring_url: ''
   email:      'dev@guavapass.com'
   updated_on: '2017-01-01'
   contribution_count: 1
--
-  name:       'Mimetic.ai'
+- name:       'Mimetic.ai'
   website:    'https://www.mimetic.ai/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1900876/18735402/2874b954-80b0-11e6-98b2-d4bfa99ea7be.png'
   address:    '79 Ayer Rajah Crescent, #04-09, Singapore 139955'
-  hiring_url:
+  hiring_url: ''
   email:      'hello@mimetic.ai'
   updated_on: '2017-01-01'
--
-  name:       'Pocketmath'
+  contribution_count: 0
+- name:       'Pocketmath'
   website:    'https://www.pocketmath.com/'
   logo_url:   'https://s3.amazonaws.com/mail.pocketmath.com/pm_icon.svg'
   address:    '883 North Bridge Road, Southbank #17-05, Singapore 198785'
-  hiring_url:
+  hiring_url: ''
   email:      'carebears@pocketmath.com'
   updated_on: '2017-11-24'
   contribution_count: 1
--
-  name:       'Perx Technologies'
+- name:       'Perx Technologies'
   website:    'http://www.perxtech.com/'
   logo_url:   'https://user-images.githubusercontent.com/761959/38454184-a4464580-3a94-11e8-829b-322009f0e1ce.png'
   address:    '2A Pahang Street 02-00, Singapore 198604'
-  hiring_url:
+  hiring_url: ''
   email:      'careers@perxtech.com'
   updated_on: '2017-11-24'
--
-  name:       'EngageRocket'
+  contribution_count: 0
+- name:       'EngageRocket'
   website:    'http://www.engagerocket.co'
   logo_url:   'https://user-images.githubusercontent.com/5259935/29824397-c3b15f02-8cd1-11e7-88a1-7c4831272fb5.jpg'
   address:    '10 Raeburn Park, Singapore 088702'
@@ -264,8 +256,7 @@
   email:      'hello@engagerocket.co'
   updated_on: '2017-12-14'
   contribution_count: 5
--
-  name:       'MoneySmart'
+- name:       'MoneySmart'
   website:    'https://www.moneysmart.com/'
   logo_url:   'https://user-images.githubusercontent.com/655963/32009258-2c19651c-b9e1-11e7-9a38-4d36ff861769.png'
   address:    '8 Commonwealth Ln #04-02, Singapore 149555'
@@ -273,16 +264,15 @@
   email:      'careers@moneysmart.com'
   updated_on: '2019-04-30'
   contribution_count: 2
--
-  name:       'Burpple'
+- name:       'Burpple'
   website:    'https://www.burpple.com'
   logo_url:   'https://user-images.githubusercontent.com/9005540/33381467-1014d7c8-d559-11e7-8f8e-9f41ce5ce83a.jpg'
   address:    '20 Kallang Avenue, #01-01, Singapore 339411'
   hiring_url: 'https://burpple.com/careers'
   email:      'jobs@burpple.com'
   updated_on: '2017-11-29'
--
-  name:       'Wantedly'
+  contribution_count: 0
+- name:       'Wantedly'
   website:    'http://bit.ly/wantedly4'
   logo_url:   'https://user-images.githubusercontent.com/761959/33948620-4d13df48-e062-11e7-8aea-c3642b262661.png'
   address:    'WeWork Beach Centre, 15 Beach Road #03-128, Singapore 189667'
@@ -290,24 +280,23 @@
   email:      'hello.sg@wantedly.com'
   updated_on: '2018-04-03'
   contribution_count: 6
--
-  name:       'Saleswhale'
+- name:       'Saleswhale'
   website:    'https://www.saleswhale.com/'
   logo_url:   'https://avatars2.githubusercontent.com/u/19738588?s=200&v=4'
   address:    '10 Hoe Chiang Road #04-01 Keppel Towers, Singapore 089315'
   hiring_url: 'https://jobs.lever.co/saleswhale'
   email:      'jobs@saleswhale.com'
   updated_on: '2018-09-25'
--
-  name:       'SGAG'
+  contribution_count: 0
+- name:       'SGAG'
   website:    'http://bit.ly/sgag-wantedly'
   logo_url:   'https://user-images.githubusercontent.com/761959/33948989-3c90fcb8-e063-11e7-9677-c3c28925c65b.png'
   address:    '85 Playfair Road #06-01, Singapore 368000'
   hiring_url: 'http://bit.ly/sgag-wantedly'
   email:      'contact@sgag.sg'
   updated_on: '2017-12-14'
--
-  name:       'Silicon Jungles'
+  contribution_count: 0
+- name:       'Silicon Jungles'
   website:    'https://siliconjungles.io'
   logo_url:   'https://siliconjungles.com/assets/Silicon-Jungles-Logo.svg'
   address:    '175A Bencoolen Street, Burlington Square, #07-04, Singapore 189650'
@@ -315,24 +304,23 @@
   email:      'hello@siliconjungles.com'
   updated_on: '2019-04-18'
   contribution_count: 9
--
-  name:       'SimplePay'
+- name:       'SimplePay'
   website:    'https://www.simplepay.com.sg'
   logo_url:   'https://cdn.techinasia.com/data/images/4fd4d977488e962d1696ad2cd212603a.png'
   address:    '531A Upper Cross Street, #03-102 Hong Lim Complex, Singapore, 051531'
   hiring_url: 'https://www.simplepay.com.sg/careers'
   email:      'careers@simplepay.com.sg'
   updated_on: '2018-05-25'
--
-  name:       'OpsManager'
+  contribution_count: 0
+- name:       'OpsManager'
   website:    'https://www.opsmanager.com'
   logo_url:   'https://s3-ap-southeast-1.amazonaws.com/opsmanager-static-assets/OpsManagerIcon-1770x.png'
   hiring_url: 'https://www.opsmanager.com/jobs'
   address:    '71A Duxton Rd, Singapore, 089530'
   email:      'hello@opsmanager.com'
   updated_on: '2018-06-27'
--
-  name:       'Stripe'
+  contribution_count: 0
+- name:       'Stripe'
   website:    'https://stripe.com'
   logo_url:   'https://stripe.com/img/about/logos/logos/blue.png'
   hiring_url: 'https://stripe.com/jobs#location=singapore'
@@ -340,16 +328,15 @@
   email:      'jobs+singapore@stripe.com'
   updated_on: '2018-07-12'
   contribution_count: 4
--
-  name:       'Sephora'
+- name:       'Sephora'
   website:    'https://sephora.sg'
   logo_url:   'https://user-images.githubusercontent.com/35408/44762012-1023b180-ab78-11e8-80e2-892df2494450.png'
   address:    '391A, Orchard Road, Ngee Ann City Tower A, #16-00, 238873'
   hiring_url: 'https://www.sephora.sg/jobs'
   email:      'tech@sephoradigital.com'
   updated_on: '2018-08-29'
--
-  name:       'Shopify'
+  contribution_count: 0
+- name:       'Shopify'
   website:    'http://shopify.com'
   logo_url:   'https://user-images.githubusercontent.com/761959/44944692-fa2f1e80-ae0d-11e8-870d-3f7dd02b675c.png'
   address:    '71 Robinson Road #13-155, Singapore 068895'
@@ -357,19 +344,19 @@
   email:      'winston.teo@shopify.com'
   updated_on: '2018-09-01'
   contribution_count: 4
--
-  name:       'Black Tangent'
+- name:       'Black Tangent'
   website:    'https://blacktangent.com'
   logo_url:   'https://user-images.githubusercontent.com/1222916/47350084-9cb99e80-d6e7-11e8-84a6-6b39f7c8a48b.png'
   address:    '5 Shenton Way UIC Building #10-01, Singapore 068808'
   hiring_url: 'https://blacktangent.com/careers'
   email:      'hello@blacktangent.com'
   updated_on: '2018-10-23'
--
-  name:       'Agile Lab'
+  contribution_count: 0
+- name:       'Agile Lab'
   website:    'https://agilelab.sg'
   logo_url:   'https://user-images.githubusercontent.com/7512904/57511875-7500ef80-7334-11e9-9e1c-5be1d5e51f2d.png'
   address:    '73 Ayer Rajah Crescent, #02-28 Singapore 139952'
   hiring_url: 'https://blog.agilelab.sg/join-us-d3db9114b94b'
   email:      'hello@agilelab.sg'
   updated_on: '2019-05-10'
+  contribution_count: 0
