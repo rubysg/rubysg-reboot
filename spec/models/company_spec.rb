@@ -2,7 +2,6 @@ require 'rails_helper'
 
 RSpec.describe Company do
   before { Company.base_path = "#{Rails.root}/spec/fixtures/files" }
-  after { Company.base_path = "#{Rails.root}/db/data" }
 
   it "validate companies.yml" do
     Company.base_path = "#{Rails.root}/db/data"
