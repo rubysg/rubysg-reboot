@@ -42,3 +42,6 @@ Rails.application.configure do
 
   config.active_job.queue_adapter = :test
 end
+
+Telegram.reset_bots
+Telegram::Bot::ClientStub.stub_all!
