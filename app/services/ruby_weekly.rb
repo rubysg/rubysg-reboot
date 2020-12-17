@@ -22,9 +22,9 @@ class RubyWeekly
     end
 
     featured_articles = contents.first(jobs_section_index).map do |table|
-      link = table.search('tr/td/p/span/a')&.first&.attributes&.[]("href")&.value.to_s
-      title = table.search('tr/td/p/span/a')&.first&.children&.first&.to_s
-      subtitle = table.search('tr/td/p')&.first&.text.to_s
+      link = table.search('tr/td/p/span/a')&.first&.attributes&.[]("href")&.value.to_s.strip
+      title = table.search('tr/td/p/span/a')&.first&.content.to_s.strip
+      subtitle = table.search('tr/td/p')&.first&.text.to_s.strip
 
       if link.present? && title.present? && subtitle.present?
         {
