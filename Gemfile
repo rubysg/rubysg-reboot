@@ -50,5 +50,5 @@ group :test do
 end
 
 gem 'nokogiri', '>= 1.8.1'
-
 gem 'rails-html-sanitizer', '>= 1.0.4'
+gem 'telegram-bot', '~> 0.15.0'
