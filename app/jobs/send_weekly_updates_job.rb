@@ -22,9 +22,12 @@ class SendWeeklyUpdatesJob < ApplicationJob
       MARKDOWN
     )
 
-    featured_articles.each do |a|
-      send_telegram_message(
-        sub.chat_id,
+    featured_articles.each_slice(5) do |articles|
+      message = <<~MARKDOWN
+      testing
+      MARKDOWN
+
+      message = articles.map do |a|
         <<~MARKDOWN
         *#{a[:title]}*
 
@@ -33,6 +36,11 @@ class SendWeeklyUpdatesJob < ApplicationJob
         ```
         [Read More!](#{a[:link]})
         MARKDOWN
+      end.join("\n")
+
+      send_telegram_message(
+        sub.chat_id,
+        message
       )
     end
 
