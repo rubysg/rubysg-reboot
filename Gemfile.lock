@@ -127,6 +127,7 @@ GEM
     httparty (0.18.1)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
+    httpclient (2.8.3)
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
     jquery-rails (4.4.0)
@@ -270,6 +271,10 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    telegram-bot (0.15.0)
+      actionpack (>= 4.0, < 6.1)
+      activesupport (>= 4.0, < 6.1)
+      httpclient (~> 2.7)
     temple (0.8.2)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -294,7 +299,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  addressable
   better_errors
   binding_of_caller
   bootstrap-sass
@@ -323,6 +327,7 @@ DEPENDENCIES
   slim-rails
   spring
   spring-commands-rspec
+  telegram-bot (~> 0.15.0)
   turbolinks
   uglifier
   webmock

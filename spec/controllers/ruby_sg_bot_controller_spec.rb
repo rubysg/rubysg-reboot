@@ -1,13 +1,7 @@
 require 'rails_helper'
+require 'telegram/bot/rspec/integration/rails'
 
-RSpec.describe Api::RubySgBotController do
-  before do
-    @telegram_bot_api = TelegramBotApi::Test.new
-    allow_any_instance_of(Api::RubySgBotController)
-      .to(receive(:telegram_bot_api))
-      .and_return(@telegram_bot_api)
-  end
-
+RSpec.describe Api::RubySgBotController, telegram_bot: :rails do
   describe "#webhook" do
     def do_request(params = {})
       post :webhook, params: params
@@ -23,10 +17,10 @@ RSpec.describe Api::RubySgBotController do
       end
 
       it "sends message with TelegramBotApi" do
-        do_request(params)
-
-        expect(@telegram_bot_api.messages.length).to eq 1
-        expect(@telegram_bot_api.messages.first.first).to eq :send_message
+        expect { do_request(params) }.to(
+          make_telegram_request(Telegram.bot, :sendMessage).
+            with(hash_including(text: "👋 At your service!\n"))
+        )
       end
     end
 
@@ -40,10 +34,10 @@ RSpec.describe Api::RubySgBotController do
       end
 
       it "sends message with TelegramBotApi" do
-        do_request(params)
-
-        expect(@telegram_bot_api.messages.length).to eq 1
-        expect(@telegram_bot_api.messages.first.first).to eq :send_message
+        expect { do_request(params) }.to(
+          make_telegram_request(Telegram.bot, :sendMessage).
+            with(hash_including(text: "👋 At your service!\n"))
+        )
       end
     end
 

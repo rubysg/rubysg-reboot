@@ -20,8 +20,10 @@ gem 'frozen_record'
 gem 'rack-cors'
 gem 'rails_utils'
 gem 'httparty'
-gem 'addressable'
 gem 'rufus-scheduler'
+gem 'nokogiri', '>= 1.8.1'
+gem 'rails-html-sanitizer', '>= 1.0.4'
+gem 'telegram-bot', '~> 0.15.0'
 
 group :production do
   gem 'runtimeerror_notifier'
@@ -48,7 +50,3 @@ end
 group :test do
   gem 'webmock'
 end
-
-gem 'nokogiri', '>= 1.8.1'
-
-gem 'rails-html-sanitizer', '>= 1.0.4'

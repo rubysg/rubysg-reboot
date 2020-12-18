@@ -52,6 +52,8 @@ RSpec.configure do |config|
 
   # http://api.rubyonrails.org/classes/ActiveSupport/Testing/TimeHelpers.html#method-i-travel
   config.include ActiveSupport::Testing::TimeHelpers
+
+  config.after { Telegram.bots.each_value(&:reset) }
 end
 
 Shoulda::Matchers.configure do |config|
