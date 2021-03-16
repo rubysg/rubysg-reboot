@@ -24,6 +24,7 @@ gem 'rufus-scheduler'
 gem 'nokogiri', '>= 1.8.1'
 gem 'rails-html-sanitizer', '>= 1.0.4'
 gem 'telegram-bot', '~> 0.15.0'
+gem 'rqrcode', '~> 1.0'
 
 group :production do
   gem 'runtimeerror_notifier'
