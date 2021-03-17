@@ -98,6 +98,10 @@
     background-size: cover;
     height: 500px;
 
+    &.meetup-img-0 {
+      background-image: image-url('meetup-0.jpg');
+    }
+
     &.meetup-img-1 {
       background-image: image-url('meetup-1.jpg');
     }
