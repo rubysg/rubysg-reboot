@@ -4,7 +4,7 @@ ruby '2.7.1'
 
 gem 'puma'
 gem 'rails', '~> 6'
-gem 'pg', '0.21.0' # Fix version until Rails supports 1.0.0
+gem 'pg', '~> 1' # Fix version until Rails supports 1.0.0
 
 gem 'slim-rails'
 gem 'sass-rails'
