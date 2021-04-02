@@ -1,13 +1,5 @@
 # Please refer to [README.md](https://github.com/rubysg/rubysg-reboot/blob/master/README.md) for the guidelines
 
-- name:       'Tinkerbox Studios'
-  website:    'http://www.tinkerbox.com.sg'
-  logo_url:   'https://cloud.githubusercontent.com/assets/5259935/10227563/a7f46946-68a0-11e5-9167-e0c6636e4329.png'
-  address:    '113b Jalan Besar, Singapore 208833'
-  hiring_url: ''
-  email:      'info@tinkerbox.com.sg'
-  updated_on: '2017-01-01'
-  contribution_count: 0
 - name:       'Ruckus Wireless'
   website:    'http://www.ruckuswireless.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/761959/10251882/860e1cca-6966-11e5-9f25-3402a189a7f9.png'
@@ -64,14 +56,6 @@
   email:      'hello@estl.moe'
   updated_on: '2017-10-01'
   contribution_count: 0
-- name:       'TradeGecko'
-  website:    'https://www.tradegecko.com'
-  logo_url:   'https://cloud.githubusercontent.com/assets/701246/10245604/a935a360-693b-11e5-83b0-f61ce1894330.png'
-  address:    '121 Telok Ayer St, 068590'
-  hiring_url: 'https://www.tradegecko.com/jobs'
-  email:      'mo@tradegecko.com'
-  updated_on: '2017-01-01'
-  contribution_count: 3
 - name:       'Viki'
   website:    'https://www.viki.com/'
   logo_url:   'https://user-images.githubusercontent.com/3222800/33178039-a76208bc-d09f-11e7-9767-8d2d94197aae.png'
@@ -160,14 +144,6 @@
   email:      'rspapps@ricoh.sg'
   updated_on: '2017-01-01'
   contribution_count: 0
-- name:       'honestbee'
-  website:    'https://www.honestbee.com'
-  logo_url:   'https://user-images.githubusercontent.com/1129607/33252835-6d8f6c86-d37b-11e7-9642-784c0e792d21.png'
-  address:    '2 Alexandra Road, #04-01B Delta House, Singapore 159919'
-  hiring_url: 'http://careers.honestbee.com/departments/engineering/'
-  email:      'ta@honestbee.com'
-  updated_on: '2017-11-27'
-  contribution_count: 1
 - name:       'Ascenda Loyalty'
   website:    'http://www.ascendaloyalty.com'
   logo_url:   'https://user-images.githubusercontent.com/5259935/63224882-1bdf0c80-c1fd-11e9-8244-25eb4b374371.jpeg'
@@ -208,14 +184,6 @@
   email:      'support@mobilemarketmonitor.com'
   updated_on: '2017-01-01'
   contribution_count: 0
-- name:       'GuavaPass'
-  website:    'https://www.guavapass.com/'
-  logo_url:   'https://user-images.githubusercontent.com/761959/38454034-3a6909ec-3a92-11e8-8947-aba39472ab60.png'
-  address:    '6 Jiak Chuan Road, Singapore 089262'
-  hiring_url: ''
-  email:      'dev@guavapass.com'
-  updated_on: '2017-01-01'
-  contribution_count: 1
 - name:       'Mimetic.ai'
   website:    'https://www.mimetic.ai/'
   logo_url:   'https://cloud.githubusercontent.com/assets/1900876/18735402/2874b954-80b0-11e6-98b2-d4bfa99ea7be.png'
@@ -224,14 +192,6 @@
   email:      'hello@mimetic.ai'
   updated_on: '2017-01-01'
   contribution_count: 0
-- name:       'Pocketmath'
-  website:    'https://www.pocketmath.com/'
-  logo_url:   'https://s3.amazonaws.com/mail.pocketmath.com/pm_icon.svg'
-  address:    '883 North Bridge Road, Southbank #17-05, Singapore 198785'
-  hiring_url: ''
-  email:      'carebears@pocketmath.com'
-  updated_on: '2017-11-24'
-  contribution_count: 1
 - name:       'Perx Technologies'
   website:    'http://www.perxtech.com/'
   logo_url:   'https://user-images.githubusercontent.com/761959/38454184-a4464580-3a94-11e8-829b-322009f0e1ce.png'
