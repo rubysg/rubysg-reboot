@@ -168,14 +168,6 @@
   email:      'admin@mesitis.com'
   updated_on: '2017-01-01'
   contribution_count: 0
-- name:       'SourceClear'
-  website:    'https://srcclr.com'
-  logo_url:   '' # original URL to image does not work
-  address:    '20 Ayer Rajah Crescent, #08-07, Singapore 139964'
-  hiring_url: ''
-  email:      'hello@srcclr.com'
-  updated_on: '2017-01-01'
-  contribution_count: 0
 - name:       'Grain'
   website:    'https://grain.com.sg'
   logo_url:   'https://user-images.githubusercontent.com/761959/38454204-197faad0-3a95-11e8-96ea-82a9d45d3d1b.png'
