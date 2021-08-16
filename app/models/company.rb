@@ -10,8 +10,7 @@ class Company < FrozenRecord::Base
       .select(&:supporter?)
       .sort_by do |company|
         [
-          -company.contribution_count,
-          Date.today - Date.strptime(company.updated_on, "%Y-%m-%d")
+          Date.today - Date.strptime(company.updated_on, "%Y-%m-%d"),
         ]
       end
   end
