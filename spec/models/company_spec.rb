@@ -54,10 +54,10 @@ RSpec.describe Company do
         end
       end
 
-      it "companies are sorted by contribution_count :desc, then updated_on :desc" do
-        expect(companies[0].name).to eq "CCompany"
-        expect(companies[1].name).to eq "DCompany"
-        expect(companies[2].name).to eq "BCompany"
+      it "companies are sorted by updated_on :desc" do
+        expect(companies[0].name).to eq "DCompany"
+        expect(companies[1].name).to eq "BCompany"
+        expect(companies[2].name).to eq "CCompany"
       end
     end
 
