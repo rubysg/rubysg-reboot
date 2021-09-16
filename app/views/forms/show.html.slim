@@ -1,0 +1,46 @@
+.container
+  .section
+    h1 = @form.title
+
+    = form_with(id: :form, model: @form) do |form|
+      = form.hidden_field :form_type, value: @form.form_type
+
+      - @form.questions.each do |question|
+        - if question[:options].is_a?(Array)
+          = field_set_tag nil, "cf-questions" => question[:question] do
+            - question[:options].each do |option|
+              = form.radio_button question[:key], option, required: question[:required], "cf-label" => option
+
+        - else
+          = form.text_field question[:key], required: question[:required], "cf-questions" => question[:question]
+
+    div[id="cf-context" role="cf-context" cf-context=true]
+
+script[type="text/javascript" src="https://cdn.jsdelivr.net/gh/space10-community/conversational-form@1.0.1/dist/conversational-form.min.js" crossorigin=true]
+
+css:
+  /*
+    TODO: Move this into asset pipeline. For some reason putting styles in
+      base.scss does not get picked up.
+  */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #cf-context {
+    width: 100%;
+    height: 500px;
+  }
+
+  #form {
+    position: absolute;
+    height: 0px;
+    visibility: hidden;
+  }
+
+javascript:
+  var conversationalForm = window.cf.ConversationalForm.startTheConversation({
+    formEl: document.getElementById("form"),
+    context: document.getElementById("cf-context"),
+    theme: 'red'
+  })
