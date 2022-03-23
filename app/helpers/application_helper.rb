@@ -4,7 +4,7 @@ module ApplicationHelper
       .new("https://t.me/joinchat/TWJ3HtLeJF81EweA")
       .as_svg(
         offset: 10,
-        color: 'DA4544',
+        color: '222529',
         shape_rendering: 'crispEdges',
         module_size: 6,
         standalone: true

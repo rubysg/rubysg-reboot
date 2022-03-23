@@ -1,74 +1,37 @@
-#meet-us
-  .container-fluid
-    .row
-      .col-md-6
-        .section
-          h3.section-heading.sub.heading-line Ruby Meetups
-          p Wee usually meet on the third Thursday of every month and speakers will give talks about Ruby
-            and share 5 random Ruby tips. Building & shipping is how we roll. It's a great way to meet Ruby enthusiasts!
-          a.btn.btn-lg.btn-primary href='http://www.meetup.com/Singapore-Ruby-Group' target='_blank'
-            span Meet Us
-      .col-md-6.carousel-container
-        #carousel-example-generic.carousel.slide data-ride="carousel"
-          ol.carousel-indicators
-            li.active data-slide-to="0" data-target="#carousel-example-generic"
-            li data-slide-to="1" data-target="#carousel-example-generic"
-            li data-slide-to="2" data-target="#carousel-example-generic"
-            li data-slide-to="3" data-target="#carousel-example-generic"
-          .carousel-inner role="listbox"
-            .item.active
-              div.carousel-img.meetup-img-0
-            .item
-              div.carousel-img.meetup-img-1
-            .item
-              div.carousel-img.meetup-img-2
-            .item
-              div.carousel-img.meetup-img-3
-
-    .row
-      .col-md-6.carousel-container
-        div.carousel-img.conference-img-1
-      .col-md-6
-        .section
-          h3.section-heading.sub.heading-line RedDotRubyConf
-          p Join us for South East Asia's largest Ruby conference. Two whole days, jam packed with fun and talks. Hear Matz and other great speakers from all over the world talk about the future of Ruby.
-          a.btn.btn-lg.btn-primary href='https://engineers.sg/conference/reddotrubyconf2017' target='_blank'
-            span Watch The Talks
-
-.section.section-gray#join-us
-  .container-fluid
-    h3.section-heading.heading-line Join Us
-    .row.text-center
-      a.col-sm-4.join-us-col.join-us-fb href='https://www.facebook.com/groups/singaporerubybrigade' target='_blank'
-        = icon(:fab, :facebook, class: "fa-lg")
-        span Facebook
-      a.col-sm-4.join-us-col.join-us-google href='https://groups.google.com/forum/?fromgroups#!forum/singapore-rb' target='_blank'
-        = icon(:fab, :google, class: "fa-lg")
-        span Google Group
-      a.col-sm-4.join-us-col.join-us-github href='https://github.com/rubysg' target='_blank'
-        = icon(:fab, :github, class: "fa-lg")
-        span GitHub
-
-.section#chat-with-us
+.section#meet-us
   .container
-    h3.section-heading.heading-line Chat With Us
-    .row.text-center
-      .col-sm-8.col-sm-offset-2
-        = rubysg_telegram_qr_code_svg
+    .col-sm-8.col-sm-offset-2
+      h3.section-heading.sub.heading-line Every 3rd Thursday of the Month,
+      p We hold meetups with speakers giving talks about Ruby
+        and share 5 random Ruby tips. Building & shipping is how we roll.
+        It's a great way to meet Ruby enthusiasts!
+      a.btn.btn-lg.btn-primary href='http://www.meetup.com/Singapore-Ruby-Group' target='_blank'
+        span Come Join Us!
 
-        p
-          strong Invite yourself to our <a href="https://t.me/joinchat/TWJ3HtLeJF81EweA" target="_blank">Telegram group</a>
-
-.section.section-black#companies
+.section.section-blue#chat-with-us
   .container
-    .row
-      .col-sm-8.col-sm-offset-2
-        h3.section-heading.heading-line.sub Looking for a job in Ruby?
-        p These Singapore companies use Ruby and they may be hiring.
-        br
-        = link_to 'Check them out', companies_path, class: 'btn btn-primary btn-lg'
+    h3.section-heading Chat with us on
+    i.fa-brands.fa-telegram
+    .row.text-center
+      a.btn.btn-lg.btn-primary href='https://t.me/joinchat/TWJ3HtLeJF81EweA" target="_blank">Telegram group</a>' target='_blank'
+            span Join Telegram ->
+      .qr-code
+        .col-sm-8.col-sm-offset-2
+          = rubysg_telegram_qr_code_svg
 
-.section#visiting-singapore
+.section#companies
+  .container
+    .col-sm-8.col-sm-offset-2.ruby-jobs
+      h3.section-heading.heading-line.sub Looking for Ruby jobs?
+      p These Singapore companies use Ruby and they may be hiring.
+      - @supporter_companies.each do |company|
+        .col-md-3.col-sm-6.ruby-company
+          = link_to company.website, target: '_blank' do
+            .media-object.company-logo style='background-image: url(#{company.logo_url})'
+      .col.text-center
+        = link_to 'See more', companies_path, class: 'btn btn-primary btn-lg'
+
+.section.section-gray#visiting-singapore
   .container
     h2.section-heading.heading-line Visiting Singapore?
     .row.text-center
