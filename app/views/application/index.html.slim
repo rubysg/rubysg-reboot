@@ -10,8 +10,7 @@
 
 .section.section-blue#chat-with-us
   .container
-    h3.section-heading Chat with us on
-    i.fa-brands.fa-telegram
+    h3.section-heading Chat with us on <i class="fa-brands fa-telegram"></i>
     .row.text-center
       a.btn.btn-lg.btn-primary href='https://t.me/joinchat/TWJ3HtLeJF81EweA" target="_blank">Telegram group</a>' target='_blank'
             span Join Telegram ->
@@ -24,10 +23,11 @@
     .col-sm-8.col-sm-offset-2.ruby-jobs
       h3.section-heading.heading-line.sub Looking for Ruby jobs?
       p These Singapore companies use Ruby and they may be hiring.
-      - @supporter_companies.each do |company|
-        .col-md-3.col-sm-6.ruby-company
-          = link_to company.website, target: '_blank' do
-            .media-object.company-logo style='background-image: url(#{company.logo_url})'
+      .ruby-companies
+        - @supporter_companies.each do |company|
+          .ruby-company
+            = link_to company.website, target: '_blank' do
+              .media-object.company-logo style='background-image: url(#{company.logo_url})'
       .col.text-center
         = link_to 'See more', companies_path, class: 'btn btn-primary btn-lg'
 

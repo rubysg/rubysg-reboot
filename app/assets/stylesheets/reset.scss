@@ -11,14 +11,16 @@ a:focus {
 .btn {
   background-color: $theme-gray;
   border: none;
-  border-radius: 16px;
+  border-radius: 20px;
   color: #fff;
-  padding: 10px 18px;
+  padding: 10px 24px;
   font-size: 1.5rem;
   transition: all 0.2s linear;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 
   &:hover {
     color: #fff;
+    transform: translateY(3px);
 
     &.btn-primary {
       border-color: $theme-gray;

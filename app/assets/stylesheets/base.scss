@@ -32,10 +32,7 @@
 }
 
 .section {
-  $padding: 3rem;
-
-  padding-bottom: $padding;
-  padding-top: $padding;
+  padding: 3rem 0;
 
   &.section-blue {
     background-color: #bfe3ff;
@@ -93,6 +90,17 @@
   margin-top: 1em;
 }
 
+.ruby-companies {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.ruby-company {
+  padding: 2em 1em;
+  flex: 1 0 21%;
+}
+
 .company-logo {
   $logo-size: 100px;
 
@@ -102,14 +110,17 @@
   background-repeat: no-repeat;
   height: $logo-size;
   width: $logo-size;
-}
+  transition: ease 0.3s;
+  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
 
-.ruby-company {
-  padding: 1em 0;
-}
-
-.ruby-jobs {
-  padding-bottom: 1em;
+  &:hover {
+    transform: translateY(5px);
+    text-shadow: 1px 1px black;
+  }
 }
 
 footer {
@@ -125,7 +136,7 @@ footer {
 }
 
 #chat-with-us {
-  color: black;
+  color: #222529;
   .section-heading {
     color: #222529;
   }
