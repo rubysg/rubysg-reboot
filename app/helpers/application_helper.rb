@@ -1,7 +1,7 @@
 module ApplicationHelper
   def rubysg_telegram_qr_code_svg
     RQRCode::QRCode
-      .new("https://t.me/joinchat/TWJ3HtLeJF81EweA")
+      .new("https://t.me/+j4v36nyUYNU4OWZl")
       .as_svg(
         offset: 10,
         color: 'DA4544',
