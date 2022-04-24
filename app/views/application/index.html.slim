@@ -10,13 +10,15 @@
 
 .section.section-blue#chat-with-us
   .container
-    h3.section-heading Chat with us on <i class="fa-brands fa-telegram"></i>
-    .row.text-center
-      a.btn.btn-lg.btn-primary href='https://t.me/joinchat/TWJ3HtLeJF81EweA" target="_blank">Telegram group</a>' target='_blank'
-            span Join Telegram ->
-      .qr-code
-        .col-sm-8.col-sm-offset-2
-          = rubysg_telegram_qr_code_svg
+    h3.section-heading
+      ' Chat with us on
+      = icon('fab', 'telegram')
+      .row.text-center.telegram-link
+        a.btn.btn-lg.btn-primary href='https://t.me/+j4v36nyUYNU4OWZl target="_blank">Telegram group</a>' target='_blank'
+              span Join Telegram ->
+        .qr-code
+          .col-sm-8.col-sm-offset-2
+            = rubysg_telegram_qr_code_svg
 
 .section#companies
   .container

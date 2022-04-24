@@ -35,20 +35,20 @@
   padding: 3rem 0;
 
   &.section-blue {
-    background-color: #bfe3ff;
-    color: #fff;
+    background-color: $theme-blue;
+    color: white;
 
     .section-heading {
-      color: #fff;
+      color: white;
     }
   }
 
   &.section-gray {
     background-color: $theme-gray;
-    color: #fff;
+    color: white;
 
     .section-heading {
-      color: #fff;
+      color: white;
     }
   }
 
@@ -84,6 +84,10 @@
   p {
     margin: 2em 0;
   }
+}
+
+.telegram-link {
+  margin-top: 1em;
 }
 
 .qr-code {
@@ -124,7 +128,7 @@
 }
 
 footer {
-  border-top: 1px solid #eee;
+  border-top: 1px solid;
   padding: 10px;
 }
 
@@ -136,9 +140,9 @@ footer {
 }
 
 #chat-with-us {
-  color: #222529;
+  color: $theme-darkblue;
   .section-heading {
-    color: #222529;
+    color: $theme-darkblue;
   }
 }
 
