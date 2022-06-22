@@ -5,7 +5,7 @@
 
 .banner {
   background-color: $brand-primary;
-  background-image: image-url('skyline.png');
+  background-image: image-url("skyline.png");
   background-size: 100% auto;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
     margin-bottom: 3rem;
 
     a {
-     color: inherit;
+      color: inherit;
 
       &:hover {
         text-decoration: none;
@@ -32,38 +32,35 @@
 }
 
 .section {
-  $padding: 10rem;
+  padding: 3rem 0;
 
-  padding-bottom: $padding;
-  padding-top: $padding;
-
-  &.section-gray {
-    background-color: $theme-gray;
-    color: #fff;
+  &.section-blue {
+    background-color: $theme-blue;
+    color: white;
 
     .section-heading {
-      color: #fff;
+      color: white;
     }
   }
 
-  &.section-black {
-    background-color: $theme-black;
-    color: #fff;
+  &.section-gray {
+    background-color: $theme-gray;
+    color: white;
 
     .section-heading {
-      color: #fff;
+      color: white;
     }
   }
 
   .section-heading {
-    color: $gray;
+    color: $theme-red;
     font-size: 3.5rem;
     margin-bottom: 3rem;
     text-align: center;
 
     &.heading-line {
       &:after {
-        content: '';
+        content: "";
         width: 65px;
         display: block;
         height: 1px;
@@ -85,97 +82,67 @@
   }
 
   p {
-    margin-top: 1em;
+    margin: 2em 0;
   }
 }
 
-.carousel-container {
-  padding: 0;
-
-  .carousel-img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-
-    &.meetup-img-0 {
-      background-image: image-url('meetup-0.jpg');
-    }
-
-    &.meetup-img-1 {
-      background-image: image-url('meetup-1.jpg');
-    }
-
-    &.meetup-img-2 {
-      background-image: image-url('meetup-2.jpg');
-    }
-
-    &.meetup-img-3 {
-      background-image: image-url('meetup-3.jpg');
-    }
-
-    &.conference-img-1 {
-      background-image: image-url('conference-1.jpg');
-    }
-
-    @media (max-width: 400px) {
-      height: 250px;
-    }
-  }
+.telegram-link {
+  margin-top: 1em;
 }
 
-.join-us-col {
-  $darken-amount: 10%;
+.qr-code {
+  margin-top: 1em;
+}
 
-  color: #fff;
-  display: block;
-  font-size: 3rem;
-  padding: 4rem;
-  text-align: center;
-  transition: background-color 0.3s linear;
+.ruby-companies {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
 
-  &.join-us-fb {
-    background-color: $facebook-blue;
+.ruby-company {
+  padding: 2em 1em;
+  flex: 1 0 21%;
+}
 
-    &:hover {
-      background-color: darken($facebook-blue, $darken-amount);
-    }
-  }
+.company-logo {
+  $logo-size: 100px;
 
-  &.join-us-google {
-    background-color: $google-plus-red;
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: $logo-size;
+  width: $logo-size;
+  transition: ease 0.3s;
+  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
 
-    &:hover {
-      background-color: darken($google-plus-red, $darken-amount);
-    }
-  }
-
-  &.join-us-github {
-    background-color: $github-blue;
-
-    &:hover {
-      background-color: darken($github-blue, $darken-amount);
-    }
-  }
-
-  i.fab {
-    margin-right: 2rem;
+  &:hover {
+    transform: translateY(5px);
+    text-shadow: 1px 1px black;
   }
 }
 
 footer {
-  border-top: 1px solid #eee;
+  border-top: 1px solid;
   padding: 10px;
-}
-
-#join-us {
-  padding-bottom: 0;
 }
 
 #meet-us {
   .section {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+}
+
+#chat-with-us {
+  color: $theme-darkblue;
+  .section-heading {
+    color: $theme-darkblue;
   }
 }
 

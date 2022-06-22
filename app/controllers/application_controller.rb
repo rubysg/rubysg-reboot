@@ -4,5 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
+    @supporter_companies = Company.supporters.first(8)
   end
 end
