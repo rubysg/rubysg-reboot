@@ -58,72 +58,57 @@
     margin-bottom: 3rem;
     text-align: center;
 
-    &.heading-line {
-      &:after {
-        content: "";
-        width: 65px;
-        display: block;
-        height: 1px;
-        border-bottom: 4px solid $brand-primary;
-        text-align: center;
-        margin: 10px auto 0;
-      }
+    &.heading-with-line:after {
+      content: "";
+      width: 65px;
+      display: block;
+      height: 1px;
+      border-bottom: 4px solid $brand-primary;
+      text-align: center;
+      margin: 10px auto 0;
     }
 
-    &.sub {
+    &.heading-with-line-left {
       text-align: left;
 
-      &.heading-line {
-        &:after {
-          margin-left: 0;
-        }
+      &:after {
+        margin-left: 0;
       }
     }
   }
-
-  p {
-    margin: 2em 0;
-  }
 }
 
-.telegram-link {
-  margin-top: 1em;
-}
-
-.qr-code {
-  margin-top: 1em;
-}
-
-.ruby-companies {
+.row.ruby-companies {
   display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .ruby-company {
-  padding: 2em 1em;
-  flex: 1 0 21%;
-}
+  min-width: 5em;
+  max-width: 5em;
+  max-height: 5em;
+  margin: 0 1em 2em 1em;
 
-.company-logo {
-  $logo-size: 100px;
+  .company-logo {
+    width: 100%;
 
-  background-color: transparent;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: $logo-size;
-  width: $logo-size;
-  transition: ease 0.3s;
-  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
-  -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
-  -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
-  -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
-  &:hover {
-    transform: translateY(5px);
-    text-shadow: 1px 1px black;
+    transition: ease 0.3s;
+    -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+    -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+    -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+    -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+
+    &:hover {
+      transform: translateY(5px);
+      text-shadow: 1px 1px black;
+    }
   }
 }
 
