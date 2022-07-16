@@ -250,7 +250,7 @@
   contribution_count: 0
 - name:       'Silicon Jungles'
   website:    'https://siliconjungles.io'
-  logo_url:   'https://siliconjungles.com/assets/Silicon-Jungles-Logo.svg'
+  logo_url:   'https://raw.githubusercontent.com/SiliconJungles/stand-up-bot/f386bafb56450817ee2013682e7f8575abbdcb11/src/assets/sj-logo.svg'
   address:    '175A Bencoolen Street, Burlington Square, #07-04, Singapore 189650'
   hiring_url: 'https://siliconjungles.io'
   email:      'hello@siliconjungles.com'
