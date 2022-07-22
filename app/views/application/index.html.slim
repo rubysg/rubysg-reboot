@@ -31,11 +31,10 @@
       .row
         p These Singapore companies use Ruby and they may be hiring.
       .row
-        - @supporter_companies.each_slice(4) do |companies|
-          .row.ruby-companies
-            - companies.each do |company|
-              = link_to company.website, target: '_blank', class: 'ruby-company' do
-                img.company-logo[src=company.logo_url]
+        .ruby-companies
+          - @supporter_companies.each do |company|
+            = link_to company.website, target: '_blank', class: 'ruby-company' do
+              img.company-logo[src=company.logo_url]
       .row
         p.text-center
           = link_to 'See more', companies_path, class: 'btn btn-primary btn-lg'
