@@ -51,9 +51,7 @@ and so if specs fail, please fix the errors before issuing a Pull Request.
 You'll need to have a `.env` file ready in your app directory with the following keys:
 
 ```
-SLACK_TEAM
-SLACK_CHANNELS
-SLACK_TOKEN
+RUBY_SG_BOT_TOKEN
 ```
 
 Read this blog post for more details: https://levels.io/slack-typeform-auto-invite-sign-ups/
