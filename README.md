@@ -1,4 +1,4 @@
-# ruby.sg
+# Ruby.sg
 
 ![Build Status](https://github.com/rubysg/rubysg-reboot/actions/workflows/ci.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/rubysg/rubysg-reboot.svg)](https://codeclimate.com/github/rubysg/rubysg-reboot)
 
