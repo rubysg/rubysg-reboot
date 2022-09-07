@@ -2,6 +2,7 @@ module Feedback
   class Meetup07092022 < FeedbackForm
     title "September 2022 Meetup"
 
+
     questions [
       {
         key: :rating,
