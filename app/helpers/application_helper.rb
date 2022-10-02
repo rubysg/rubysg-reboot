@@ -21,6 +21,10 @@ module ApplicationHelper
     "http://www.meetup.com/Singapore-Ruby-Group"
   end
 
+  def rubysg_engineerssg_link
+    "https://engineers.sg/organization/rubysg--57"
+  end
+
   def rubysg_github_guide_link
     "https://github.com/rubysg/singapore"
   end
