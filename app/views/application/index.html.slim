@@ -1,51 +1,41 @@
-.section#meet-us
-  .container
-    .col-sm-8.col-sm-offset-2
-      h3.section-heading.heading-with-line.heading-with-line-left
-        ' Every 1st Wednesday of the Month
-      .row
-        p We hold meetups with speakers giving talks about Ruby and share 5 random Ruby tips. Building & shipping is how we roll. It's a great way to meet Ruby enthusiasts!
-      .row
-        p
-          a.btn.btn-lg.btn-primary[href=rubysg_meetup_com_link target='_blank']
-            span Come join us!
-          ' &nbsp;
-          a.btn.btn-lg.btn-success[href=rubysg_engineerssg_link target='_blank']
-            span Recordings
+.section
+  .container-md.col-md-7
+    h2.section-heading.heading-with-line.ms-3 Every 1st Wednesday of the Month
+    p We hold meetups with speakers giving talks about Ruby and share 5 random Ruby tips. Building & shipping is how we roll. It's a great way to meet Ruby enthusiasts!
+    p
+      a.btn.btn-custom[href=rubysg_meetup_com_link target='_blank']
+        span Come join us!
+      ' &nbsp;
+      a.btn.btn-custom.btn-custom-success[href=rubysg_engineerssg_link target='_blank']
+        span Recordings
 
-.section.section-blue#chat-with-us
-  .container
-    .col-sm-8.col-sm-offset-2
-      h3.section-heading.text-center
-        ' Chat with us on
-        = icon('fab', 'telegram')
-      .row
-        p.text-center.qr-code
-          = rubysg_telegram_qr_code_svg
-      .row
-        p.text-center
-          a.btn.btn-lg.btn-primary[href=rubysg_telegram_link target='_blank']
-            span Join Telegram
+.section.section-blue
+  .container-md.col-md-7
+    h2.section-heading-center
+      ' Chat with us on
+      = icon('fab', 'telegram')
+    p.text-center.qr-code
+      = rubysg_telegram_qr_code_svg
+    p.text-center
+      a.btn.btn-custom[href=rubysg_telegram_link target='_blank']
+        span Join Telegram
 
-.section#companies
-  .container
-    .col-sm-8.col-sm-offset-2.ruby-jobs
-      h3.section-heading.heading-with-line.heading-with-line-left Looking for Ruby jobs?
-      .row
-        p These Singapore companies use Ruby and they may be hiring.
-      .row
-        .ruby-companies
-          - @supporter_companies.each do |company|
-            = link_to company.website, target: '_blank', class: 'ruby-company' do
-              img.company-logo[src=company.logo_url]
-      .row
-        p.text-center
-          = link_to 'See more', companies_path, class: 'btn btn-primary btn-lg'
+.section
+  .container-md.col-md-7
+    h3.section-heading.heading-with-line.ms-3  Looking for Ruby jobs?
 
-.section.section-gray#visiting-singapore
-  .container
-    h2.section-heading.heading-with-line Visiting Singapore?
-    .row.text-center
-      .col-sm-6.col-sm-offset-3
-        = image_tag('skyline.png', class: 'img-responsive')
-        p We have prepared a guide for visiting Rubyists. Check out #{link_to 'the guide on GitHub', rubysg_github_guide_link} and feel free to reach out to us!
+    p These Singapore companies use Ruby and they may be hiring.
+
+    .ruby-companies
+      - @supporter_companies.each do |company|
+        = link_to company.website, target: '_blank', class: 'ruby-company' do
+          img.company-logo[src=company.logo_url]
+    p.text-center
+      = link_to 'See more', companies_path, class: 'btn btn-custom'
+
+.section.section-gray
+  .container-md.col-md-7
+    h3.section-heading-center.heading-with-line Visiting Singapore?
+    p.mx-md-5.px-md-5.text-center
+      = image_tag('skyline.png', class: 'img-fluid')
+      ' We have prepared a guide for visiting Rubyists. Check out #{link_to 'the guide on GitHub', rubysg_github_guide_link} and feel free to reach out to us!

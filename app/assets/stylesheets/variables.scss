@@ -1,4 +1,5 @@
 // Colors
+$theme-white: white;
 $theme-red: #ef233c;
 $theme-gray: #2b3c4e;
 $theme-black: #1f242a;
@@ -23,7 +24,8 @@ $font-weight-bold: 700;
 $font-family-sans-serif: 'Poppins', 'Helvetica Neue', Helvetica, sans-serif;
 $headings-font-weight: $font-weight-bold;
 
-$font-size-base: 18px;
+$font-size-root: 16px;
+$font-size-base: 1rem;
 
 // Buttons
 $btn-bg: transparent;
@@ -51,9 +53,6 @@ $btn-danger-color:               $brand-danger;
 $btn-danger-bg:                  $btn-bg;
 $btn-danger-border:              $brand-danger;
 
-$btn-radius: 0;
-$btn-border-radius-base: $btn-radius;
-$btn-border-radius-large: $btn-radius;
-$btn-border-radius-small: $btn-radius;
-
-$jumbotron-padding: 4rem;
+$btn-font-size: 0.8rem;
+$btn-padding-x: 24px;
+$btn-padding-y: 10px;

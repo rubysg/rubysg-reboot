@@ -1,37 +1,6 @@
-.company-wrapper {
-  margin-bottom: 25px;
-  margin-top: 25px;
-}
-
 .company {
   background-color: #fff;
-  padding: 25px;
   position: relative;
-
-  .website {
-    a {
-      color: inherit;
-    }
-  }
-
-  .media {
-    margin-top: 0;
-
-    .media-left {
-      padding-right: 30px;
-    }
-  }
-
-  .company-logo {
-    $logo-size: 100px;
-
-    background-color: transparent;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: $logo-size;
-    width: $logo-size;
-  }
 
   .company-hiring {
     $size: 72px;
@@ -72,24 +41,33 @@
     }
   }
 
-  .company-name {
-    color: $theme-black;
-    margin-bottom: 5px;
-    font-size: 1.2em;
-    font-weight: 500;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  .company-brand {
+    .company-logo {
+      $logo-size: 100px;
+
+      background-color: transparent;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: $logo-size;
+      width: $logo-size;
+    }
   }
 
-  .company-address {
-    color: $theme-gray;
-    height: 2em;
-    margin-bottom: 15px;
+  .company-description {
+    .company-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
 
-    @media (max-width: 768px) {
-      height: auto;
-      margin-bottom: 5px;
+    .company-address {
+      height: 5rem;
+
+      @media (max-width: 768px) {
+        height: auto;
+        margin-bottom: 5px;
+      }
     }
   }
 }

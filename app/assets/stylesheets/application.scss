@@ -1,9 +1,11 @@
 @import "variables";
-@import "bootstrap-sprockets";
+
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-@import "reset";
 @import "base";
+@import "banner";
+@import "button";
 @import "companies";
+@import "section";
