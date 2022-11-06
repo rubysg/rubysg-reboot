@@ -8,7 +8,6 @@ gem 'pg', '~> 1' # Fix version until Rails supports 1.0.0
 
 gem 'slim-rails'
 gem 'sass-rails'
-gem 'uglifier'
 gem 'jquery-rails'
 gem 'coffee-rails'
 gem 'turbolinks'
