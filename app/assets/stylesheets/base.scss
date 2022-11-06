@@ -1,81 +1,21 @@
-.logo {
-  margin-right: 2rem;
-  width: 10rem;
+body {
+  background-color: #fafafa;
 }
 
-.banner {
-  background-color: $brand-primary;
-  background-image: image-url("skyline.png");
-  background-size: 100% auto;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  color: #fff;
+a,
+a:hover,
+a:focus {
+  color: $theme-red;
+  text-decoration: none;
+}
+
+footer {
+  padding: 10px;
+}
+
+.alert {
+  border-radius: 0;
   margin-bottom: 0;
-  text-align: center;
-
-  .title {
-    margin-bottom: 3rem;
-
-    a {
-      color: inherit;
-
-      &:hover {
-        text-decoration: none;
-        color: inherit;
-      }
-    }
-  }
-
-  .blurb {
-    font-size: 2rem;
-  }
-}
-
-.section {
-  padding: 3rem 0;
-
-  &.section-blue {
-    background-color: $theme-blue;
-    color: white;
-
-    .section-heading {
-      color: white;
-    }
-  }
-
-  &.section-gray {
-    background-color: $theme-gray;
-    color: white;
-
-    .section-heading {
-      color: white;
-    }
-  }
-
-  .section-heading {
-    color: $theme-red;
-    font-size: 3.5rem;
-    margin-bottom: 3rem;
-    text-align: center;
-
-    &.heading-with-line:after {
-      content: "";
-      width: 65px;
-      display: block;
-      height: 1px;
-      border-bottom: 4px solid $brand-primary;
-      text-align: center;
-      margin: 10px auto 0;
-    }
-
-    &.heading-with-line-left {
-      text-align: left;
-
-      &:after {
-        margin-left: 0;
-      }
-    }
-  }
 }
 
 .ruby-companies {
@@ -116,30 +56,5 @@
       transform: translateY(5px);
       text-shadow: 1px 1px black;
     }
-  }
-}
-
-footer {
-  padding: 10px;
-}
-
-#meet-us {
-  .section {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-}
-
-#chat-with-us {
-  color: $theme-darkblue;
-  .section-heading {
-    color: $theme-darkblue;
-  }
-}
-
-#visiting-singapore {
-  i.fa {
-    font-size: 5em;
-    margin: 0 10px;
   }
 }

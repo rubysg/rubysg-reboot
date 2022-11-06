@@ -1,14 +1,19 @@
-.container
-  .section
-    h2.section-heading Our Community Supporters! Thank you! #{icon :fas, :heart}
+.section
+  .container
+    h2.section-heading.section-heading-center Our Community Supporters! Thank you! #{icon :fas, :heart}
     p.text-center These companies have recently sponsored RubySG meetups and/or provided speakers
     .row
       = render @supporter_companies, partial: 'company'
 
+.section
+  .container
     h2.section-heading More Companies Using Ruby
     .row
       = render @other_companies, partial: 'company'
+
+.section
+  .container
     p.text-center
       ' More Ruby jobs in Singapore
       a[href="https://www.nodeflair.com/jobs?query=&page=1&tech_stacks%5B%5D=Ruby" target="_blank"] here
-      '!
+      ' !

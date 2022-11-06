@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'coffee-rails'
 gem 'turbolinks'
 
-gem 'bootstrap-sass'
+gem 'bootstrap', '~> 5.2'
 gem 'font-awesome-sass'
 
 gem 'frozen_record'

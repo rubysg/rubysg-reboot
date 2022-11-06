@@ -1,0 +1,34 @@
+.banner {
+  background-color: $brand-primary;
+  background-image: image-url("skyline.png");
+  background-size: 100% auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .title {
+    font-size: 3rem;
+
+    @media (min-width: 401px) {
+      font-size: 4.5rem;
+    }
+
+    img.logo {
+      max-height: 4rem;
+
+      @media (min-width: 401px) {
+        max-height: 110px;
+      }
+    }
+  }
+}

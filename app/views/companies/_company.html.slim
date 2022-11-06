@@ -1,17 +1,15 @@
-.col-md-6.company-wrapper
-  .company
+.col-lg-6.col-md-12
+  .company.p-4.m-2.d-flex.align-items-center
     - if company.hiring_url.present?
       = link_to company.hiring_url, class: 'company-hiring', target: '_blank'
         i.fa.fa-2x.fa-briefcase.hiring-icon
-    .media
-      .media-left
-        = link_to company.website, target: '_blank' do
-          .media-object.company-logo style='background-image: url(#{company.logo_url})'
-      .media-body
-        .company-name
-          = company.name
-        .address-contact.small
-          .company-address
-            = company.address
-          .contact.text-muted
-            = company.email
+    .company-brand.me-4
+      = link_to company.website, target: '_blank' do
+        div.company-logo[style='background-image: url(#{company.logo_url})']
+    .company-description
+      h5.fw-lighter.company-name.mb-2.text-break
+        = company.name
+      .company-address.text-break
+        = company.address
+      .contact.text-muted.text-break
+        = company.email

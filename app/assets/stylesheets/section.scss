@@ -1,0 +1,57 @@
+.section {
+  padding: 3rem 0 1em 0;
+
+  .section-heading {
+    color: $theme-red;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+
+    &.heading-with-line:after {
+      content: "";
+      width: 65px;
+      display: block;
+      height: 1px;
+      border-bottom: 4px solid $brand-primary;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .section-heading-center {
+    text-align: center;
+
+    &.heading-with-line:after {
+      content: "";
+      width: 65px;
+      display: block;
+      height: 1px;
+      border-bottom: 4px solid $brand-primary;
+      margin: 0.5rem auto 0 auto;
+    }
+  }
+
+  &.section-blue {
+    background-color: $theme-blue;
+    color: white;
+
+    .section-heading {
+      color: $theme-darkblue;
+    }
+
+    .section-heading-center {
+      color: $theme-darkblue;
+    }
+  }
+
+  &.section-gray {
+    background-color: $theme-gray;
+    color: white;
+
+    .section-heading {
+      color: white;
+    }
+
+    .section-heading-center {
+      color: white;
+    }
+  }
+}

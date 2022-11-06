@@ -1,0 +1,26 @@
+.btn {
+  transition: all 0.2s linear;
+
+  &:hover {
+    transform: translateY(3px);
+  }
+}
+
+.btn-custom {
+  --bs-btn-font-weight: #{$font-weight-normal};
+  --bs-btn-color: #{$theme-white};
+  --bs-btn-bg: #{$theme-gray};
+  --bs-btn-border-color: transparent;
+  --bs-btn-border-radius: 2rem;
+  --bs-btn-hover-color: #{$theme-white};
+  --bs-btn-hover-bg: #{$theme-gray};
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($theme-gray, 20%)};
+  --bs-btn-active-border-color: #{shade-color($theme-gray, 20%)};
+
+  &.btn-custom-success {
+    --bs-btn-hover-bg: #{$brand-success};
+  }
+}
