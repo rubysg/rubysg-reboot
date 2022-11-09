@@ -28,4 +28,8 @@ module ApplicationHelper
   def rubysg_github_guide_link
     "https://github.com/rubysg/singapore"
   end
+
+  def rubysg_photo_album_link
+    "https://www.icloud.com/sharedalbum/#B0SJtdOXmmrrha"
+  end
 end
