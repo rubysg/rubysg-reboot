@@ -1,7 +1,7 @@
 # Please refer to [README.md](https://github.com/rubysg/rubysg-reboot/blob/master/README.md) for the guidelines
 - name:       'CoinGecko'
   website:    'http://www.coingecko.com'
-  logo_url:   ''
+  logo_url:   'https://user-images.githubusercontent.com/4633021/219046947-b3fa8045-0145-4751-bae0-3a5bc8855dcc.png'
   address:    'WeWork - Office Space & Coworking, 30 Prinsep Street, #06-01 Singapore 188647'
   hiring_url: 'https://www.coingecko.com/en/careers'
   email:      'hello+careers@coingecko.com'
