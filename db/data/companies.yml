@@ -1,5 +1,12 @@
 # Please refer to [README.md](https://github.com/rubysg/rubysg-reboot/blob/master/README.md) for the guidelines
-
+- name:       'CoinGecko'
+  website:    'http://www.coingecko.com'
+  logo_url:   'https://user-images.githubusercontent.com/4633021/219046947-b3fa8045-0145-4751-bae0-3a5bc8855dcc.png'
+  address:    'WeWork - Office Space & Coworking, 30 Prinsep Street, #06-01 Singapore 188647'
+  hiring_url: 'https://www.coingecko.com/en/careers'
+  email:      'hello+careers@coingecko.com'
+  updated_on: '2023-02-15'
+  contribution_count: 0
 - name:       'Ruckus Wireless'
   website:    'http://www.ruckuswireless.com'
   logo_url:   'https://cloud.githubusercontent.com/assets/761959/10251882/860e1cca-6966-11e5-9f25-3402a189a7f9.png'

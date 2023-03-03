@@ -16,7 +16,7 @@ The initial design of ruby.sg was done by @winstonyw who is not a designer by tr
 
 ## Singapore Companies using Ruby
 
-If your company/organisation is using Ruby, and/or hiring for Ruby-related positions, please add your company information to [ruby.sg/companies](http://ruby.sg#companies) by editing [config/initializers/companies.yml](https://github.com/rubysg/rubysg-reboot/blob/master/config/initializers/companies.yml).
+If your company/organisation is using Ruby, and/or hiring for Ruby-related positions, please add your company information to [ruby.sg/companies](http://ruby.sg#companies) by editing [db/data/companies.yml](https://github.com/rubysg/rubysg-reboot/blob/master/db/data/companies.yml).
 
 Hiring and contact links will be checked and refreshed periodically, to minimise stale information. Companies with more recently updated information will also be shown earlier in the list
 
