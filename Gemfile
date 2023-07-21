@@ -24,6 +24,7 @@ gem 'nokogiri', '>= 1.8.1'
 gem 'rails-html-sanitizer', '>= 1.0.4'
 gem 'telegram-bot', '~> 0.15.0'
 gem 'rqrcode', '~> 1.0'
+gem "delayed_job_active_record", "~> 4.1"
 
 group :production do
   gem 'runtimeerror_notifier'
