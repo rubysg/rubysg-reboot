@@ -17,6 +17,12 @@ deploy-worker:
 	##################################################
 	flyctl deploy --app $(worker-app-name) --remote-only -c fly.worker.toml
 
+deploy-db:
+	##################################################
+	## Deploying Job Worker
+	##################################################
+	flyctl deploy --app $(database-app-name) --remote-only -c fly.db.toml
+
 deploy:
 	##################################################
 	## Deploying
