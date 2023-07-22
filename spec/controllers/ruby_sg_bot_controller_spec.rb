@@ -8,7 +8,7 @@ RSpec.describe Api::RubySgBotController, telegram_bot: :rails do
     end
 
     describe "added to group" do
-      let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_join_group.json").read) }
+      let(:params) { JSON.parse(file_fixture("telegram_bot_webhooks/message_join_group.json").read) }
 
       it "creates a new subscriber" do
         do_request(params)
@@ -25,7 +25,7 @@ RSpec.describe Api::RubySgBotController, telegram_bot: :rails do
     end
 
     describe "added to supergroup" do
-      let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_join_supergroup.json").read) }
+      let(:params) { JSON.parse(file_fixture("telegram_bot_webhooks/message_join_supergroup.json").read) }
 
       it "creates a new subscriber" do
         do_request(params)
@@ -42,7 +42,7 @@ RSpec.describe Api::RubySgBotController, telegram_bot: :rails do
     end
 
     describe "removed from group" do
-      let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_left_group.json").read) }
+      let(:params) { JSON.parse(file_fixture("telegram_bot_webhooks/message_left_group.json").read) }
 
       before { RubySgBotSubscriber.create(chat_id: "-321") }
 
@@ -54,7 +54,7 @@ RSpec.describe Api::RubySgBotController, telegram_bot: :rails do
     end
 
     describe "removed from supergroup" do
-      let(:params) { JSON.parse(file_fixture("ruby_sg_bot_webhook_left_supergroup.json").read) }
+      let(:params) { JSON.parse(file_fixture("telegram_bot_webhooks/message_left_supergroup.json").read) }
 
       before { RubySgBotSubscriber.create(chat_id: "-123") }
 
@@ -62,6 +62,18 @@ RSpec.describe Api::RubySgBotController, telegram_bot: :rails do
         do_request(params)
 
         expect(RubySgBotSubscriber.count).to eq 0
+      end
+    end
+
+    describe "other webhook event types" do
+      let(:params) { JSON.parse(file_fixture("telegram_bot_webhooks/my_chat_member_update.json").read) }
+
+      before { RubySgBotSubscriber.create(chat_id: "-123") }
+
+      it "no-op the request and returns 204" do
+        do_request(params)
+
+        expect(response).to have_http_status :no_content
       end
     end
   end

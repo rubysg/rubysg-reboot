@@ -1,5 +1,10 @@
 class Api::RubySgBotController < Api::ApplicationController
   def webhook
+    # Telegram's update webhook sends multiple types of message. For now, this
+    # app only uses the :message type event. For the full API reference, see
+    # https://core.telegram.org/bots/api#update
+    return head :no_content unless params.has_key?(:message)
+
     if ruby_sg_bot_joined_group? && RubySgBotSubscriber.find_or_create_by(chat_id: tg_chat_id.to_s)
       message = <<~TELEGRAM_MESSAGE
       👋 At your service!
@@ -21,7 +26,7 @@ class Api::RubySgBotController < Api::ApplicationController
   private
 
   def rubysg_bot_id
-    "1292813591"
+    ENV["RUBY_SG_BOT_ID"]
   end
 
   def ruby_sg_bot_joined_group?

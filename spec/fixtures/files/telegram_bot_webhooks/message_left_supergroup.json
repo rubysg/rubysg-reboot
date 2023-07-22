@@ -1,0 +1,32 @@
+{
+  "update_id": 57665223,
+  "message": {
+    "message_id": 147,
+    "from": {
+      "id": 83351527,
+      "is_bot": false,
+      "first_name": "Kang Sheng",
+      "last_name": "Tay",
+      "username": "kangiclapforyou",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": -123,
+      "title": "RubySG",
+      "type": "supergroup"
+    },
+    "date": 1591421263,
+    "left_chat_participant": {
+      "id": 6124430288,
+      "is_bot": true,
+      "first_name": "RubySGBot",
+      "username": "rubysg_bot"
+    },
+    "left_chat_member": {
+      "id": 6124430288,
+      "is_bot": true,
+      "first_name": "RubySGBot",
+      "username": "rubysg_bot"
+    }
+  }
+}
