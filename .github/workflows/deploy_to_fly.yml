@@ -36,10 +36,7 @@ jobs:
           bundle install
           bundle exec rails db:create db:migrate
           bundle exec rspec spec
-  deploy:
-      name: Deploy app
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-        - uses: superfly/flyctl-actions/setup-flyctl@master
-        - run: make deploy
+      - name: Deploy
+        uses: superfly/flyctl-actions/setup-flyctl@master
+        run: |
+          make deploy
