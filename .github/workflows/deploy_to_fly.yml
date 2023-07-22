@@ -36,7 +36,7 @@ jobs:
           bundle install
           bundle exec rails db:create db:migrate
           bundle exec rspec spec
-      - name: Deploy
+      - name: Setup flyctl
         uses: superfly/flyctl-actions/setup-flyctl@master
-        run: |
-          make deploy
+      - name: Deploy to fly.io
+        run: make deploy
