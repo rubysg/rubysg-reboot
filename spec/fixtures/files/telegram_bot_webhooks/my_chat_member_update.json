@@ -1,0 +1,72 @@
+{
+  "update_id": 926359920,
+  "my_chat_member": {
+    "chat": {
+      "id": -1001656617911,
+      "title": "RubySG Organisers",
+      "type": "supergroup"
+    },
+    "from": {
+      "id": 83351527,
+      "is_bot": false,
+      "first_name": "Kang Sheng",
+      "username": "kangiclapforyou",
+      "language_code": "en"
+    },
+    "date": 1689955547,
+    "old_chat_member": {
+      "user": {
+        "id": 6124430288,
+        "is_bot": true,
+        "first_name": "RubySGTestBot",
+        "username": "rubysg_test_bot"
+      },
+      "status": "left"
+    },
+    "new_chat_member": {
+      "user": {
+        "id": 6124430288,
+        "is_bot": true,
+        "first_name": "RubySGTestBot",
+        "username": "rubysg_test_bot"
+      },
+      "status": "member"
+    }
+  },
+  "ruby_sg_bot": {
+    "update_id": 926359920,
+    "my_chat_member": {
+      "chat": {
+        "id": -1001656617911,
+        "title": "RubySG Organisers",
+        "type": "supergroup"
+      },
+      "from": {
+        "id": 83351527,
+        "is_bot": false,
+        "first_name": "Kang Sheng",
+        "username": "kangiclapforyou",
+        "language_code": "en"
+      },
+      "date": 1689955547,
+      "old_chat_member": {
+        "user": {
+          "id": 6124430288,
+          "is_bot": true,
+          "first_name": "RubySGTestBot",
+          "username": "rubysg_test_bot"
+        },
+        "status": "left"
+      },
+      "new_chat_member": {
+        "user": {
+          "id": 6124430288,
+          "is_bot": true,
+          "first_name": "RubySGTestBot",
+          "username": "rubysg_test_bot"
+        },
+        "status": "member"
+      }
+    }
+  }
+}

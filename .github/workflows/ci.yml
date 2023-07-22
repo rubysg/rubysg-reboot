@@ -31,6 +31,8 @@ jobs:
           RAILS_ENV: test
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
+          RUBY_SG_BOT_ID: 6124430288
+          RUBY_SG_BOT_TOKEN: access-token
         run: |
           bundle install
           bundle exec rails db:create db:migrate
