@@ -1,0 +1,52 @@
+# fly.toml app configuration file generated for rubysg-reboot-db on 2023-07-22T12:04:38+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "rubysg-reboot-db"
+primary_region = "sin"
+kill_signal = "SIGTERM"
+kill_timeout = "5m0s"
+
+[experimental]
+  enable_consul = true
+
+[env]
+  PRIMARY_REGION = "sin"
+
+[[mounts]]
+  source = "pg_data_machines"
+  destination = "/data"
+
+[checks]
+  [checks.pg]
+    port = 5500
+    type = "http"
+    interval = "15s"
+    timeout = "10s"
+    grace_period = "30s"
+    method = "get"
+    path = "/flycheck/pg"
+    protocol = "http"
+  [checks.role]
+    port = 5500
+    type = "http"
+    interval = "15s"
+    timeout = "10s"
+    grace_period = "30s"
+    method = "get"
+    path = "/flycheck/role"
+    protocol = "http"
+  [checks.vm]
+    port = 5500
+    type = "http"
+    interval = "1m0s"
+    timeout = "10s"
+    grace_period = "1s"
+    method = "get"
+    path = "/flycheck/vm"
+    protocol = "http"
+
+[metrics]
+  port = 9187
+  path = "/metrics"
