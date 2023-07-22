@@ -43,14 +43,13 @@ show-worker-resources:
 	##################################################
 	fly scale show --app $(web-worker-name)
 
-connect-to-database:
+show-db-resources:
 	##################################################
-	## Connecting to production postgres db
-	## \list to see all databases
-	## \c to choose database
-	## \dt to list all tables
+	## Fetching CPU and RAM allocation for Database
+	## machine
 	##################################################
-	flyctl postgres connect --app $(database-app-name)
+	fly scale show --app $(database-app-name)
+	fly volumes list --app $(database-app-name)
 
 connect-to-app-machine:
 	##################################################
@@ -65,6 +64,22 @@ connect-to-worker-machine:
 	## in /app directory
 	##################################################
 	fly ssh console --app $(worker-app-name)
+
+connect-to-database-machine:
+	##################################################
+	## Connect to the machine hosting the web app in
+	## /app directory
+	##################################################
+	fly ssh console --app $(database-app-name)
+
+connect-to-postgres-console:
+	##################################################
+	## Connecting to production postgres db
+	## \list to see all databases
+	## \c to choose database
+	## \dt to list all tables
+	##################################################
+	flyctl postgres connect --app $(database-app-name)
 
 connect-to-app-console:
 	##################################################
