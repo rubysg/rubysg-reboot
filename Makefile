@@ -21,8 +21,8 @@ deploy:
 	##################################################
 	## Deploying
 	##################################################
-	deploy-app
-	deploy-worker
+	make deploy-app
+	make deploy-worker
 
 show-app-resources:
 	##################################################
