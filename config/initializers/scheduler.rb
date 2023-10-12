@@ -10,3 +10,9 @@ s.cron '30 17 * * 5' do
     SendWeeklyUpdatesJob.perform_later(sub.chat_id)
   end
 end
+
+# Ping the website 2 times a day to stop fly.io from letting it go to sleep because the web instance is currently
+# hosting the scheduler, and we need the scheduler to be running!
+s.cron '0 0,12 * * *' do
+  PingJob.perform_later("https://ruby.sg")
+end
