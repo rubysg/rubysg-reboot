@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.7.1'
+ruby '3.2.1'
 
 gem 'puma'
-gem 'rails', '~> 6.1.7'
-gem 'pg', '~> 1' # Fix version until Rails supports 1.0.0
+gem 'rails', '~> 7.0.8'
+gem 'pg'
 
 gem 'slim-rails'
 gem 'sass-rails'
