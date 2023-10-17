@@ -1,0 +1,19 @@
+# Ping the website every hour to stop fly.io from letting it go to sleep because
+# the web instance is currently hosting the scheduler, and we need the scheduler to be running!
+
+name: Hourly Ping
+
+on:
+  schedule:
+    - cron: "0 * * * *" # runs every hour
+
+jobs:
+  call_api:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Call API
+      run: curl https://ruby.sg/

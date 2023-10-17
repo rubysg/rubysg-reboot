@@ -3,7 +3,6 @@ class SendWeeklyUpdatesJob < ApplicationJob
 
   retry_on(StandardError, attempts: 3) do |job, error|
     Rails.logger.debug error.full_message
-    job.send_failure_notification(error)
   end
 
   def perform(id)
@@ -52,21 +51,6 @@ class SendWeeklyUpdatesJob < ApplicationJob
 
       🤖RubySGBot🤖
       MARKDOWN
-    )
-  end
-
-  def send_failure_notification(error)
-    return unless ENV["BOB_OPS_RUBYSG_ORGANISER_INCOMING_WEBHOOK_KEY"].presence
-
-    HTTParty.post(
-      'https://bobops.net/api/incoming_webhook',
-      body: {
-        text: <<~NOTIFICATION
-          #{error.class.name}@SendWeeklyUpdatesJob
-          #{error.message}
-        NOTIFICATION
-      }.to_json,
-      headers: { 'Content-Type' => 'application/json' }
     )
   end
 
