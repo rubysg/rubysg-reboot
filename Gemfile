@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '3.2.1'
+ruby '3.3.0'
 
 gem 'puma'
-gem 'rails', '~> 7.0.8'
+gem 'rails', '~> 7.1.2'
 gem 'pg'
 
 gem 'slim-rails'
@@ -22,7 +22,7 @@ gem 'httparty'
 gem 'rufus-scheduler'
 gem 'nokogiri', '>= 1.8.1'
 gem 'rails-html-sanitizer', '>= 1.0.4'
-gem 'telegram-bot', '~> 0.15.0'
+gem 'telegram-bot'
 gem 'rqrcode', '~> 1.0'
 gem "delayed_job_active_record", "~> 4.1"
 
