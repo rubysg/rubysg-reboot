@@ -221,8 +221,8 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.7.1)
-    rack (2.2.8)
-    rack-cors (2.0.1)
+    rack (2.2.9)
+    rack-cors (2.0.2)
       rack (>= 2.0.0)
     rack-livereload (0.5.1)
       rack
@@ -364,6 +364,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   better_errors
