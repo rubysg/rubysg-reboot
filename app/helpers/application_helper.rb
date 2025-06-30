@@ -14,7 +14,7 @@ module ApplicationHelper
   end
 
   def rubysg_telegram_link
-    "https://t.me/+d8P2epgIohMwNDE1"
+    "https://t.me/+2SjusiYG07pjYWE1"
   end
 
   def rubysg_meetup_com_link
